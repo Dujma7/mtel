@@ -6,7 +6,6 @@ export const styles = StyleSheet.create({
       flex: 1,
       display: "flex", 
       textAlign: "center",
-      backgroundColor: "white"
     },
     settingsH1: {
       textAlign: "center",
@@ -27,7 +26,7 @@ export const styles = StyleSheet.create({
           color: "black"
       },
       darkMode: {
-          backgroundColor: "#181C14",
+          backgroundColor: "#191919",
           color: "white"
       },
       lightText: {
