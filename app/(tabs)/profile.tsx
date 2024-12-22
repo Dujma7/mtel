@@ -1,4 +1,4 @@
-import {View, Text, Button} from "react-native";
+import {View, Text, Button, useColorScheme} from "react-native";
 import {styles} from "../styles";
 import { RootStackParamList } from "./types";
 import { StackNavigationProp } from '@react-navigation/stack';
@@ -7,11 +7,13 @@ type HomeScreenProps = {
   navigation: HomeScreenNavigationProp;
 };
 
-export function ProfileScreen({navigation}:HomeScreenProps) {
+export default function ProfileScreen() {
+
+    const colorScheme = useColorScheme();
+    const TextStyles = [colorScheme === 'dark' ? styles.lightText : styles.darkText]
     return (
         <View style = {styles.container}>
-            <Text style={styles.settingsH1}>Profile</Text>
-            <Button title="Login" onPress={() => navigation.navigate("LogInScreen")}/>
+            <Text style={[styles.settingsH1, ...TextStyles]}>Profile</Text>
         </View>
     )
 };

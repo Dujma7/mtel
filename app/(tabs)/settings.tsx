@@ -4,7 +4,7 @@ import { styles } from '../styles';
 
 
 
-export function SettingsScreen() {
+export default function SettingsScreen() {
 
     
     const [isEnabled, setIsEnabled] = useState(false);

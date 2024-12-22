@@ -1,9 +1,10 @@
 
 export type RootStackParamList = {
   Tabs: undefined,
-  Home: undefined; 
-  Profile: undefined; 
-  Settings: undefined; 
+  Drawer: undefined;
+  Home: undefined;
+  Profile: undefined;
+  Settings: undefined;
   LogInScreen: undefined;
   QuizScreen: undefined;
   LeaderboardScreen: undefined;
