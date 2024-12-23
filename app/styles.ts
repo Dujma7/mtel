@@ -59,6 +59,44 @@ export const styles = StyleSheet.create({
           borderTopWidth: 1,
           borderColor: "black",
           width: "100%",
-      }
+      },
+      input: {
+        width: "60%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        borderRadius: "5%",
+        marginTop: 10,
+        backgroundColor: "#89A8B2",
+        color: "white"
+      },
+      btnSubmit: {
+        width: "40%",
+        marginTop: 10,
+        marginLeft: "auto",
+        marginRight: "auto",
+        backgroundColor: "#213555"
+      },
+      LogInH1: {
+        textAlign: "center",
+        fontSize: 50,
+        marginTop: 200,
+        paddingBottom: 20, 
+        fontFamily: "Roboto-Bold",
+      },
+      register: {
+        textAlign: "center",
+        fontSize: 14,
+        fontFamily: "Roboto-Thin",
+        paddingTop: 20,
+      },
+      containerLogIn: {
+            flex: 1,
+            display: "flex", 
+            textAlign: "center",
+            backgroundColor: "white",
+            flexDirection: "row",
+            justifyContent: "center",
+          },
+
   
   });
