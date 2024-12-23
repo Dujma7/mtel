@@ -3,7 +3,7 @@ import { useFonts } from "expo-font";
 import AppLoading from "expo-app-loading";
 import {styles} from "../styles";
 
-export function LeaderBoardScreen() {
+export default function LeaderBoardScreen() {
   let [fontsLoaded] = useFonts({"Roboto-Bold": require("../../assets/fonts/Roboto-Bold.ttf"),
     "Roboto-Thin": require("../../assets/fonts/Roboto-Thin.ttf"),
   });
