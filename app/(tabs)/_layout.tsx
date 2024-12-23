@@ -11,7 +11,6 @@ import ResourceScreen from "./resources";
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import {CommonActions, DarkTheme, DefaultTheme, ThemeProvider} from "@react-navigation/native";
 import {useColorScheme} from "@/hooks/useColorScheme";
-import {getItem} from "@/utils/AsyncStorage";
 import {StatusBar} from "expo-status-bar";
 import React from "react";
 import {BottomNavigation, PaperProvider} from "react-native-paper";
@@ -38,13 +37,7 @@ export default function App() {
     }
 
     return (
-        <Stack.Navigator initialRouteName="Tabs">
-            <Stack.Screen name="Tabs" component={MUINavigator} options={{headerShown: false}}/>
-            {/*<Stack.Screen name="LogInScreen" component={LogInScreen} options={{headerShown: false}}/>*/}
-            {/*<Stack.Screen name="QuizScreen" component={QuizScreen}/>*/}
-            {/*<Stack.Screen name="LeaderboardScreen" component={LeaderBoardScreen}/>*/}
-            {/*<Stack.Screen name="ResourceScreen" component={ResourceScreen}/>*/}
-        </Stack.Navigator>
+        <MUINavigator />
     );
 }
 
