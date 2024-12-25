@@ -65,15 +65,12 @@ export const styles = StyleSheet.create({
         marginRight: "auto",
         borderRadius: "5%",
         marginTop: 10,
-        backgroundColor: "#89A8B2",
-        color: "white"
       },
       btnSubmit: {
         width: "40%",
         marginTop: 10,
         marginLeft: "auto",
         marginRight: "auto",
-        backgroundColor: "#213555"
       },
       LogInH1: {
         textAlign: "center",

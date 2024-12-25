@@ -7,7 +7,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-from api.serializers import UserSerializer
+from .serializers import UserSerializer
 
 
 # Create your views here.
@@ -25,7 +25,8 @@ def login(request):
     token, created = Token.objects.get_or_create(user=user)
     serializer = UserSerializer(user)
     print({'token': token.key, 'user': serializer.data})
-    return Response({'token': token.key, 'user': serializer.data})
+    return Response({'token': token.key})
+    # return Response({'token': token.key, 'user': serializer.data})
 
 
 @api_view(['POST'])
