@@ -6,6 +6,7 @@ export type RootStackParamList = {
   Profile: undefined;
   Settings: undefined;
   LogInScreen: undefined;
+  SignUpScreen: undefined;
   QuizScreen: undefined;
   LeaderboardScreen: undefined;
   ResourceScreen: undefined;

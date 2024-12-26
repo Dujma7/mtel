@@ -5,16 +5,13 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { RootStackParamList } from "./types";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import LogInScreen from "./logIn";
-import QuizScreen from "./quiz";
-import LeaderBoardScreen from "./leaderboard";
-import ResourceScreen from "./resources";
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import {CommonActions, DarkTheme, DefaultTheme, ThemeProvider} from "@react-navigation/native";
 import {useColorScheme} from "@/hooks/useColorScheme";
 import {StatusBar} from "expo-status-bar";
 import React from "react";
 import {BottomNavigation, PaperProvider} from "react-native-paper";
-import {Settings} from "react-native";
+import {getItem} from "expo-secure-store";
+import SignUpScreen from "@/app/(tabs)/signup";
 
 const Stack = createStackNavigator<RootStackParamList>();
   const Tab = createBottomTabNavigator<RootStackParamList>();
@@ -22,17 +19,18 @@ const Stack = createStackNavigator<RootStackParamList>();
 
 export default function App() {
 
-    let loggedIn = true
-    // getItem("logged in").then((val)=>{loggedIn = val})
-    console.log(loggedIn)
+    let loggedIn = getItem("token") !== null
+    // loggedIn = true
+    console.log(getItem("token"))
     const colorScheme = useColorScheme()
     if (!loggedIn) {
         return (
-            <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
+            <PaperProvider>
                 <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName={"LogInScreen"}>
                     <Stack.Screen name="LogInScreen" component={LogInScreen} options={{headerShown: false}}/>
+                    <Stack.Screen name="SignUpScreen" component={SignUpScreen} options={{headerShown: false}}/>
                 </Stack.Navigator><StatusBar style="auto"/>
-            </ThemeProvider>
+            </PaperProvider>
         )
     }
 

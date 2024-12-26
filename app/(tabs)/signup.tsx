@@ -13,7 +13,7 @@ type LogInScreenProps = {
     navigation: LogInScreenNavigationProp;
 };
 
-export default function LogInScreen({navigation}: LogInScreenProps) {
+export default function SignUpScreen({navigation}: LogInScreenProps) {
     let [fontsLoaded] = useFonts({
         "Roboto-Bold": require("../../assets/fonts/Roboto-Bold.ttf"),
         "Roboto-Thin": require("../../assets/fonts/Roboto-Thin.ttf"),
@@ -28,11 +28,15 @@ export default function LogInScreen({navigation}: LogInScreenProps) {
     }
     return (
         <Surface style={{height: "100%"}}>
-            <Text style={[styles.LogInH1, ...TextStyles]}>Prijava</Text>
-            <TextInput label="E-mail" style={styles.input} underlineColor="white" placeholder='Upišite E-mail'/>
-            <TextInput label="Šifra" style={styles.input} secureTextEntry={true} placeholder='Upišite šifru'/>
-            <Button style={styles.btnSubmit} mode="contained" onPress={() => alert("Hello")}>Log in</Button>
-            <Text style={[...TextStyles]} onPress={() => {navigation.navigate("SignUpScreen")}}>Register</Text>
+            <Text style={[styles.LogInH1, ...TextStyles]}>Napravite Račun</Text>
+            <TextInput label="Odaberite korisničko ime" style={styles.input} underlineColor="white" placeholder='Odaberite korisničko ime'/>
+            <TextInput label="Upišite svoj E-mail" style={styles.input} underlineColor="white" placeholder='E-mail'/>
+            <TextInput label="Odaberite Šifru" style={styles.input} secureTextEntry={true} placeholder='Šifra'/>
+            <TextInput label="Ponovno upišite šifru" style={styles.input} secureTextEntry={true} placeholder='Šifra'/>
+            <Button style={styles.btnSubmit} mode="contained" onPress={() => alert("Hello")}>Dalje</Button>
+            <Text style={[...TextStyles]} onPress={() => {
+                navigation.navigate("LogInScreen")
+            }}>Login</Text>
         </Surface>
     )
 };
