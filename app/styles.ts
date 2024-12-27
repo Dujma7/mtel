@@ -93,6 +93,42 @@ export const styles = StyleSheet.create({
             flexDirection: "row",
             justifyContent: "center",
           },
-
-  
+      QuizSurface: {
+        display: "flex",
+        flex: 1,
+        textAlign: "center",
+        padding: 10,
+        resizeMode: "center"
+          },
+      QuizAnswers: {
+          marginBottom: 15,
+          height: 40,
+          justifyContent: "center",
+        },
+      QuizQuestion: {
+        textAlign: "center",
+        fontSize: 35,
+        color: "#EFF3EA",
+        padding: 20,
+      },
+      QuizImage: {
+        textAlign: "center",
+        height: 200,
+        width: 200,
+        justifyContent: "center",
+        padding: 20,
+        marginLeft: "auto",
+        marginRight: "auto",
+        borderColor: "black",
+        borderWidth: 1,
+        marginBottom: 40,
+        borderRadius: "15%"
+      },
+      goBackButton: {
+        height: 40,
+        justifyContent: "center",
+        width: "40%",
+        marginLeft: "auto",
+        marginRight: "auto"
+      },
   });

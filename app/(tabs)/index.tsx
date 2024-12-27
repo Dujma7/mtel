@@ -9,6 +9,7 @@ import QuizScreen from "@/app/(tabs)/quiz";
 import ResourceScreen from "@/app/(tabs)/resources";
 import LeaderBoardScreen from "@/app/(tabs)/leaderboard";
 import {MD3DarkTheme, MD3LightTheme, Surface} from "react-native-paper";
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
 type HomeScreenProps = {
@@ -31,13 +32,13 @@ export function HomeScreenUI({navigation}: HomeScreenProps) {
     }
     return (
         <Surface style={{height: "100%"}}>
-            <Text style={[_styles.textUser, ...TextStyles]}>Hello, User!</Text>
-            <Text style={[_styles.textH2, ...TextStyles]}>Welcome back</Text>
-            <Button style={{marginInline:"auto", width:"60%", height:200}} onPress={() => navigation.navigate("QuizScreen")} mode={"outlined"}>
-                <Text style={{margin:"auto", height:200}}>Quiz</Text>
-            </Button>
-            <Button onPress={() => navigation.navigate("LeaderboardScreen")} mode={"outlined"}>Leaderboard</Button>
-            <Button onPress={() => navigation.navigate("ResourceScreen")} mode={"outlined"}>Resources</Button>
+            <SafeAreaView>
+                <Text style={[_styles.textUser, ...TextStyles]}>Pozdrav, buraz!</Text>
+                <Text style={[_styles.textH2, ...TextStyles]}>Dobrodošao natrag</Text>
+                <Button onPress={() => navigation.navigate("QuizScreen")} mode={"outlined"}>Kviz</Button>
+                <Button onPress={() => navigation.navigate("LeaderboardScreen")} mode={"outlined"}>Leaderboard</Button>
+                <Button onPress={() => navigation.navigate("ResourceScreen")} mode={"outlined"}>Materijal</Button>
+            </SafeAreaView>
         </Surface>
     )
 };

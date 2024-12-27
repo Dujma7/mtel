@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import { styles } from '../styles';
 import {useColorScheme} from "@/hooks/useColorScheme";
 import {Surface} from "react-native-paper";
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 
 
@@ -13,12 +14,13 @@ export default function SettingsScreen() {
     const ViewStyles = [isDarkMode ? styles.darkMode  : styles.lightMode]
     const TextStyles = [isDarkMode ? styles.lightText : styles.darkText]
     return (
-        <Surface style={{height:"100%"}}>
-          <ScrollView>
-            <Text style = {[styles.settingsH1, ...TextStyles]}>Settings</Text>
-                <Text style={[styles.hr, ...TextStyles]}></Text>
-
-          </ScrollView>
+        <Surface style={{height: "100%"}}>
+          <SafeAreaView>
+            <ScrollView>
+              <Text style = {[styles.settingsH1, ...TextStyles]}>Settings</Text>
+              <Text style={[styles.hr, ...TextStyles]}></Text>
+            </ScrollView>
+          </SafeAreaView>
         </Surface>
     )
   }

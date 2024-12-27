@@ -1,10 +1,8 @@
-import {View, Text, useColorScheme} from 'react-native';
+import {Text, useColorScheme} from 'react-native';
 import {useFonts} from "expo-font";
 import AppLoading from "expo-app-loading";
 import {styles} from "../styles";
 import {TextInput, Button, Surface, MD3DarkTheme, MD3LightTheme} from 'react-native-paper';
-import {ScrollView} from 'react-native-gesture-handler';
-import {DarkTheme, DefaultTheme, ThemeProvider} from "@react-navigation/native";
 import {StackNavigationProp} from "@react-navigation/stack";
 import {RootStackParamList} from "@/app/(tabs)/types";
 
