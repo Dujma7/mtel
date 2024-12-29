@@ -131,4 +131,34 @@ export const styles = StyleSheet.create({
         marginLeft: "auto",
         marginRight: "auto"
       },
+      leaderboardH1: {
+        fontSize: 50,
+        fontFamily: "Clash Display",
+        fontWeight: 800,
+        textAlign: "center",
+        color: "#EFF3EA",
+      },
+      card: {
+        margin: 5,
+        height: 30,
+        borderRadius: "2%",
+        justifyContent: "space-between",
+        backgroundColor: "#3b3845",
+        flexDirection: "row",
+        alignItems: "center",
+        padding: 5
+
+      },
+      cardText: {
+        textAlign: "center",
+        color: "white",
+      },
+      leaderboard: {
+        textAlign: "center",
+        padding: 20,
+        paddingTop: 20,
+        borderColor: "#242329",
+        height: "100%"
+      }
+      
   });
