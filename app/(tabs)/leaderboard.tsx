@@ -44,7 +44,7 @@ const Item = ({title, score, id}: ItemProps) => (
 return (
   <Surface style={[styles.container]}>
       <SafeAreaView>
-        <Text style={styles.leaderboardH1}>Leaderboards</Text>
+        <Text style={styles.leaderboardH1}>Najbolji Rezultati</Text>
         <FlatList
           style = {styles.leaderboard}
           data={leaderboardData}

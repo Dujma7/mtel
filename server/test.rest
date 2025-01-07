@@ -1,4 +1,4 @@
-POST http://localhost:8000/api/login
+POST http://localhost:8881/api/login
 Content-Type: application/json
 
 { "username": "ivo", "password": "Ivimir11" }
@@ -6,7 +6,7 @@ Content-Type: application/json
 ###
 
 
-POST http://localhost:8000/api/login
+POST http://localhost:8881/api/login
 Content-Type: application/json
 
 { "email": "planinic.ivki@gmail.com", "password": "Ivimir11" }
@@ -18,7 +18,7 @@ POST http://localhost:8881/api/get_user_data
 Content-Type: application/json
 
 {
-  "token": "d218a39551f4749d3a01b9a18a591e230ff19086"
+  "token": "fc836b5250b60b2f479a57fe880811cb8e318ccb"
 }
 
 ###
@@ -28,7 +28,7 @@ POST http://localhost:8881/api/register
 Content-Type: application/json
 
 {
-  "username": "ivo",
+  "username": "ivo1",
   "email": "planinic.ivki.fake@gmail.com",
   "password": "Ivimir11"
 }
@@ -36,11 +36,20 @@ Content-Type: application/json
 ###
 
 
-POST http://ivoplaninic.net:8881/api/login
+POST http://localhost:8881/api/submit_score
 Content-Type: application/json
 
 {
-  "username": "ivo",
-  "email": "planinic.ivki.fake@gmail.com",
-  "password": "Ivimir11"
+  "token": "2e80dbe7225cd2da5219f358942015e707b182a6",
+  "time": "1"
+}
+
+###
+
+
+POST http://localhost:8881/api/get_leaderboard
+Content-Type: application/json
+
+{
+  "token": "2e80dbe7225cd2da5219f358942015e707b182a6"
 }

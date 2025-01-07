@@ -1,4 +1,3 @@
-
 export type RootStackParamList = {
   Tabs: undefined,
   Drawer: undefined;
