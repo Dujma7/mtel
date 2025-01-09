@@ -5,11 +5,19 @@ import {styles} from "../styles";
 import {TextInput, Button, Surface, MD3DarkTheme, MD3LightTheme} from 'react-native-paper';
 import {StackNavigationProp} from "@react-navigation/stack";
 import {RootStackParamList} from "@/app/(tabs)/types";
+import {login} from "@/utils/apiIntegration";
 
 type LogInScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
 type LogInScreenProps = {
     navigation: LogInScreenNavigationProp;
 };
+
+
+function handleLoginClick(email: string, password: string) {
+    let response = login(email, password).then(() => {
+
+    })
+}
 
 export default function LogInScreen({navigation}: LogInScreenProps) {
     let [fontsLoaded] = useFonts({
