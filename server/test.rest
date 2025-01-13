@@ -1,7 +1,7 @@
 POST https://ivoplaninic.net:8881/api/login
 Content-Type: application/json
 
-{ "username": "ivo", "password": "Ivimir11" }
+{ "email": "planinic.ivki@gmail.com", "password": "Ivimir11" }
 
 ###
 
@@ -22,11 +22,11 @@ Content-Type: application/json
 ###
 
 
-POST http://localhost:8881/api/get_user_data
+POST https://ivoplaninic.net:8881/api/get_user_data
 Content-Type: application/json
 
 {
-  "token": "fc836b5250b60b2f479a57fe880811cb8e318ccb"
+  "token": "2a076df0bfeeaafaf2c7670e50a4d7c7f2a56067"
 }
 
 ###
@@ -55,9 +55,20 @@ Content-Type: application/json
 ###
 
 
-POST http://localhost:8881/api/get_leaderboard
+POST https://ivoplaninic.net:8881/api/submit_score
 Content-Type: application/json
 
 {
-  "token": "2e80dbe7225cd2da5219f358942015e707b182a6"
+  "token": "2a076df0bfeeaafaf2c7670e50a4d7c7f2a56067",
+  "time": "1"
+}
+
+###
+
+
+POST https://ivoplaninic.net:8881/api/get_leaderboard
+Content-Type: application/json
+
+{
+  "token": "2a076df0bfeeaafaf2c7670e50a4d7c7f2a56067"
 }

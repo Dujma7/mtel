@@ -23,7 +23,7 @@ export default function LeaderBoardScreen() {
     useEffect(() => {
         let _leaderBoardData = [];
         let counter = 1
-        getLeaderboards("2e80dbe7225cd2da5219f358942015e707b182a6").then(res => {
+        getLeaderboards("2a076df0bfeeaafaf2c7670e50a4d7c7f2a56067").then(res => {
             for (const resKey in res) {
                 // @ts-ignore
                 _leaderBoardData.push({id: counter, name: res[resKey]["user"], score: res[resKey]["time"]});

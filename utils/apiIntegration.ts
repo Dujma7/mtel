@@ -35,7 +35,7 @@ export async function getLeaderboards(token: string): Promise<{ [key: string]: s
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({token: token})
+        body: JSON.stringify({"token": token})
     })
     let json = await response.json()
     return json
