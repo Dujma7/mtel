@@ -1,5 +1,4 @@
-import {StyleSheet, View, Text, useColorScheme} from 'react-native';
-import {Button} from "react-native-paper";
+import {StyleSheet, Image, Text, useColorScheme, TouchableOpacity} from 'react-native';
 import {useFonts} from "expo-font";
 import AppLoading from "expo-app-loading";
 import {RootStackParamList} from "./types";
@@ -9,7 +8,7 @@ import QuizScreen from "@/app/(tabs)/quiz";
 import ResourceScreen from "@/app/(tabs)/resources";
 import LeaderBoardScreen from "@/app/(tabs)/leaderboard";
 import {MD3DarkTheme, MD3LightTheme, Surface} from "react-native-paper";
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import {SafeAreaView } from 'react-native-safe-area-context';
 
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
 type HomeScreenProps = {
@@ -33,11 +32,39 @@ export function HomeScreenUI({navigation}: HomeScreenProps) {
     return (
         <Surface style={{height: "100%"}}>
             <SafeAreaView>
-                <Text style={[_styles.textUser, ...TextStyles]}>Pozdrav, buraz!</Text>
-                <Text style={[_styles.textH2, ...TextStyles]}>Dobrodošao natrag</Text>
-                <Button onPress={() => navigation.navigate("QuizScreen")} mode={"outlined"}>Kviz</Button>
-                <Button onPress={() => navigation.navigate("LeaderboardScreen")} mode={"outlined"}>Leaderboard</Button>
-                <Button onPress={() => navigation.navigate("ResourceScreen")} mode={"outlined"}>Materijal</Button>
+                <Text style={[_styles.textUser, ...TextStyles]}>Pozdrav, brate!</Text>
+                <Text style={[_styles.textH2, ...TextStyles, {paddingBottom: 100}]}>Dobrodošao natrag</Text>
+
+                <Surface style={styles.HomeSurface}>
+                    <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("QuizScreen")}>
+                        <Text style={styles.ButtonText}>Kviz</Text>
+                        <Text style={styles.ButtonSubText}>Izazovi svoje znanje i testiraj se!</Text>
+                        <Image style={styles.TestImage} source={require("../../assets/images/test.png")}></Image>
+                    </TouchableOpacity>
+                </Surface>
+
+                <Surface style={styles.HomeSurface}>
+                    <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("LeaderboardScreen")}>
+                        <Text style={styles.ButtonText}>Ljestvica</Text>
+                        <Text style={styles.ButtonSubText}>Svaka pobjeda vodi prema vrhu!</Text>
+                        <Image style={styles.MatImage} source={require("../../assets/images/leaderboard.png")}></Image>
+                    </TouchableOpacity>
+                </Surface>
+
+                <Surface style={styles.HomeSurface}>
+                    <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("ResourceScreen")}>
+                        <Text style={styles.ButtonText}>Materijal</Text>
+                        <Text style={styles.ButtonSubText}>Svi potrebni materijali za tvoj uspjeh!</Text>
+                        <Image style={styles.MatImage} source={require("../../assets/images/gradCap-removebg-preview.png")}></Image>
+                    </TouchableOpacity>
+                </Surface>
+                <Surface style={styles.HomeSurface}>
+                    <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("ResourceScreen")}>
+                        <Text style={styles.ButtonText}>Favoriti</Text>
+                        <Text style={styles.ButtonSubText}>Sve tvoje najdraže na jednome mjestu!</Text>
+                        <Image style={styles.TestImage} source={require("../../assets/images/star.png")}></Image>
+                    </TouchableOpacity>
+                </Surface>
             </SafeAreaView>
         </Surface>
     )
@@ -55,7 +82,6 @@ const _styles = StyleSheet.create({
         textAlign: "left",
         color: "black",
         fontSize: 50,
-        paddingTop: 50,
         padding: 20,
         paddingBottom: 5,
         fontFamily: "Roboto-Bold",
@@ -66,7 +92,7 @@ const _styles = StyleSheet.create({
         fontSize: 25,
         padding: 20,
         paddingTop: 0,
-        fontFamily: "Roboto-Thin",
+        fontFamily: "Roboto-Thin"
     }
 });
 const Stack = createStackNavigator<RootStackParamList>();

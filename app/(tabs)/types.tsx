@@ -10,4 +10,7 @@ export type RootStackParamList = {
   QuizScreen: undefined;
   LeaderboardScreen: undefined;
   ResourceScreen: undefined;
+  SignsMeaningAndImage:  {
+    [key: string]: number; 
+  };
 };

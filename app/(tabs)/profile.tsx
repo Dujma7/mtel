@@ -1,4 +1,5 @@
-import {View, Text, Button, useColorScheme} from "react-native";
+import {View, Text,useColorScheme} from "react-native";
+import { Button } from "react-native-paper";
 import {styles} from "../styles";
 import { RootStackParamList } from "./types";
 import { StackNavigationProp } from '@react-navigation/stack';
@@ -14,12 +15,16 @@ export default function ProfileScreen() {
     const colorScheme = useColorScheme();
     const TextStyles = [colorScheme === 'dark' ? styles.lightText : styles.darkText]
     return (
-            <Surface style={{height: "100%"}}>
+            <Surface style={{height: "100%", justifyContent: "center"}}>
                 <SafeAreaView>
-                    <Text style={[styles.settingsH1, ...TextStyles]}>Profile</Text>
+                    <Surface>
+                        <Text style={[styles.profileText, {marginTop: 100}]}>Ime: Michael Jordan</Text><Button mode="outlined" style={styles.profileButtonChange} onPress={() => alert("Promijeni ime")}>Promijeni ime</Button>
+                        <Text style={styles.profileText}>E-mail: michaeljordan@gmail.com</Text><Button mode="outlined" style={styles.profileButtonChange} onPress={() => alert("Promijeni mail")}>Promijeni mail</Button>
+                        <Text style={styles.profileText}>Zaporka: ***********</Text><Button mode="outlined" style={styles.profileButtonChange} onPress={() => alert("Promijeni zaporku")}>Promijeni zaporku</Button>
+                        <Button style={styles.profileButtonSubmit} mode="outlined" onPress={() => alert("Promjene spremljene!")}>Spremi promjene</Button>
+                    </Surface>
                 </SafeAreaView>  
-            </Surface>
-        
+            </Surface>  
     )     
 };
 

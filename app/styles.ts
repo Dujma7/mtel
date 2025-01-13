@@ -19,7 +19,9 @@ export const styles = StyleSheet.create({
       fontSize: 25,
       padding: 20,
       paddingTop: 0,
-      fontFamily: "Roboto-Thin"},
+      fontFamily: "Roboto-Thin",
+      paddingBottom: 200
+    },
   
       lightMode: {
           backgroundColor: "#FAF0E6",
@@ -159,6 +161,66 @@ export const styles = StyleSheet.create({
         paddingTop: 20,
         borderColor: "#242329",
         height: "100%"
+      },
+      HomeSurface: {
+        height: 100,
+        backgroundColor: "#3b3845",
+        borderRadius: "5%",
+        width: "90%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        margin: 10,
+        justifyContent: "space-around",
+        shadowColor: "transparent",
+      },
+      ButtonText: {
+        color: "#c6b2f1",
+        fontSize: 25,
+        fontFamily: "San Francisco",
+        fontWeight: 500
+      },
+      MatImage: {
+        marginLeft: "70%",
+        height: 100,
+        width: 100,
+        position: "relative",
+        top: -70
+      },
+      ButtonSubText: {
+        color: "#c6b2f1",
+        fontSize: 15,
+        fontFamily: "San Francisco",
+        fontWeight: 500,
+        marginTop: 10
+      },
+      ButtonStyle: {
+        margin: 20
+      },
+      TestImage: {
+        marginLeft: "70%",
+        height: 90,
+        width: 90,
+        position: "relative",
+        top: -67,
+        left: 10
+      },
+      profileText: {
+        margin: 10,
+        color: "#c6b2f1",
+        fontSize: 25,
+        fontWeight: 500,
+        fontFamily: "Roboto",
+        textAlign: "center"
+      },
+      profileButtonSubmit: {
+        width: "80%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        marginTop: 350 
+      },
+      profileButtonChange: {
+        width: "80%",
+        marginLeft: "auto",
+        marginRight: "auto"
       }
-      
   });
