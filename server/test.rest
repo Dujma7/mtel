@@ -1,4 +1,12 @@
-POST http://localhost:8881/api/login
+POST https://ivoplaninic.net:8881/api/login
+Content-Type: application/json
+
+{ "username": "ivo", "password": "Ivimir11" }
+
+###
+
+
+POST http://localhost:8881/api/loginPOST http://localhost:8881/api/login
 Content-Type: application/json
 
 { "username": "ivo", "password": "Ivimir11" }

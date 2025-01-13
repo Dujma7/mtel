@@ -3,10 +3,9 @@ version: "2"
 services:
   django-apache2:
     build: .
-    container_name: django-apache2
+    container_name: mtel-2024-apache2
     ports:
-      - '8881:8881'
-      - '81:81'
+      - '8881:443'
     volumes:
       - $PWD.:/var/www/html:rw
       - /etc/letsencrypt/:/etc/letsencrypt/
