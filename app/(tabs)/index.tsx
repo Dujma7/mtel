@@ -103,9 +103,9 @@ export default function HomeScreen() {
     return (
         <Stack.Navigator screenOptions={{headerShown: false, headerStyle: {backgroundColor: bgcolor}}}>
             <Stack.Screen name={"Home"} component={HomeScreenUI}/>
-            <Stack.Screen name={"QuizScreen"} component={QuizScreen} options={{headerShown: true}}/>
-            <Stack.Screen name={"LeaderboardScreen"} component={LeaderBoardScreen} options={{headerShown: true}}/>
-            <Stack.Screen name={"ResourceScreen"} component={ResourceScreen} options={{headerShown: true}}/>
+            <Stack.Screen name={"QuizScreen"} component={QuizScreen} options={{headerShown: false}}/>
+            <Stack.Screen name={"LeaderboardScreen"} component={LeaderBoardScreen} options={{headerShown: false}}/>
+            <Stack.Screen name={"ResourceScreen"} component={ResourceScreen} options={{headerShown: false}}/>
         </Stack.Navigator>
     )
 }

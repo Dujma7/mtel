@@ -7,16 +7,31 @@ from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-from .serializers import UserSerializer
+from .models import Run
+from .serializers import UserSerializer, RunSerializer
+
+
+def authenticate(token) -> tuple[None, Response] | tuple[User, None]:
+    try:
+        # check token
+        user = get_object_or_404(Token, key=token).user
+
+    except Http404 as e:
+        return None, Response(status=401)
+
+    except Exception as e:
+        print(e)
+        return None, Response({'error': "internal server error"}, status=500)
+    return user, None
 
 
 # Create your views here.
 @api_view(['POST'])
 def login(request):
     try:
-        user = get_object_or_404(User, username=request.data['username'])
+        user = get_object_or_404(User, email=request.data['email'])
     except MultiValueDictKeyError as e:
-        return Response({'error': 'Missing username and/or password'}, status=401)
+        return Response({'error': 'Missing email and/or password'}, status=401)
     except Exception as e:
         print(e)
         return Response({'error': str(e)}, status=401)
@@ -34,11 +49,11 @@ def register(request):
     try:
         get_object_or_404(User, email=request.data['email'])
         return Response({'error': 'User already exists with this email', "conflict": "email"}, status=409)
-    except Http404 as e:
+    except Http404:
         try:
             get_object_or_404(User, username=request.data['username'])
             return Response({'error': 'User already exists with this user', "conflict": "username"}, status=409)
-        except:
+        except Http404:
             pass
     except Exception as e:
         print(e)
@@ -53,16 +68,46 @@ def register(request):
 
 @api_view(['POST'])
 def get_user_data(request):
-    try:
-        # check token
-        user = get_object_or_404(Token, key=request.data['token']).user
-    except Http404 as e:
-        return Response(status=401)
+    user, err = authenticate(request.data['token'])
 
     serializer = UserSerializer(user)
 
     out = {
         'email': serializer.data['email'],
         'username': serializer.data['username'],
+        'token': request.data['token'],
     }
     return Response(out, status=200)
+
+
+@api_view(['POST'])
+def submit_score(request):
+    user, err = authenticate(request.data['token'])
+
+    if err is not None:
+        if err == KeyError:
+            return Response({'error': str(err)}, status=401)
+        return err
+
+    # add an entry to Scores db, time is in tenths of a second
+    Run.objects.create(user=user, time=int(request.data['time']))
+    return Response({'time': int(request.data['time'])}, status=200)
+
+
+@api_view(['POST'])
+def get_leaderboard(request):
+    user, err = authenticate(request.data['token'])
+
+    if err is not None:
+        return err
+
+    runs = Run.objects.all()
+    serialized = []
+    for run in runs:
+        data = RunSerializer(run).data
+        serialized.append({
+            'time': data["time"],
+            'user': run.user.username
+        })
+    sorted_runs = sorted(serialized, key=lambda x: x["time"])
+    return Response(sorted_runs[:10])

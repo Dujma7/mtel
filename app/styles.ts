@@ -110,7 +110,6 @@ export const styles = StyleSheet.create({
       QuizQuestion: {
         textAlign: "center",
         fontSize: 35,
-        color: "#EFF3EA",
         padding: 20,
       },
       QuizImage: {
@@ -123,8 +122,7 @@ export const styles = StyleSheet.create({
         marginRight: "auto",
         borderColor: "black",
         borderWidth: 1,
-        marginBottom: 40,
-        borderRadius: "15%"
+        marginBottom: 40
       },
       goBackButton: {
         height: 40,

@@ -26,6 +26,7 @@
     "expo-app-loading": "^2.1.1",
     "expo-blur": "~14.0.1",
     "expo-constants": "~17.0.3",
+    "expo-fetch": "^0.0.0",
     "expo-font": "~13.0.1",
     "expo-haptics": "~14.0.0",
     "expo-linking": "~7.0.3",
