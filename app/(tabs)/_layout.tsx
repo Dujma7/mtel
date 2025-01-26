@@ -19,9 +19,9 @@ const Stack = createStackNavigator<RootStackParamList>();
 
 export default function App() {
 
-    // let loggedIn = getItem("token") !== null
+    let loggedIn = getItem("token") !== null
     // loggedIn = true
-    let loggedIn = true
+    // let loggedIn = true
     //console.log(getItem("token"))
     const colorScheme = useColorScheme()
     if (!loggedIn) {

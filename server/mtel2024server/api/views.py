@@ -36,7 +36,7 @@ def login(request):
         print(e)
         return Response({'error': str(e)}, status=401)
     if not user.check_password(request.data['password']):
-        return Response("missing user", status=status.HTTP_404_NOT_FOUND)
+        return Response("missing user", status=401)
     token, created = Token.objects.get_or_create(user=user)
     serializer = UserSerializer(user)
     print({'token': token.key, 'user': serializer.data})

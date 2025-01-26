@@ -14,7 +14,7 @@ Content-Type: application/json
 ###
 
 
-POST http://localhost:8881/api/login
+POST https://ivoplaninic.net:8881/api/login
 Content-Type: application/json
 
 { "email": "planinic.ivki@gmail.com", "password": "Ivimir11" }
@@ -32,7 +32,7 @@ Content-Type: application/json
 ###
 
 
-POST http://localhost:8881/api/register
+POST https://ivoplaninic.net:8881/api/register
 Content-Type: application/json
 
 {
