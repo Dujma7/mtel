@@ -5,10 +5,8 @@ import { useFonts } from "expo-font";
 // @ts-ignore
 import AppLoading from 'expo-app-loading';
 import {styles} from "../styles";
-import {Surface} from "react-native-paper";
 import {useColorScheme} from "@/hooks/useColorScheme";
 import {SignsMeaningAndImage} from "../../assets/signImages/signsMeaningAndImage";
-import { useState , useEffect} from 'react';
 
 
 type QuestionProps = {
@@ -55,7 +53,7 @@ export default function QuizScreen({ navigation }: { navigation: NavigationProp 
         <Image style={styles.QuizImage} source={require(a)} />
           <View style = {[styles.QuizSurface,...TextStyles]}>
           <Button style={styles.QuizAnswers} onPress={switchImage} mode="contained-tonal" >Odgovor 1</Button>
-        <Image style={styles.QuizImage} source={reactLogo} />
+        <Image style={styles.QuizImage} source={} />
         <View style = {[styles.QuizSurface,...TextStyles]}>
           <Button style={styles.QuizAnswers} onPress={() => alert("Kliknuo si odgovor 1")} mode="contained-tonal" >Odgovor 1</Button>
           <Button style={styles.QuizAnswers} onPress={() => alert("Kliknuo si odgovor 2")} mode="contained-tonal" >Odgovor 2</Button>
