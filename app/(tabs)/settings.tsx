@@ -16,10 +16,6 @@ export default function SettingsScreen() {
     return (
         <Surface style={{height: "100%"}}>
           <SafeAreaView>
-            <ScrollView>
-              <Text style = {[styles.settingsH1, ...TextStyles]}>Settings</Text>
-              <Text style={[styles.hr, ...TextStyles]}></Text>
-            </ScrollView>
           </SafeAreaView>
         </Surface>
     )

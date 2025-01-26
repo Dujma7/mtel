@@ -32,7 +32,7 @@ export function HomeScreenUI({navigation}: HomeScreenProps) {
     return (
         <Surface style={{height: "100%"}}>
             <SafeAreaView>
-                <Text style={[_styles.textUser, ...TextStyles]}>Pozdrav, brate!</Text>
+                <Text style={[_styles.textUser, ...TextStyles]}>Pozdrav, user!</Text>
                 <Text style={[_styles.textH2, ...TextStyles, {paddingBottom: 100}]}>Dobrodošao natrag</Text>
 
                 <Surface style={styles.HomeSurface}>

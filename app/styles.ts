@@ -1,4 +1,5 @@
 import {StyleSheet} from "react-native";
+import { opacity } from "react-native-reanimated/lib/typescript/Colors";
 
 
 export const styles = StyleSheet.create({
@@ -8,17 +9,17 @@ export const styles = StyleSheet.create({
       textAlign: "center",
     },
     settingsH1: {
+      paddingTop: 100,
       textAlign: "center",
-      fontSize: 50,
-      paddingTop: 10,
+      fontSize: 40,
       paddingBottom: 20, 
       fontFamily: "Roboto-Bold",
+      color: "#c6b2f1",
     },
     textH2: {
       textAlign: "center",
       fontSize: 25,
       padding: 20,
-      paddingTop: 0,
       fontFamily: "Roboto-Thin",
       paddingBottom: 200
     },
@@ -210,15 +211,49 @@ export const styles = StyleSheet.create({
         fontFamily: "Roboto",
         textAlign: "center"
       },
-      profileButtonSubmit: {
-        width: "80%",
+      profileLogOut: {
+        width: "100%",
         marginLeft: "auto",
         marginRight: "auto",
-        marginTop: 350 
       },
       profileButtonChange: {
         width: "80%",
         marginLeft: "auto",
         marginRight: "auto"
+      },
+      LogOutText: {
+        color: "#c6b2f1",
+        fontSize: 15,
+        fontFamily: "San Francisco",
+        fontWeight: 400,
+        marginLeft: "auto",
+        marginRight: "auto",
+        position: "relative",
+        top: 500
+      },
+      materijalSurface: {
+        width: "90%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        borderRadius: "5%",
+        shadowOpacity: 0,
+        backgroundColor: "#393642",
+        margin: 10
+      },
+      materijalText: {
+        margin: 10,
+        color: "#c6b2f1",
+        fontSize: 20,
+        fontWeight: 300,
+        fontFamily: "Roboto",
+        textAlign: "center"
+      },
+      materijalText1: {
+        margin: 10,
+        color: "#c6b2f1",
+        fontSize: 25,
+        fontWeight: 400,
+        fontFamily: "Roboto",
+        textAlign: "center"
       }
   });
