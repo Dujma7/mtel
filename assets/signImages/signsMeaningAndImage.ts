@@ -1,5 +1,16 @@
 export const SignsMeaningAndImage: Record<string, string> = {
-    "Opasnost na cesti":require("../../assets/signImages/znakoviSlike/A01_opasnost_tn.png"),
+    "Opasnost na cesti":require("./znakoviSlike/A01_opasnost_tn.png"),
+    "Raskrižje cesta iste važnosti":require("./znakoviSlike/A02_raskrizje_tn.png"),
+    "Raskrižje sa sporednom cestom pod pravim kutom":require("./znakoviSlike/A03_raskrizje_tn.png"),
+    "Spajanje sporedne ceste sa lijeve strane pod pravim kutom":require("./znakoviSlike/A04_raskrizje_tn.png"),
+    "Spajanje sporedne ceste pod pravim kutom s desne strane":require("./znakoviSlike/A05_raskrizje_tn.png"),
+    "Spajanje sporedne ceste pod oštrim kutom s lijeve strane":require("./znakoviSlike/A06_raskrizje_tn.png"),
+    "Spajanje sporedne ceste pod oštrim kutom s desne strane":require("./znakoviSlike/A07_raskrizje_tn.png"),
+}
+
+
+const _SignsMeaningAndImage: Record<string, string> = {
+    "A01_opasnost_tn.png":"Opasnost na cesti",
     "A02_raskrizje_tn.png":"Raskrižje cesta iste važnosti",
     "A03_raskrizje_tn.png":"Raskrižje sa sporednom cestom pod pravim kutom",
     "A04_raskrizje_tn.png":"Spajanje sporedne ceste sa lijeve strane pod pravim kutom",
