@@ -6,7 +6,7 @@ import { useFonts } from "expo-font";
 import AppLoading from 'expo-app-loading';
 import {styles} from "../styles";
 import {useColorScheme} from "@/hooks/useColorScheme";
-import {SignsMeaningAndImage} from "../../assets/signImages/signsMeaningAndImage";
+import {SignsMeaningAndImage} from "../../assets/signImages/signsMeaningAndImage2";
 
 
 type QuestionProps = {
