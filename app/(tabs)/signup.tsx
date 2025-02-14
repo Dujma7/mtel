@@ -1,4 +1,4 @@
-import {View, Text, useColorScheme} from 'react-native';
+import {View, Text, useColorScheme, GestureResponderEvent} from 'react-native';
 import {useFonts} from "expo-font";
 import AppLoading from "expo-app-loading";
 import {styles} from "../styles";
@@ -12,6 +12,10 @@ type LogInScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>
 type LogInScreenProps = {
     navigation: LogInScreenNavigationProp;
 };
+
+function handleSignup(e: GestureResponderEvent) {
+    
+}
 
 export default function SignUpScreen({navigation}: LogInScreenProps) {
     let [fontsLoaded] = useFonts({
@@ -27,16 +31,14 @@ export default function SignUpScreen({navigation}: LogInScreenProps) {
         return <AppLoading/>;
     }
     return (
-        <Surface style={{height: "100%"}}>
+        <Surface style={{height: "100%", justifyContent:"center"}}>
             <Text style={[styles.LogInH1, ...TextStyles]}>Napravite Račun</Text>
-            <TextInput label="Odaberite korisničko ime" style={styles.input} underlineColor="white" placeholder='Odaberite korisničko ime'/>
-            <TextInput label="Upišite svoj E-mail" style={styles.input} underlineColor="white" placeholder='E-mail'/>
-            <TextInput label="Odaberite Šifru" style={styles.input} secureTextEntry={true} placeholder='Šifra'/>
-            <TextInput label="Ponovno upišite šifru" style={styles.input} secureTextEntry={true} placeholder='Šifra'/>
-            <Button style={styles.btnSubmit} mode="contained" onPress={() => alert("Hello")}>Dalje</Button>
-            <Text style={[...TextStyles]} onPress={() => {
-                navigation.navigate("LogInScreen")
-            }}>Login</Text>
+            <TextInput autoCapitalize='none' label="Odaberite korisničko ime" style={styles.input} underlineColor="white" placeholder='Odaberite korisničko ime'/>
+            <TextInput autoCapitalize='none' label="Upišite svoj E-mail" style={styles.input} underlineColor="white" placeholder='E-mail'/>
+            <TextInput autoCapitalize='none' label="Odaberite Šifru" style={styles.input} secureTextEntry={true} placeholder='Šifra'/>
+            <TextInput autoCapitalize='none' label="Ponovno upišite šifru" style={styles.input} secureTextEntry={true} placeholder='Šifra'/>
+            <Button style={styles.btnSubmit} mode="contained" onPress={handleSignup}>Dalje</Button>
+            <Text style={[styles.ptext]} onPress={() => {navigation.navigate("LogInScreen")}}>Imate račun? Prijavite se ovdje.</Text>
         </Surface>
     )
 };

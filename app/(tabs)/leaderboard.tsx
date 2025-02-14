@@ -23,7 +23,7 @@ export default function LeaderBoardScreen() {
     useEffect(() => {
         let _leaderBoardData = [];
         let counter = 1
-        getLeaderboards("2a076df0bfeeaafaf2c7670e50a4d7c7f2a56067").then(res => {
+        getLeaderboards().then(res => {
             for (const resKey in res) {
                 // @ts-ignore
                 _leaderBoardData.push({id: counter, name: res[resKey]["user"], score: res[resKey]["time"]});
@@ -33,10 +33,12 @@ export default function LeaderBoardScreen() {
         });
     }, []);
 
-    if (!fontsLoaded || leaderboardData.length == 0) {
-        return <AppLoading/>;
-    }
+    //if (!fontsLoaded || leaderboardData.length == 0) {
+        //return <AppLoading/>;
+    //}
     // const leaderboardData = [
+    if (leaderboardData.length == 0){
+    }
     //   {id: '1', name: 'Zvonko Dujmovic', score: 120},
     //   {id: '2', name: 'Ivo Rodjak', score: 100},
     //   {id: '3', name: 'Mateo', score: 80},

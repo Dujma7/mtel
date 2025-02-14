@@ -1,7 +1,6 @@
 import {StyleSheet} from "react-native";
 import { opacity } from "react-native-reanimated/lib/typescript/Colors";
 
-
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -9,19 +8,19 @@ export const styles = StyleSheet.create({
         textAlign: "center",
     },
     settingsH1: {
-      textAlign: "center",
-      fontSize: 50,
-      paddingTop: 10,
-      paddingBottom: 20, 
-      fontFamily: "Roboto-Bold",
+        textAlign: "center",
+        fontSize: 50,
+        paddingTop: 10,
+        paddingBottom: 20,
+        fontFamily: "Roboto-Bold",
     },
     textH2: {
-      textAlign: "center",
-      fontSize: 25,
-      padding: 20,
-      paddingTop: 0,
-      fontFamily: "Roboto-Thin",
-      paddingBottom: 200
+        textAlign: "center",
+        fontSize: 25,
+        padding: 20,
+        paddingTop: 0,
+        fontFamily: "Roboto-Thin",
+        paddingBottom: 200
     },
 
     lightMode: {
@@ -267,16 +266,30 @@ export const styles = StyleSheet.create({
         fontWeight: 500,
         fontFamily: "Roboto",
         textAlign: "center"
-      },
-      profileButtonSubmit: {
+    },
+    profileButtonSubmit: {
         width: "80%",
         marginLeft: "auto",
         marginRight: "auto",
-        marginTop: 350 
-      },
-      profileButtonChange: {
+        marginTop: 350
+    },
+    profileButtonChange: {
         width: "80%",
         marginLeft: "auto",
         marginRight: "auto"
-      }
-  });
+    },
+    timerContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        padding: 10,
+        borderRadius: 5,
+    },
+    timerText: {
+        fontSize: 16,
+        marginTop:20,
+        fontWeight: 'bold',
+    },
+    QuizScreen: {
+        flex: 1,
+    },
+});
