@@ -19,8 +19,8 @@ export async function getUserData(token: string) {
     })
     let json = await response.json()
     output.status = response.status.toString()
-    output.username = json.user.username
-    output.email = json.user.email
+    output.username = json.username
+    output.email = json.email
     if(output.status != "200") {
         output.error = json.error
     }
@@ -82,6 +82,7 @@ export async function getLeaderboards(): Promise<{ [key: string]: string }[]> {
         },
         body: JSON.stringify({"token": getItem("token")})
     })
+    alert("ye ig")
     let json = await response.json()
     return json
 }

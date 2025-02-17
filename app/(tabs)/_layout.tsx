@@ -20,6 +20,9 @@ const Stack = createStackNavigator<RootStackParamList>();
 export default function App() {
 
     let loggedIn = getItem("token") !== null
+    if(loggedIn){
+        if(getItem("token")! == "") loggedIn = false
+    }
     // loggedIn = true
     // let loggedIn = true
     //console.log(getItem("token"))
