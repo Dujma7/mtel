@@ -204,7 +204,6 @@ function Question(props: QuestionProps & { resetTrigger: boolean }) {
 
     return (
         <Surface style={[styles.QuizSurface, ...TextStyles]} elevation={0}>
-            <Text style={styles.questionH1}>Koje je značenje znaka?</Text>
             <Image style={styles.QuizImage} source={props.questionImage} />
             <View style={[styles.QuizSurface, ...TextStyles]}>
                 {props.answers.map((answer, index) => {
