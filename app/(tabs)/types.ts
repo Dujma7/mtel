@@ -6,11 +6,17 @@ export type RootStackParamList = {
   Settings: undefined;
   LogInScreen: undefined;
   SignUpScreen: undefined;
-  QuizScreen: undefined;
   LeaderboardScreen: undefined;
   ResourceScreen: undefined;
+  QuizSelectScreen: undefined;
     mainScreen: undefined;
   SignsMeaningAndImage:  {
     [key: string]: number; 
   };
 };
+
+export type QuizBranchParamList = {
+  QuizScreen: undefined;
+  QuizHome: undefined;
+  QuizScreenB: undefined;
+}

@@ -96,7 +96,6 @@ export const styles = StyleSheet.create({
     },
     QuizSurface: {
         display: "flex",
-        flex: 1,
         textAlign: "center",
         padding: 10,
         resizeMode: "center"
@@ -113,22 +112,21 @@ export const styles = StyleSheet.create({
     },
     QuizImage: {
         textAlign: "center",
-        height: 150,
-        width: 150,
+        height: 250,
+        width: 250,
         justifyContent: "center",
-        padding: 20,
         marginLeft: "auto",
         marginRight: "auto",
-        borderColor: "black",
-        borderWidth: 1,
-        marginTop: 15
+        marginTop: 15,
+        marginBottom: 10,
+        resizeMode: "contain"
     },
     goBackButton: {
         height: 40,
         justifyContent: "center",
         width: "40%",
         marginLeft: "auto",
-        marginRight: "auto"
+        marginRight: "auto",
     },
     ButtonStyle: {
         margin: 20
@@ -194,7 +192,7 @@ export const styles = StyleSheet.create({
     leaderboard: {
         textAlign: "center",
         padding: 20,
-        paddingTop: 20,
+        paddingTop: 10,
         borderColor: "#242329",
         height: "100%"
     },
@@ -281,6 +279,7 @@ export const styles = StyleSheet.create({
     timerContainer: {
         flexDirection: 'row',
         justifyContent: 'space-between',
+        marginTop: 25,
         padding: 10,
         borderRadius: 5,
     },
@@ -292,4 +291,86 @@ export const styles = StyleSheet.create({
     QuizScreen: {
         flex: 1,
     },
+    materijalSurface: {
+        width: "90%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        borderRadius: "5%",
+        shadowOpacity: 0,
+        backgroundColor: "#393642",
+        margin: 15
+      },
+      materijalText: {
+        color: "#c6b2f1",
+        fontSize: 20,
+        fontWeight: 300,
+        fontFamily: "Roboto",
+        textAlign: "center"
+      },
+      materijalText1: {
+        margin: 10,
+        color: "#c6b2f1",
+        fontSize: 25,
+        fontWeight: 400,
+        fontFamily: "Roboto",
+        textAlign: "center"
+      },
+      leaderboardHeader: {
+        fontSize: 18,
+        fontFamily: "Clash Display",
+        fontWeight: 800,
+        color: "#EFF3EA",
+      },
+      leaderboardHeaderSurface: {
+        borderColor: "#242329",
+        shadowOpacity: 0,
+        marginLeft: "auto",
+        marginRight: "auto"
+    },
+    QuizSelectTextTop: {
+        margin: 10,
+        fontSize: 25,
+        fontWeight: 400,
+        fontFamily: "Clash Display",
+        textAlign: "center",
+        color: "white",
+    },
+    SelectSurface: {
+        marginLeft: "auto",
+        marginRight: "auto",
+        borderRadius: "5%",
+        shadowOpacity: 0,
+        backgroundColor: "#393642",
+        margin: 20,
+        height: 150,
+        width: 300,
+        justifyContent: "center",
+      },
+      SelectText: {
+        margin: 10,
+        color: "#c6b2f1",
+        fontSize: 24,
+        fontWeight: 400,
+        fontFamily: "Roboto",
+        textAlign: "center"
+      },
+      SelectSurfaceDisabled: {
+        marginLeft: "auto",
+        marginRight: "auto",
+        borderRadius: "5%",
+        shadowOpacity: 0,
+        backgroundColor: "#2e2b36",
+        margin: 20,
+        height: 150,
+        width: 300,
+        justifyContent: "center",
+      },
+      SelectSubText: {
+        margin: 1,
+        color: "#c6b2f1",
+        fontSize: 16,
+        fontWeight: 200,
+        fontFamily: "Roboto",
+        textAlign: "center"
+      },
 });

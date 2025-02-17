@@ -1,0 +1,3270 @@
+
+[
+    {
+        "question": "Vozač je:",
+        "options": [
+            "1 svako lice koje se u saobraćaju na putu nalazi u vozilu;",
+            "2 lice koje na putu upravlja vozilom."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kako se naziva uzdužni dio kolovoza namijenjen za saobraćaj vozila u jednom smjeru sa jednom ili više saobraćajnih traka?",
+        "options": [
+            "1 kolovozna traka;",
+            "2 kolovoz;",
+            "3 saobraćajna traka."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Preglednost podrazumijeva: prostor koji učesnik u drumskom saobraćaju može da vidi sa mjesta na kojem se nalazi;",
+        "options": [
+            "1 prostor koji učesnik u drumskom saobraćaju može da vidi sa mjesta na kojem se nalazi;",
+            "2 mjesto na raskrsnici sa kojeg vozač vidi ulijevo, udesno najmanje 25 m;",
+            "3 mjesto na raskrsnici sa kojeg vozač vidi ulijevo najmanje 25m."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Stiker tj. naljepnica je: dokaz o izvršenom tehničkom pregledu;",
+        "options": [
+            "1 dokaz o izvršenom tehničkom pregledu;",
+            "2 dokaz o plaćenoj putarini;",
+            "3 dokaz o registrovanju vozila."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Projektovanjem i gradnjom novih javnih puteva, osim lokalnih, mora da se obezbijedi da podnesu osovinsko opterećenje od:",
+        "options": [
+            "1 najmanje 10 t po osovini;",
+            "2 najmanje 11,5 t po osovini;",
+            "3 najmanje 11 t po osovini."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Iznad kolovoza javnog puta mora da postoji slobodan prostor u visini od najmanje:",
+        "options": [
+            "1 4,5 m od najviše točke kolovoza;",
+            "2 4 m od najviše tačke kolovoza;",
+            "3 6 m od najviše tačke kolovoza."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Šta utiče na produženje puta kočenja? (više točnih odgovora)",
+        "options": [
+            "1 mokar i blatnjav kolovoz;",
+            "2 suv kolovoz;",
+            "3 opterećenje vozila."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Koja je najveća dozvoljena brzina kretanja za traktore koji vuku priključno vozilo?",
+        "options": [
+            "1 40 km/h;",
+            "2 30 km/h;",
+            "3 40 km/h."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Novoproizvedena motorna i priključna vozila, nakon obavezne identifikacije vozila prije prve registracije, vlasnici su dužni podvrgnuti redovnom tehničkom pregledu?",
+        "options": [
+            "1 u toku mjeseca u kojem ističe rok od 24 mjeseca od dana prve registracije vozila, te u toku 1 mjeseca u kojem ističe rok od 36 mjeseci od dana prve registracije vozila;",
+            "2 u toku mjeseca u kojem ističe rok od 12 mjeseca od dana prve registracije vozila, te u toku 2 mjeseca u kojem ističe rok od 36 mjeseci od dana prve registracije vozila;",
+            "3 u toku mjeseca u kojem ističe rok od 24 mjeseca od dana prve registracije vozila, te u toku 3 mjeseca u kojem ističe rok od 48 mjeseci od dana prve registracije vozila."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Kako djeca najčešće reaguju u saobraćaju?",
+        "options": [
+            "1 razumno i staloženo;",
+            "2 u skladu sa propisima;",
+            "3 spontano i nepredvidivo."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Kako svojim ponašanjem u saobraćaju, za vrijeme upravljanja vozilom, možete doprinijeti smanjenju saobraćajnog rizika? (više točnih odgovora)",
+        "options": [
+            "1 agresivnom vožnjom;",
+            "2 poštovanjem saobraćajnih pravila i propisa;",
+            "3 defanzivnom vožnjom;",
+            "4 nervoznom vožnjom."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Pomoću užeta ne smije da se vuče:",
+        "options": [
+            "1 motorno vozilo na kojem su neispravni uređaji za osvjetljenje;",
+            "2 motorno vozilo na kojem su neispravni uređaji za davanje znakova;",
+            "3 motorno vozilo na kojem su neispravni uređaji za zaustavljanje;",
+            "4 motorno vozilo na kojem su neispravni uređaji za upravljanje;",
+            "5 teretno motorno vozilo i autobus."
+        ],
+        "answer": "3,4,5"
+    },
+    {
+        "question": "Ljekarsko uvjerenje o zdravstvenoj sposobnosti za upravljanje motornim vozilom važi?",
+        "options": [
+            "1 12 mjeseci od dana izdavanja;",
+            "2 6 mjeseci od dana izdavanja."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Krutom vezom ne smije da se vuče motorno vozilo:",
+        "options": [
+            "1 koje ima ispravan uređaj za upravljanje;",
+            "2 teže od vučnog vozila ako mu je neispravna pomoćna kočnica."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Zaustavljanje vozila je:",
+        "options": [
+            "1 svaki prekid kretanja vozila na putu u trajanju do 15 minuta, osim prekida koji se pravi da bi se postupilo po znaku ili pravilu kojim se reguliše saobraćaj;",
+            "2 svaki prekid kretanja vozila na putu u trajanju do 5 minuta, osim prekida koji se pravi da bi se postupilo po znaku ili pravilu kojim se reguliše saobraćaj."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Pješak je:",
+        "options": [
+            "1 lice koje učestvuje u saobraćaju, a ne upravlja vozilom, niti se prevozi u vozilu ili na vozilu;",
+            "2 lice koje upravlja vozilom, ili se prevozi u vozilu ili na vozilu."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Koliko kolovoznih traka ima put sa jednosmjernim saobraćajem?",
+        "options": [
+            "1 dvije kolovozne trake;",
+            "2 jednu kolovoznu traku;",
+            "3 više od dvije kolovozne trake."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Prelaz alkohola u krv (resorpcija alkohola) završi se?",
+        "options": [
+            "1 najkasnije nakon jednog sata od konzumiranja;",
+            "2 najkasnije nakon 24 sata od konzumiranja."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Smanjena vidljivost postoji kada, zbog nepovoljnih atmosferskih ili drugih prilika, vozač ne može jasno da uoči druge učesnike u saobraćaju:",
+        "options": [
+            "1 od najmanje 100 m izvan naselja, odnosno najmanje 50 m u naselju;",
+            "2 od najmanje 200 m na putu izvan naselja, odnosno od najmanje 100 m u naselju."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Autoputem ne smiju da se kreću motorna vozila koja prema svojim konstrukcionim osobinama ne mogu da se kreću brzinom većom?",
+        "options": [
+            "1 od 40 km/h;",
+            "2 od 60 km/h."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Maksimalni poprečni nagib kolovoza za autoput u tunelu iznosi:",
+        "options": [
+            "1 7 %;",
+            "2 4 %."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li je vozaču zabranjeno da pretiče vozilo koje se približava obilježenom pješačkom prelazu, ili koje prelazi pješački prelaz, ili koje je stalo radi propuštanja pješaka na tom prelazu?",
+        "options": [
+            "1 ne, ako postoje dvije saobraćajne trake u jednom smjeru;",
+            "2 ne, ako ga pješaci propuštaju;",
+            "3 zabranjeno je."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Da li se vozilo koje se kreće po šinama postavljenim na sredini kolovoza smije preticati s lijeve strane?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Šta se podrazumijeva pod pojmom „posebni objekat na putu“?",
+        "options": [
+            "1 oprema na putu postavljena radi smanjenja brzine kretanja vozila na mjestima gdje je posebno ugrožena bezbjednost učesnika u saobraćaju;",
+            "2 zaštitne ograde i naplatne rampe."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Šta se podrazumijeva pod pojmom „vozilo“?",
+        "options": [
+            "1 svako prevozno sredstvo namijenjeno za kretanje po putu, osim pokretnih stolica bez motora za nemoćna lica i dječijih prevoznih sredstava;",
+            "2 svako motorno vozilo koje je namijenjeno za prevoz lica."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Učesnici u saobraćaju dužni su da postupaju:",
+        "options": [
+            "1 u skladu sa svjetlosnim saobraćajnim znakom, pod uslovom da se značenje tog znaka ne razlikuje od značenja ostalih saobraćajnih znakova ili saobraćajnih pravila;",
+            "2 u skladu sa saobraćajnom signalizacijom, pod uslovom da se time ne odstupa od pravila saobraćaja;",
+            "3 prema znacima ili naredbama koje daju ovlašćena lica i kad se time odstupa od svjetlosnog saobraćajnog znaka ili drugog saobraćajnog znaka ili pravila saobraćaja."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Dio površine puta namijenjen prvenstveno za saobraćaj vozila, naziva se:",
+        "options": [
+            "1 kolovozna traka;",
+            "2 kolovoz;",
+            "3 saobraćajna traka."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Za vrijeme upravljanja motornim vozilom danju na vozilu moraju da budu upaljena:",
+        "options": [
+            "1 kratka ili dnevna svjetla;",
+            "2 duga svjetla;",
+            "3 posebna svjetla za maglu."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na raskrsnici i na drugom mjestu na kojem je saobraćaj regulisan uređajima za davanje svjetlosnih saobraćajnih znakova, zaučesnike u saobraćaju, upaljeno „žuto svjetlo“ ima sljedeće značenje:",
+        "options": [
+            "1 obavezu za sve učesnike u saobraćaju da se kreću naročitom opreznošću;",
+            "2 zabranu prolaza za sva vozila;",
+            "3 zabranu prolaza, osim za vozila koja se u trenutku kad se žuto svjetlo pojavi na lazena tolikom rastojanju od svjetlosnog znaka da se ne mogu bezbjedno zaustaviti, a da ne prođu taj znak, a za ostale učesnike zabrana prolaza."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Izdata vam je vozačka dozvola za B kategoriju. Kojim vozilima imate pravo upravljati? (više točnih odgovora)",
+        "options": [
+            "1 traktorom;",
+            "2 lakim četvorociklom;",
+            "3 vozilom koje, osim sjedišta za vozača, ima više od osam sjedišta."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Da li se na autoput smije uključiti motorno vozilo koje vuče drugo motorno vozilo koje zbog neispravnosti ne može da se kreće?",
+        "options": [
+            "1 nije regulisano propisom;",
+            "2 ne;",
+            "3 da."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kojim postupcima vozač ugrožava bezbjednost saobraćaja? (više točnih odgovora)",
+        "options": [
+            "1 ako vozilom upravlja premoren;",
+            "2 ako vozilom upravlja pod uticajem alkohola i opojnih sredstava;",
+            "3 ako se vozilom kreće uz desnu ivicu kolovoza."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Ako je vozilo kojim se prevoze djeca zaustavljeno na kolovozu, na putu sa dvije saobraćajne trake, dok djeca ulaze ili izlaze iz vozila, a vi tom vozilu dolazite u susret, dužni ste:",
+        "options": [
+            "1 zaustaviti vozilo dok djeca ulaze i izlaze iz vozila;",
+            "2 smanjiti brzinu kretanja vozila i naročitom opreznošću nastaviti kretanje vozilom;",
+            "3 smanjiti brzinu kretanja vozila i po potrebi zaustaviti vozilo."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Svjetla za vožnju unazad treba da imaju takav nagib, osim kada je to posebnim dozvolama predviđeno, da ne osvjetljavaju put na dužini većoj od:",
+        "options": [
+            "1 7,5 m, mjereći od izvora svjetla;",
+            "2 10 m, mjereći od izvora svjetla;",
+            "3 8 m, mjereći od izvora svjetla."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kolona je:",
+        "options": [
+            "1 niz od najmanje tri vozila (osim bicikla, traktora, radne mašine i zaprežnog vozila), koja su zaustavljena na putu, ili se na bliskom međusobnom rastojanju kreću istom saobraćajnom trakom u istom smjeru, pri čemu su brzina kretanja vozila i postupanja vozača međusobno uslovljeni i između kojih, bez ometanja, ne može da uđe drugo vozilo;",
+            "2 niz od najmanje pet vozila koja su zaustavljena na putu, ili se na bliskom međusobnom rastojanju kreću istom saobraćajnom trakom u istom smjeru, pri čemu su brzina kretanja vozila i postupanja vozača međusobno uslovljeni i između kojih, bez ometanja, ne može da uđe drugo vozilo."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Koje radnje morate preduzeti prije vršenja radnje polu kružnog okretanja? (više točnih odgovora)",
+        "options": [
+            "1 predhodno se uvjeriti da je radnju moguće učiniti bez opasnosti za druge učesnike u saobraćaju ili imovinu;",
+            "2 uključiti uređaj za istovremeno paljenje svih pokazivača pravca;",
+            "3 voditi računa o položaju vozila i pravcu i brzini kretanja."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Pojam „saobraćajna traka“ podrazumijeva:",
+        "options": [
+            "1 uzdužni dio kolovoza namijenjen za saobraćaj motornih vozila;",
+            "2 obilježeni ili neobilježeni uzdužni dio kolovoza čija je širina dovoljna za nesmetan saobraćaj jednog reda vozila."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Oznaka za vožnju, na smjerokaznom stubiću, u noćnim uslovima u smjeru vožnje, sa desne strane je?",
+        "options": [
+            "1 crvene boje, a sa lijeve strane crne boje;",
+            "2 crvene boje, a sa lijeve strane bijele boje;",
+            "3 crne boje, a sa lijeve strane bijele boje."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Svjetlosni saobraćajni znak „žuto trepćuće svjetlo“ obavezuje sve učesnike u saobraćaju na:",
+        "options": [
+            "1 najavu crvenog svjetla;",
+            "2 najavu zelenog svjetla;",
+            "3 kretanje sa naročitom opreznošću, i da uređaj za davanje svjetlosnih znakova nije u funkciji regulisanja saobraćaja."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Za vrijeme upravljanja vozilom na autoputu vozač ne smije: (više točnih odgovora)",
+        "options": [
+            "1 mijenjati saobraćajnu traku kojom se prethodno kretao;",
+            "2 kretati se vozilom unazad;",
+            "3 obavljati radnju polukružnog okretanja."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Izdata vam je vozačka dozvola za B kategoriju. Kojim vozilima imate pravo upravljati? (više točnih odgovora)",
+        "options": [
+            "1 mopedom;",
+            "2 lakim četvorociklom;",
+            "3 vozilima čija je najveća dozvoljena masa veća od 3500 kg."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Vozaču kojem je u roku od jedne godine zbog učinjenih prekršaja iz Zakona o osnovama bezbjednosti saobraćaja na putevima u Bosni i Hercegovini određeno najmanje 10 (deset) kaznenih bodova: (više točnih odgovora)",
+        "options": [
+            "1 biće oduzeta vozačka dozvola u trajanju od 60 dana;",
+            "2 biće oduzeta vozačka dozvola u trajanju od 30 dana;",
+            "3 biće upućen na provjeru poznavanja saobraćajnih propisa."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Vozač koji na provjeri poznavanja saobraćajnih propisa ne pokaže potrebno znanje može, na svoj zahtjev, pristupiti ponovo provjeri:",
+        "options": [
+            "1 poslije isteka 15 dana od dana prethodne provjere;",
+            "2 poslije isteka 30 dana od dana prethodne provjere."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Motorna vozila na svom zadnjem dijelu moraju biti opremljena sa jednim ili dva svjetla za vožnju unazad:",
+        "options": [
+            "1 bijele boje;",
+            "2 crvene ili žute boje."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Osnovna boja znakova opasnosti je?",
+        "options": [
+            "1 žuta boja, a ivice trokuta su crvene, izuzev znakova I/25 (radovi na putu) i I/43 (saobraćajna nezgoda), čija je osnovna boja žuta;",
+            "2 plava, a simboli i natpisi su bijele boje;",
+            "3 bijela boja, a ivice trokuta su crvene, izuzev znakova I/25 (radovi na putu) i I/43/3 (saobraćajna nezgoda), čija je osnovna boja žuta."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Uređaj za upravljanje vozilom mora biti pouzdan i izveden tako da se:",
+        "options": [
+            "1 vozač može lako, brzo i na siguran način mijenjati pravac i smjer kretanja vozila;",
+            "2 prednji točkovi vozila, pri kretanju vozila po vodoravnoj ravnoj površini, nakon oslobađanja točka upravljača, sami vraćaju u položaj za pravolinijsko kretanje;",
+            "3 omogućava slobodan hod točka upravljača na vozilu veći od 30°."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Kako će ovlašćeno lice postupiti prema vozaču koji odbije da se podvrgne ispitivanju, odnosno stručnom pregledu?",
+        "options": [
+            "1 dati mu rok u kojem se mora podvrgnuti ispitivanju, odnosno pregledu;",
+            "2 na licu mjesta privremeno oduzeti vozačku dozvolu;",
+            "3 isključiti vozilo iz saobraćaja."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "„Stop svjetla“ ne moraju imati vozila koja na ravnom putu ne mogu razviti brzinu veću od:",
+        "options": [
+            "1 25 km/h;",
+            "2 30 km/h."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Radna mašina po svojim konstrukcionim osobinama ne može razviti brzinu veću od:",
+        "options": [
+            "1 25 km/h;",
+            "2 30 km/h;",
+            "3 40 km/h."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "„Centralni registar“ je evidencija:",
+        "options": [
+            "1 samo o vozačima;",
+            "2 samo o vozilima;",
+            "3 o svim vozačima i vozilima."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "„Brzi put“, u pravilu:",
+        "options": [
+            "1 nema zaustavnih traka;",
+            "2 ima zaustavnih traka."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Međunarodna vozačka dozvola izdaje se na period važenja od:",
+        "options": [
+            "1 jedne godine;",
+            "2 dvije godine, odnosno na period propisan međunarodnim ugovorom;",
+            "3 tri godine."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Izdata vam je vozačka dozvola za C1 podkategoriju. Kojim vozilima imate pravo upravljati?",
+        "options": [
+            "1 vozilima koja, osim sjedišta za vozača, imaju više od osam sjedišta, a manje od šesnaest;",
+            "2 vozilima čija je najveća dozvoljena masa veća od 3.500 kg, a manja od 7.500 kg."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozačka dozvola koja se izdaje licu starijem od 65 godina života produžava se sa rokom važenja od:",
+        "options": [
+            "1 tri godine;",
+            "2 dvije godine;",
+            "3 deset godina;",
+            "4 dvadeset godina."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Ispod slova „L” na tablici kojom se obilježava vozilo za osposobljavanje kandidata za vozača upisuje se:",
+        "options": [
+            "1 broj instruktorske dozvole instruktora vožnje;",
+            "2 registarski broj vozila za koje se tablica koristi."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li se ispod slova „P” kojim se obilježava vozilo kojim upravlja vozač početnik upisuje broj vozačke dozvole početnika?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Najmanja dozvoljena dubina kanala na gaznoj površini pneumatika za putnička vozila je:",
+        "options": [
+            "1 1 mm;",
+            "2 1,6 mm;",
+            "3 2 mm."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Na razdaljini manjoj od 15 m ispred i iza znakova kojima je obilježeno stajalište za vozila javnog saobraćaja vozač ne smije da:",
+        "options": [
+            "1 parkira vozilo;",
+            "2 zaustavi vozilo."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Da li se u saobraćaju smije koristiti vozačka dozvola za koju je izdat duplikat?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "U kom slučaju će vozaču biti oduzeta vozačka dozvola u trajanju od 30 dana?",
+        "options": [
+            "1 ako mu, u roku od jedne godine, zbog učinjenih prekršaja iz Zakona o osnovama bezbjednosti saobraćaja na putevima u BiH bude određeno najmanje sedam kaznenih bodova;",
+            "2 ako mu, u roku od jedne godine zbog učinjenih prekršaja iz Zakona o osnovama bezbjednosti saobraćaja na putevima u BiH, bude određeno najmanje deset kaznenih bodova."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Laka prikolica je:",
+        "options": [
+            "1 priključno vozilo čija najveća dozvoljena masa nije veća od 750 kg;",
+            "2 priključno vozilo čija najveća dozvoljena masa nije veća od 1.250 kg."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Učestalost treptanja pokazivača pravca treba, u pravilu, iznositi:",
+        "options": [
+            "1 najmanje 60, odnosno najviše 90 treptaja u minuti;",
+            "2 najmanje 60, odnosno najviše 120 treptaja u minuti;",
+            "3 60 treptaja u minuti."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Prolaženje vozilom pored drugog vozila koje se po istom kolovozu kreće iz suprotnog smjera je:",
+        "options": [
+            "1 preticanje;",
+            "2 mimoilaženje."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Svjetlosni snop „kratkog svjetla“ osvjetljava put u dužini od:",
+        "options": [
+            "1 najmanje 35, a najviše 70 m;",
+            "2 najmanje 40, a najviše 80 m."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Rok važenja vozačke dozvole, u pravilu, je:",
+        "options": [
+            "1 tri godine, od dana njenog izdavanja, odnosno produženja njenog važenja;",
+            "2 pet godina, od dana njenog izdavanja, odnosno produženja njenog važenja;",
+            "3 deset godina, od dana njenog izdavanja, odnosno produženja njenog važenja."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Izdat vam je vozačka dozvola za A1 kategoriju. Kojim vozilima imate pravo upravljati?",
+        "options": [
+            "1 lakim motociklom čija zapremina motora ne prelazi 125 cm3, a snaga ne prelazi 11 kW;",
+            "2 triciklom i četvorociklom na motorni pogon."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Kazneni bodovi se evidentiraju u evidenciji vozača na osnovu:",
+        "options": [
+            "1 konačnog i izvršnog prekršajnog naloga, odnosno pravosnažnog sudskog rješenja;",
+            "2 rješenja MUP-a gdje se vozač vodi u evidenciji."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozački ispit iz upravljanja motornim vozilom za vozača kategorije A i A1 podkategorije polaže se:",
+        "options": [
+            "1 na poligonu i na javnom putu u gradu;",
+            "2 na javnom putu u gradu."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Ako vozač motornog vozila i poslije dvije provjere poznavanja saobraćajnih propisa ne pokaže dovoljno znanje, ne može da pristupi daljnjoj provjeri dok ne istekne rok od:",
+        "options": [
+            "1 30 dana od dana posljednje provjere;",
+            "2 dva mjeseca od dana posljednje provjere."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li vozilo autoškole u kojem se obavlja osposobljavanje i polaganje ispita iz upravljanja motornim vozilom za kategoriju B mora imati opremu i aparat za gašenje požara?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Najveća dozvoljena količina alkohola u krvi za vozače koji imaju manje od 3 godine vozačkog iskustva je:",
+        "options": [
+            "1 0,0 g/kg;",
+            "2 0,3 g/kg;",
+            "3 0,5 g/kg."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Međunarodna vozačka dozvola izdata u BiH:",
+        "options": [
+            "1 može se koristiti za upravljanje motornim vozilima na teritoriji BiH;",
+            "2 ne može se koristiti za upravljanje motornim vozilima na teritoriji BiH."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Pod pojmom „najveća dozvoljena masa“ vozila podrazumijeva se:",
+        "options": [
+            "1 ukupna masa vozila;",
+            "2 masa vozila zajedno sa njegovom nosivošću."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Motornim vozilom smije da se vuče samo priključno vozilo koje:",
+        "options": [
+            "1 nije teže i duže od vučnog vozila;",
+            "2 spada u istu kategoriju vučnog vozila;",
+            "3 bitno ne umanjuje stabilnost vučnog vozila."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Na putu koja ima obilježene pješačke prelaze ili posebno izgrađene prelaze, odnosno prolaze za pješake, pri prelaženju puta pješak je dužan da se kreće tim prelazima, odnosno prolazima, ako oni nisu od njega:",
+        "options": [
+            "1 udaljeni više od 50 m;",
+            "2 udaljeni više od 100 m."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Lice koje ima pravo da upravlja motornim vozilom bez posjedovanja vozačke dozvole je:",
+        "options": [
+            "1 kandidat za vozača za vrijeme osposobljavanja, u prisustvu instruktora vožnje koji ga osposobljava;",
+            "2 svako lice prije navršenih 18 godina života, koje je zdravstveno sposobno za samostalno upravljanje vozilom u saobraćaju."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Privremena registracija vozila važi:",
+        "options": [
+            "1 najduže 6 mjeseci i može se, iz opravdanih razloga, produžiti najduže za još 6 mjeseci;",
+            "2 najduže jednu godinu i može se, iz opravdanih razloga, produžiti najduže za još jednu godinu."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Troškove premještanja vozila, u slučajevima kad je vozilo zaustavljeno ili parkirano na mjestima gdje je to zabranjeno, snose:",
+        "options": [
+            "1 organ nadležan za unutrašnje poslove ili organizacija kojoj je povereno premještanje vozila;",
+            "2 vlasnik ili vozač vozila."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li na javnom putu van naselja sa savremenim kolovozom za saobraćaj u oba smjera na kome postoje samo dvije saobraćajne trake, te trake moraju da budu odvojene odgovarajućom uzdužnom linijom na kolovozu, a na magistralnom putu obilježene ivičnim linijama?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Ako teretno vozilo prelazi više od jednog metra, najudaljenija tačka tereta na vozilu mora biti označena:",
+        "options": [
+            "1 tablom kvadratnog oblika dimenzije 50x50 cm reflektujuće narandžaste i bijele boje;",
+            "2 crvenom tkaninom;",
+            "3 crvenom tkaninom i uključivanjem svih pokazivača smjera."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li oznake na kolovozu čine saobraćajnu signalizaciju?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Odstojanje između vučnog i vučenog motornog vozila ako se vuče pomoću užeta mora iznositi:",
+        "options": [
+            "1 od 3 m do 5 m;",
+            "2 manje od 2 m;",
+            "3 manje od 3 m."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozač ne smije da zaustavi ili parkira vozilo na raskrsnici i na razdaljini od najbliže ivice poprečnog kolovoza manjoj od:",
+        "options": [
+            "1 3 m;",
+            "2 5 m;",
+            "3 2 m."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Lice koje upravlja zaprežnim vozilom je?",
+        "options": [
+            "1 vozač vozila koje vuče upregnuta životinja;",
+            "2 vozač motornog vozila."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Saobraćajna traka za vozila javnog gradskog prevoza je:",
+        "options": [
+            "1 obilježeni uzdužni dio kolovoza namijenjen za vozila javnog gradskog prevoza putnika;",
+            "2 obilježeni uzdužni dio kolovoza namijenjen za vozila javnog gradskog prevoza putnika, kad su u vozilu putnici."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li je dozvoljeno preticati niz vozila koja čine dvije radne mašine, jedan traktor i dva bicikla?",
+        "options": [
+            "1 dozvoljeno je;",
+            "2 nije dozvoljeno."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Da li se vozila koja prevoze opasne materije smiju vući odnosno koristiti za vuču drugih vozila?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "U kojem slučaju će vozaču biti oduzeta vozačka dozvola u trajanju od 60 dana?",
+        "options": [
+            "1 ako mu, u roku od jedne godine, zbog učinjenih prekršaja iz Zakona o osnovama bezbjednosti saobraćaja na putevima u BiH bude određeno najmanje deset kaznenih bodova;",
+            "2 ako mu, u roku od dvije godine, zbog učinjenih prekršaja iz Zakona o osnovama bezbjednosti saobraćaja na putevima u BiH ponovo bude određeno najmanje deset kaznenih bodova."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Radnja preticanja i obilaženja se, po pravilu, obavlja:",
+        "options": [
+            "1 sa obje strane, vozilom kojim se pretiče ili obilazi;",
+            "2 sa lijeve strane vozila koje se pretiče ili obilazi;",
+            "3 sa desne strane vozila koje se pretiče ili obilazi."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li vozač koji upravlja vozilom kroz tunel smije da zaustavi vozilo u tunelu?",
+        "options": [
+            "1 da;",
+            "2 ne;",
+            "3 da, ako uključi uređaj za uključivanje svih pokazivača pravca."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li je vučenim vozilom, osim lica koje upravlja vučenim vozilom, dozvoljeno prevoziti druga lica?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Koja vozila ne smiju da se kreću autoputem?",
+        "options": [
+            "1 vozila koja se prema odredbama Zakona o osnovama bezbjednosti saobraćaja na putevima u BiH ne smatraju motornim vozilima;",
+            "2 vozila koja prema svojim konstrukcionim osobinama mogu da se kreću brzinom većom od 40 km/h."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na kojoj razdaljini od obilježenog pješačkog prelaza vozač ne smije da zaustavi ili parkira vozilo?",
+        "options": [
+            "1 manjoj od 5 m;",
+            "2 manjoj od 3 m."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Gdje se na putu postavljaju smjerokazni stubići sa bijelim reflektujućim katadiopterom?",
+        "options": [
+            "1 uz desnu ivicu kolovoza;",
+            "2 uz lijevu ivicu kolovoza;",
+            "3 samo ispred opasnih krivina."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Ako je vozač zbog saobraćajne nezgode prinuđen da zaustavi ili parkira vozilo na obilježenom pješačkom prelazu ili na razdaljini manjoj od 5 m od tog prelaza, u naselju, dužan je:",
+        "options": [
+            "1 postaviti znak kojim se označava zaustavljeno vozilo na kolovozu (bezbjednosni trokut), iza zaustavljenog vozila, u vertikalnom položaju, na udaljenosti manjoj od deset metara;",
+            "2 postaviti znak kojim se označava zaustavljeno vozilo na kolovozu (bezbjednosni trokut), iza zaustavljenog vozila, u vertikalnom položaju, na udaljenosti koja ne smije biti manja od deset metara;",
+            "3 postaviti znak kojim se označava zaustavljeno vozilo na kolovozu (bezbjednosni trokut), iza zaustavljenog vozila, u vertikalnom položaju, na udaljenosti koja ne smije biti manja od 50 metara."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Znakovi koji masudužnipostupatisviučesniciusaobraćaju, moraju se ponovo postaviti nakon svakog ukrštanja puteva, odnosno spajanja sa drugim putem, i to:",
+        "options": [
+            "1 znakovi opasnosti;",
+            "2 znakovi izričitih naredbi, ako izričita naredba važi i poslije takvog ukrštanja."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li se na znakovima turističke signalizacije mogu koristiti simboli koji se upotrebljavaju na saobraćajnim znakovima iz grupe znakova obavještenja?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "U kojem periodu vozač može preuzeti privremeno oduzetu vozačku dozvolu od organa čije je ovlašćeno lice tu dozvolu oduzelo?",
+        "options": [
+            "1 u roku od 48 h;",
+            "2 u roku od 24 h;",
+            "3 u roku od tri dana."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Oprema, znakovi i oznake za označavanje radova, prepreka i oštećenja kolovoza spadaju u:",
+        "options": [
+            "1 saobraćajnu opremu puta;",
+            "2 svjetlosnu saobraćajnu signalizaciju i svjetlosne oznake;",
+            "3 horizontalnu saobraćajnu signalizaciju na kolovozu i drugim površinama."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Da li je ispred linije zaustavljanja na kolovozu obavezno ispisivanje riječi „STOP“?",
+        "options": [
+            "1 ne;",
+            "2 da;",
+            "3 samo u naselju."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Organizovana kolona pješaka, kada se kreće po kolovozu, mora da se kreće:",
+        "options": [
+            "1 uz desnu ivicu kolovoza u smjeru kretanja;",
+            "2 uz lijevu ivicu kolovoza u smjeru kretanja."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Pješak koji gura bicikl po kolovozu mora se kretati:",
+        "options": [
+            "1 uz lijevu ivicu kolovoza u smjeru kretanja;",
+            "2 uz desnu ivicu kolovoza u smjeru kretanja."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Na kojoj udaljenosti od prelaza puta preko željezničke pruge u nivou se postavlja znak „Andrejin krst“?",
+        "options": [
+            "1 na udaljenosti od 15 m od najbliže šine;",
+            "2 na udaljenosti koja ne može biti manja od 3 m niti veća od 10 m od najbliže šine."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kakvo su dužni postupati pješaci ako im susret dolazi vozilo sa pravom prvenstva prolaza?",
+        "options": [
+            "1 omogućiti vozilu nesmetan prolaz;",
+            "2 nastaviti se kretati jer pješak ima prednost."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Nosivost je dozvoljena masa do koje vozilo smije da se optereti:",
+        "options": [
+            "1 prema vučnim osobinama vozila;",
+            "2 prema deklaraciji proizvođača vozila;",
+            "3 prema deklaraciji proizvođača tereta kojeg prevozi."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kako treba postupiti vozač kad prilazi vozilom obilježenom pješačkom prelazu na kome saobraćaj nije regulisan uređajima za davanje svjetlosnih saobraćajnih znakova ni znakovima ovlašćenog lica?",
+        "options": [
+            "1 upravljati vozilom sa naročitom opreznošću;",
+            "2 zaustaviti vozilo da bi propustio pješake koji prelaze ili stupaju na pješački prelaz, ili nedvosmisleno pokazuje namjeru da pređu preko pješačkog prelaza;",
+            "3 prilagoditi brzinu vozila, tako da u slučaju potrebe može blagovremeno zaustaviti vozilo i propustiti pješake koji prelaze ili stupaju na pješački prelaz ili nedvosmisleno pokazuju namjeru da pređu preko pješačkog prelaza."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kako treba postupiti vozač vozila koji nailazi na zaustavljen autobus na kolovozu sa dvije saobraćajne trake u koji ulaze ili izlaze djeca?",
+        "options": [
+            "1 povećati brzinu kretanja vozila;",
+            "2 obavezno zaustaviti vozilo;",
+            "3 nastaviti kretanje vozilom sa naročitom opreznošću;",
+            "4 koristiti zvučni signal."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozač koji namjerava da vozilom kojim upravlja izvrši radnju skretanja u desno na putu smije započeti takvu radnju samo: (više tačnih odgovora)",
+        "options": [
+            "1 ako se prethodno uvjeri da može učiniti bez opasnosti za druge učesnike u saobraćaju ili imovinu;",
+            "2 ako vodi računa o položaju vozila;",
+            "3 ako vodi računa o pravcu i brzini kretanja vozila;",
+            "4 ako upravlja vozilom sa upaljenim dugim svjetlima."
+        ],
+        "answer": "1,2,3"
+    },
+    {
+        "question": "Ako saobraćajnim znakom nije drugačije određeno, na putu u naselju, vozač ne smije upravljati vozilom brzinom većom od:",
+        "options": [
+            "1 50 km/h;",
+            "2 40 km/h."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na raskrsnici ili u susretu sa drugim vozilom, vozač je dužan propustiti vozilo:",
+        "options": [
+            "1 koje dolazi sa njegove desne strane, osim ako saobraćajnim znakom na putu nije drugačije određeno;",
+            "2 koje se kreće sporije;",
+            "3 koje dolazi sa njegove lijeve strane."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozač je dužan da propusti sva vozila koja se kreću putem na koji se uključuje sa vozilom:",
+        "options": [
+            "1 ako je put na koji se uključuje označen saobraćajnim znakom kao put sa prvenstvom prolaza;",
+            "2 ako se vozilom uključuje sa zemljanog puta na put sa kolovoznim zastorom;",
+            "3 ako se vozilom uključuje sa površine na kojoj se ne odvija saobraćaj;",
+            "4 ako po uključivanju skreće u desno."
+        ],
+        "answer": "1,2,3"
+    },
+    {
+        "question": "Vozač vozila kome je dat znak za preticanje sa njegove lijeve strane dužan je:",
+        "options": [
+            "1 pomjeriti vozilo ka desnoj ivici kolovoza;",
+            "2 ne povećavati brzinu kretanja vozila dok ga drugo vozilo pretiče;",
+            "3 odgovoriti zvučnim znakom upozorenja."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Ako se pored kolovoza nalaze djeca koja ne obraćaju pažnju na kretanje vozila, vozač je dužan:",
+        "options": [
+            "1 pomjeriti vozilo ka desnoj ivici kolovoza;",
+            "2 smanjiti brzinu kretanja vozila;",
+            "3 upotrijebiti zvučni znak upozorenja;",
+            "4 pomjeriti vozilo prema sredini kolovoza."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na javnom putu van naselja, u slučaju potrebe zaustavljanja ili parkiranja vozila, vozač je dužan, zaustaviti ili parkirati vozilo van kolovoza:",
+        "options": [
+            "1 uvijek, kada zato postoji mogućnost;",
+            "2 zavisno od vremenskih prilika;",
+            "3 samo u uslovima smanjene vidljivosti."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Kada je motorno vozilo na putu dozvoljeno vući pomoću užeta?",
+        "options": [
+            "1 kad su ispravni uređaji za upravljanje i uređaji za zaustavljanje;",
+            "2 zavisno od vremenskih prilika;",
+            "3 kad je ispravan samo uređaj za zaustavljanje."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozač koji vrši radnju skretanja vozilom na bočni put na čijem ulazu ne postoji obilježen pješački prelaz dužan je:",
+        "options": [
+            "1 izvršiti radnju skretanja smanjenom brzinom;",
+            "2 obavezno se zaustaviti;",
+            "3 ne ugroziti pješake koji su već stupili na kolovoz;",
+            "4 upravljati vozilom sa naročitom opreznošću."
+        ],
+        "answer": "1,3,4"
+    },
+    {
+        "question": "Učesnici u saobraćaju pred prelazom puta preko željezničke pruge u istom nivou, ako se uređaj za zatvaranje saobraćaja počeo spuštati dužni su:",
+        "options": [
+            "1 smanjiti brzinu kretanja vozila;",
+            "2 zaustaviti se;",
+            "3 požuriti sa prelaskom."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li je dozvoljeno da se na autoput uključi motorno vozilo koje vuče drugo motorno vozilo koje zbog neispravnosti ne može da se kreće?",
+        "options": [
+            "1 ne;",
+            "2 samo u uslovima dobre vidljivosti;",
+            "3 da."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Lice koje je učestvovalo u saobraćajnoj nezgodi u kojoj ima poginulih ili povrijeđenih lica ili je nastala veća materijalna šteta, dok se ne izvrši uviđaj:",
+        "options": [
+            "1 ne smije konzumirati alkohol;",
+            "2 smije konzumirati alkohol do količine od 0,3 g/kg."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Poslije saobraćajne nezgode u kojoj je prouzrokovana samo manja materijalna šteta, vozači su dužni?",
+        "options": [
+            "1 ukloniti vozila sa kolovoza i razmijeniti lične podatke;",
+            "2 nastaviti kretanje vozilom sa naročitom opreznošću;",
+            "3 popuniti i potpisati obrazac evropskog izvještaja o saobraćajnoj nezgodi."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Da li je vozač dužan da za vrijeme upravljanja motornim vozilom u saobraćaju koristi pomagala koja su mu neophodna da bezbjedno upravlja vozilom?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Lice koje je položilo vozački ispit i dobilo vozačku dozvolu za kategoriju/podkategoriju A1, A, B ili C1 ne smije dvije godine od dana izdavanja vozačke dozvole da upravlja vozilom:",
+        "options": [
+            "1 na putu sa mokrim kolovozom;",
+            "2 na autoputu brzinom većom od 120 km/h;",
+            "3 koje nije obilježeno posebnim znakom;",
+            "4 na brzom putu brzinom većom od 90 km/h."
+        ],
+        "answer": "2,3,4"
+    },
+    {
+        "question": "Da li je vozač dužan kada se danju kreće putem van naselja, prije dolaska na prevoj na kome je otežano mimoiilaženje upotrijebiti zvučni znak upozorenja?",
+        "options": [
+            "1 dužan je upotrijebiti zvučni znak upozorenja;",
+            "2 nije dužan upotrijebiti zvučni znak upozorenja;",
+            "3 nije regulisano propisom."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Da li je dozvoljeno isticanje međunarodne oznake druge države na vozilima registrovanim u Bosni i Hercegovini?",
+        "options": [
+            "1 da;",
+            "2 ne;",
+            "3 ne, ako napuštaju teritoriju Bosni i Hercegovini."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "U kom roku je vlasnik vozila dužan da odjavi vozilo ako je prodato, uništeno ili otpisano?",
+        "options": [
+            "1 u roku od 15 dana;",
+            "2 u roku od 30 dana;",
+            "3 u roku od 12 mjeseci."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Šta se podrazumijeva pod pojmom „kolovoz“?",
+        "options": [
+            "1 dio površine puta namijenjen prvenstveno za saobraćaj motornih vozila;",
+            "2 dio bočne strane puta;",
+            "3 dio puta namijenjen za kretanje pješaka."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Šta mora učiniti vozač kad prilazi vozilom obilježenom pješačkom prelazu?",
+        "options": [
+            "1 upravljati vozilom sa naročitom opreznošću;",
+            "2 obavezno zaustaviti vozilo;",
+            "3 voziti takvom brzinom da u slučaju potrebe može da zaustavi vozilo ispred pješačkog prelaza;",
+            "4 privremeno zaustaviti vozilo i sačekati odlazak djece."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Na javnom putu i njegovom zaštitnom pojasu zabranjeno je:",
+        "options": [
+            "1 prodavati proizvode;",
+            "2 prodavati samo alkoholne proizvode;",
+            "3 podizati spomenike i postavljati druga spomen obilježja."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Da li je vozaču zabranjeno da za vrijeme upravljanja vozilom u saobraćaju na javnom putu koristi mobilni telefon?",
+        "options": [
+            "1 da, osim u slučaju da je mobilni telefon prilagođen upotrebi u vozilu;",
+            "2 ne, ako je vozilo zaustavljeno radi postupanja po saobraćajnom znaku;",
+            "3 ne, ako je vozilo zaustavljeno po znaku i naredbi ovlašćenog lica."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Da li vozač smije da mijenja način upravljanja vozilom naglim smanjenjem brzine kretanja vozila?",
+        "options": [
+            "1 da;",
+            "2 ne, osim u slučaju neposredne opasnosti."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozač ne smije smanjiti brzinu kretanja vozila kojim upravlja:",
+        "options": [
+            "1 ispod 20 km/h;",
+            "2 do te mjere da njegovo vozilo pričinjava smetnju normalnom odvijanju saobraćaja."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozač vozila koji na raskrsnici skreće ulijevo, osim ako postavljenim saobraćajnim znakom nije drugačije određeno, dužan je propustiti vozilo koje:",
+        "options": [
+            "1 dolazi iz suprotnog smjera i na raskrsnici zadržava pravac svog kretanja;",
+            "2 dolazi iz suprotnog smjera i na raskrsnici skreće ulijevo."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Javna putevi moraju da imaju:",
+        "options": [
+            "1 najmanje jednu saobraćajnu traku i dvije ivične trake ili ivičnjake u ravni kolovoza, a ulice trotoare s ivičnjacima;",
+            "2 najmanje dvije saobraćajne trake i dvije ivične trake ili ivičnjake u ravni kolovoza, a ulice trotoare s ivičnjacima;",
+            "3 najmanje jednu saobraćajnu traku i jednu ivičnu traku ili ivičnjak u ravni kolovoza, a ulica trotoar s ivičnjakom."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kada je vozaču zabranjeno da započne radnju preticanja?",
+        "options": [
+            "1 ako je vozač koji se kreće vozilom iza njega započeo radnju preticanja;",
+            "2 ako se ispred njega kreće kolona vozila;",
+            "3 kada je kolovoz mokar."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Motorno vozilo koje na putu vuče drugo neispravno motorno vozilo:",
+        "options": [
+            "1 ne smije se kretati brzinom većom od 30 km/h;",
+            "2 ne smije se kretati brzinom većom od 40 km/h."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozač je dužan kada se kreće putem van naselja, prije ulaska u nepreglednu krivinu:",
+        "options": [
+            "1 danju upotrijebiti zvučni znak upozorenja;",
+            "2 noću upotrijebiti svjetlosni znak upozorenja;",
+            "3 uključiti uređaj za uključivanje svih pokazivača pravca."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Svjetla za maglu koja se nalaze na zadnjoj strani vozila moraju biti:",
+        "options": [
+            "1 narandžaste boje;",
+            "2 žute ili bijele boje;",
+            "3 crvene boje."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Vozači vozila koja se kreću prelazom puta preko željezničke pruge u istom nivou kada svjetla na prelazu nisu upaljena dužni su to činiti:",
+        "options": [
+            "1 sa naročitom opreznošću;",
+            "2 sa upaljenim dugim svjetlima;",
+            "3 uz upotrebu zvučnog znaka upozorenja."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Učesnik u saobraćajnoj nezgodi u kojoj je nastala veća materijalna šteta dužan je da:",
+        "options": [
+            "1 bez zaustavljanja nastavi kretanje vozilom sa naročitom opreznošću;",
+            "2 obavijesti najbližu policijsku stanicu o saobraćajnoj nezgodi;",
+            "3 sačeka dolazak službenog lica koje obavlja uviđaj."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Vozač koji se zatekne ili naiđe na mjesto saobraćajne nezgode dužan je da na zahtjev ovlašćenog lica:",
+        "options": [
+            "1 preveze lice povrijeđeno u saobraćajnoj nezgodi do najbliže zdravstvene ustanove;",
+            "2 preveze lice povrijeđeno u saobraćajnoj nezgodi prema želji povrijeđenog."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozač koji je mlađi od 21 godine starosti ili koji ima manje od tri godine vozačkog iskustva smatraće se da je pod djelovanjem alkohola ako mu količina alkohola u krvi iznosi:",
+        "options": [
+            "1 0,5 g/kg;",
+            "2 0,3 g/kg;",
+            "3 0,0 g/kg."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Za vrijeme upravljanja vozilom koje je označeno „probnim“ tablicama vozač mora imati kod sebe:",
+        "options": [
+            "1 važeću potvrdu uz probne tablice, koju je dužan pokazati na zahtjev ovlašćenog lica;",
+            "2 dokaz o uplati propisanih naknada za probne registarske tablice."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Tehnički pregled motornih i priključnih vozila obavlja se:",
+        "options": [
+            "1 radi provjere da li motorno ili priključno vozilo ima propisane uređaje i opremu i da li je u ispravnom stanju;",
+            "2 radi utvrđivanja vlasništva vozila."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vlasnik vozila, ako ne produži registaciju vozila u roku od 30 dana od dana isticanja važenja potvrde o registraciji, dužan je da vrati registarske tablice nadležnom organu:",
+        "options": [
+            "1 u roku od 10 dana;",
+            "2 u roku od 8 dana;",
+            "3 u roku 48 h."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Lice koje se zatekne ili naiđe na mjesto saobraćajne nezgode u kojoj ima povrijeđenih:",
+        "options": [
+            "1 dužno je da ukaže pomoć licima povrijeđenim u saobraćajnoj nezgodi;",
+            "2 ne smije pružati pomoć povrijeđenima do dolaska zdravstvenih radnika."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Manja materijalna šteta je:",
+        "options": [
+            "1 šteta koja je nastala u saobraćajnoj nezgodi na vozilima u kojoj su se vozači dogovorili o izmirenju međusobnih obaveza, bez obzira na visinu štete;",
+            "2 šteta u saobraćajnoj nezgodi nastala na vozilu na kojem nisu oštećeni vitalni dijelovi i sklopovi i koje može samostalno da se kreće na putu."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Saobraćajna traka za prinudno zaustavljanje vozila je:",
+        "options": [
+            "1 obilježeni uzdužni dio kolovoza na autoputevima i na određenim mjestima na putevima višeg ranga, kao i u tunelima i galerijama, namijenjena za prinudno zaustavljanje vozila;",
+            "2 uzdužni dio kolovoza namijenjen za vozila koja sporom vožnjom smanjuju odvijanje saobraćaja;",
+            "3 dio kolovoza namijenjen za isključivanje vozila iz saobraćaja na putu."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Saobraćajna traka za ubrzavanje je:",
+        "options": [
+            "1 dio kolovoza namijenjen za vozila javnog gradskog prevoza;",
+            "2 dio kolovoza namijenjen za uključivanje vozila u saobraćaj sa sporednog puta, odnosno drugih prilaznih puteva sa objekata pored puteva;",
+            "3 dio kolovoza čija je širina dovoljna za nesmetan saobraćaj dva reda vozila."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Javni put izvan naselja čini:",
+        "options": [
+            "1 zemljišni pojas s desne strane puta širine najmanje dva metra, računajući od krajnje tačke poprečnog profila puta;",
+            "2 zemljišni pojas s obje strane puta širine najmanje tri metra, računajući od krajnje tačke poprečnog profila puta;",
+            "3 zemljišni pojas s obje strane puta širine najmanje jedan metar, računajući od krajnje tačke poprečnog profila puta."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Smanjena vidljivost postoji kada:",
+        "options": [
+            "1 zbog nepovoljnih atmosferskih ili drugih prilika vozač ne može jasno da uoči druge učesnike u saobraćaju na udaljenost od najmanje 200 m na putu izvan naselja, odnosno od najmanje 100 m u naselju;",
+            "2 zbog nepovoljnih atmosferskih ili drugih prilika vozač ne može jasno da uoči druge učesnike u saobraćaju na udaljenost od najmanje 300 m na putu izvan naselja, odnosno od najmanje 200 m u naselju;",
+            "3 zbog nepovoljnih atmosferskih ili drugih prilika vozač ne može jasno da uoči druge učesnike u saobraćaju na udaljenost od najmanje 250 m na putu izvan naselja, odnosno od najmanje 150 m u naselju."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "U vozačku dozvolu upisuju se:",
+        "options": [
+            "1 sve kategorije i podkategorije vozila kojima vozač ima pravo da upravlja;",
+            "2 samo one kategorije za koje je vozač položio vozački ispit;",
+            "3 sve kategorije vozila kojima vozač ima pravo da upravlja, a podkategorije samo ako to vozač naznači u zahtjevu za izdavanje vozačke dozvole."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na autoputu vozač ne smije da upravlja vozilom koje se kreće:",
+        "options": [
+            "1 brzinom većom od 120 km/h;",
+            "2 brzinom većom od 130 km/h;",
+            "3 brzinom većom od brzine određene postavljenim saobraćajnim znakom."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Mijenjanje saobraćajne trake je:",
+        "options": [
+            "1 prolaziti vozilom pored drugog vozila koje se kreće u istoj saobraćajnoj traci i u istom smjeru;",
+            "2 prolaziti vozilom pored zaustavljenog vozila koje se nalazi u saobraćajnoj traci kojom se vozilo kreće;",
+            "3 prelaženje vozilom iz jedne u drugu saobraćajnu traku za saobraćaj u istom smjeru radi prestrojavanja ili dozvoljenog bržeg kretanja."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Na putu u naselju vozač smije da upravlja vozilom:",
+        "options": [
+            "1 brzinom koja ne prelazi 50 km/h;",
+            "2 brzinom koja ne prelazi 40 km/h;",
+            "3 brzinom koja prelazi 50 km/h, ako je to saobraćajnim znakom dozvoljeno."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Brzi put je javni put koji:",
+        "options": [
+            "1 je namijenjen za saobraćaj isključivo motornih vozila sa jednom ili dvije razdvojene kolovozne trake;",
+            "2 povezuje veće gradove i važnija privredna područja Bosne i Hercegovine;",
+            "3 ima sve raskrsnice u dva ili više nivoa sa poprečnim putevima i drugim saobraćnicama (željezničkim prugama ili tramvajskim prugama);",
+            "4 povezuje važnija privredna područja Bosne i Hercegovine."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Na raskrsnici i na drugom mjestu na kojem je saobraćaj regulisan uređajima za davanje svjetlosnih saobraćajnih znakova „zeleno trepćuće svjetlo“ upozorava učesnike u saobraćaju na:",
+        "options": [
+            "1 obavezno zaustavljanje pješaka i vozila;",
+            "2 skoru pojavu zelenog svjetla;",
+            "3 skori prestanak slobodnog prolaza;",
+            "4 skoru pojavu žutog, odnosno crvenog svjetla."
+        ],
+        "answer": "3,4"
+    },
+    {
+        "question": "Kad upravlja motornim i priključnim vozilom vozač mora da ima kod sebe:",
+        "options": [
+            "1 važeću potvrdu o registraciji izdatu za to vozilo;",
+            "2 račun ili ugovor o kupovini tog vozila;",
+            "3 polisu obaveznog osiguranja tog vozila;",
+            "4 potvrdu o izvršenom tehničkom pregledu tog vozila."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "U saobraćaju na putu, po jednu registarsku tablicu imaju:",
+        "options": [
+            "1 priključna vozila;",
+            "2 motocikli;",
+            "3 sva motorna vozila;",
+            "4 laki motocikli."
+        ],
+        "answer": "1,3,4"
+    },
+    {
+        "question": "Saobraćajna traka za usporavanje je:",
+        "options": [
+            "1 dio kolovoza namijenjen za isključivanje vozila iz saobraćaja na putu;",
+            "2 dio puta u naseljenom mjestu namijenjen isključivo za saobraćaj motornih vozila koja se kreću sporo;",
+            "3 dio puta namijenjen za vozila koja se kreću sporo i otežavaju brže odvijanje saobraćaja."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Zona smirenog saobraćaja je:",
+        "options": [
+            "1 područje u naselju ili van naselja u kojem se ne mogu upotrebljavati zvučni znakovi upozorenja;",
+            "2 područje u naselju, obilježeno propisanim saobraćajnim znakom, u kojem vozila ne smiju da se kreću brzinom većom od brzine hoda pješaka zbog dozvoljenog kretanja pješaka i dječije igre;",
+            "3 područje u naselju, obilježeno propisanim saobraćajnim znakom, koje isključivo obuhvata zone oko škola i dječijih obdaništa."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Ulica može da ima:",
+        "options": [
+            "1 samo jednu saobraćajnu traku bez proširenja;",
+            "2 jednu saobraćajnu traku s tim da se odgovarajuće proširenje mora nalaziti na svakih 50 m;",
+            "3 najmanje dvije saobraćajne trake."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Koliki broj kaznenih bodova se može odrediti vozaču motornog vozila koji je prekršajnim nalogom odnosno sudskim rješenjem kažnjen za prekršaje kažnjive prema odredbama Zakona o osnovama bezbjednosti saobraćaja na putevima u Bosni i Hercegovini?",
+        "options": [
+            "1 dva, tri i pet bodova, što je određeno kaznenim odredbama zakona;",
+            "2 jedan i dva boda, zavisno od težine učinjenog prekršaja;",
+            "3 dva i tri boda, koji utvrđuje sud prilikom određivanja kazne."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Na putevima rezervisanim za saobraćaj motornih vozila i brzim putevima (van naselja) vozač ne smije vozilom da se kreće:",
+        "options": [
+            "1 brzinom većom od 70 km na čas a manjom od 90 km/h;",
+            "2 brzinom većom od 60 km na čas a manjom od 80 km/h;",
+            "3 brzinom većom od brzine određene saobraćajnim znakom postavljenim na putu;",
+            "4 brzinom većom od 100 km na čas."
+        ],
+        "answer": "3,4"
+    },
+    {
+        "question": "Vozačka dozvola izdaje se za upravljanje motornim i priključnim vozilima koja se razvrstavaju u:",
+        "options": [
+            "1 kategorije A, B, C, D i E;",
+            "2 kategorije A, B, BE, C, CE, D i DE;",
+            "3 podkategorije F, G i H;",
+            "4 podkategorije A1, B1, C1, D1, C1E i D1E."
+        ],
+        "answer": "2,4"
+    },
+    {
+        "question": "Vozila sa pravom prvenstva prolaza su:",
+        "options": [
+            "1 vozila službe hitne pomoći, vatrogasna vozila;",
+            "2 vozila inspekcijskih službi;",
+            "3 vozila policije, sudske policije, zatvorske policije, vojna vozila i vozila Granične policije BiH."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Vozač koji se vozilom kreće kroz tunel ne smije:",
+        "options": [
+            "1 da polukružno okreće vozilo;",
+            "2 da upravlja vozilom brzinom većom od 40 km/h;",
+            "3 da se vozilom kreće unazad;",
+            "4 da zaustavlja vozilo."
+        ],
+        "answer": "1,3,4"
+    },
+    {
+        "question": "Javni putevi moraju da budu osposobljeni da podnesu osovinsko opterećenje:",
+        "options": [
+            "1 od najmanje 9 tona po osovini;",
+            "2 od najmanje 10 tona po osovini;",
+            "3 od najmanje 8 tona po osovini;",
+            "4 od najmanje 7 tona po osovini."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozač koji na putu susretne vozilo ili kolonu vozila pod pratnjom i vozač kojeg sustigne vozilo ili kolona vozila pod pratnjom dužni su:",
+        "options": [
+            "1 da obavezno zaustave svoje vozilo i propuste vozila pod pratnjom;",
+            "2 da ustupe prvenstvo prolaza, omoguće nesmetan prolaz vozilima pod pratnjom, a po potrebi i zaustave svoje vozilo;",
+            "3 da umjesto dugih svjetala noću upotrijebe kratka svjetla za osvjetljavanje puta;",
+            "4 da se strogo pridržavaju naredbi koje im daju lica iz pratnje i kretanje nastave tek kad prođu sva vozila pod pratnjom."
+        ],
+        "answer": "2,3,4"
+    },
+    {
+        "question": "Koji faktori utiču na sposobnost predviđanja rizika i opasnosti u saobraćaju?",
+        "options": [
+            "1 iskustvo;",
+            "2 brzina reakcije;",
+            "3 vrsta vozila;",
+            "4 znanje."
+        ],
+        "answer": "1,4"
+    },
+    {
+        "question": "Vozač koji namjerava da se kreće vozilom unazad može da izvrši tu radnju:",
+        "options": [
+            "1 samo na kratkom dijelu puta;",
+            "2 na prevojima na kojima je preglednost nedovoljna;",
+            "3 pod uslovom da ne ugrožava ili ne ometa druge učesnike u saobraćaju."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Koja je najveća dozvoljena brzina kretanja vozilom na putevima u naselju, osim ako saobraćajnim znakom nije drugačije određeno?",
+        "options": [
+            "1 80 km/h;",
+            "2 50 km/h;",
+            "3 60 km/h."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Ukupan zaustavni put motornog vozila je:",
+        "options": [
+            "1 duži u noćnim uslovima vožnje nego danju, zbog dužeg vremena reagovanja vozača;",
+            "2 kraći u noćnim uslovima vožnje nego danju jer su vozači oprezniji;",
+            "3 isti i noću i danju."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Da li vozilo koje je zaustavljeno ili parkirano na posebno određenim mjestima na kolovozu ili u vanjskom saobraćaju mora imati upaljena svjetla?",
+        "options": [
+            "1 mora;",
+            "2 ne mora."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Koja je najveća dozvoljena brzina kretanja za motorna vozila koja vuku prikolicu za stanovanje (kamp prikolicu) ili laku prikolicu?",
+        "options": [
+            "1 60 km/h;",
+            "2 100 km/h;",
+            "3 80 km/h."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Da li vozač može da upotrijebi svjetlosni znak upozorenja danju?",
+        "options": [
+            "1 da, ako takav način upozorenja drugim učesnicima u saobraćaju više odgovara uslovima na putu;",
+            "2 ne, svjetlosni znak upozorenja se upotrebljava samo noću."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozač vozila kojem je dat znak za preticanje sa njegove lijeve strane ne smije?",
+        "options": [
+            "1 smanjivati brzinu kretanja svog vozila;",
+            "2 povećavati brzinu kretanja vozila dok se drugim vozilom vrši radnja preticanja;",
+            "3 uključiti desni pokazivač pravca radi isključivanja vozilom iz saobraćaja."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Približavate se vozilom prelazu puta preko željezničke pruge u nivou na kojem nema uređaja za zatvaranje saobraćaja, niti uređaja za davanje znakova kojim se najavljuje približavanje voza. Kako postupate?",
+        "options": [
+            "1 zaustavljate vozilo pred prelazom, odnosno pred željezničkom prugom;",
+            "2 upotrebljavate zvučni znak upozorenja i što brže prelazite preko pruge;",
+            "3 pošto se prethodno uvjerite da prugom ne nailazi voz ili neko drugo vozilo koje se kreće šinama prelazite sa naročitom opreznošću vozilom preko željezničke pruge."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Koja je najveća dozvoljena brzina kretanja vozilom na putu van naselja, osim na autoputu, putu rezervisanom za saobraćaj motornih vozila i brzom putu?",
+        "options": [
+            "1 60 km/h;",
+            "2 80 km/h;",
+            "3 100 km/h."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Približavate se vozilom raskrsnici. Na semaforu je upaljeno žuto trepćuće svjetlo. Iznad semafora je istaknut znak „STOP”. Kakvo ste dužni postupiti u ovoj situaciji?",
+        "options": [
+            "1 obavezno zaustaviti vozilo;",
+            "2 voziti bez zaustavljanja;",
+            "3 uključiti uređaj za istovremeno uključivanje svih pokazivača pravca."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Čemu prilagođavate brzinu kretanja vozila na putevima van naselja?",
+        "options": [
+            "1 vremenu putovanja za koje želim stići na odredište;",
+            "2 trenutnim uslovima na putu i u saobraćaju;",
+            "3 vrsti puta."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Koje motorno vozilo se ne smije vući krutom vezom (rudom)?",
+        "options": [
+            "1 motorno vozilo koje nema ispravan uređaj za upravljanje;",
+            "2 motorno vozilo teže od vučnog vozila, ako mu je ispravna pomoćna kočnica."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Upaljeno plavo rotaciono svjetlo na policijskom vozilu koje je zaustavljeno na kolovozu obavezuje vozače:",
+        "options": [
+            "1 da polukružno okrenu vozilo;",
+            "2 da smanje brzinu kretanja vozila;",
+            "3 da ubrzaju kretanje vozila;",
+            "4 da po potrebi zaustave vozilo."
+        ],
+        "answer": "2,4"
+    },
+    {
+        "question": "Kako ćete postupiti u situaciji kad se, za vrijeme vožnje u naselju, vozilo javnog gradskog prevoza putnika ili posebno obilježeno vozilo kojim se obavlja organizovani prevoz djece uključuje na javni put sa stajališta?",
+        "options": [
+            "1 smanjiti brzinu kretanja vozila;",
+            "2 prema potrebi zaustaviti vozilo i omogućiti uključivanje u saobraćaj vozilu javnog gradskog prevoza odnosno vozilu kojim se obavlja organizovani prevoz djece;",
+            "3 nastavljate kretanje vozilom bez obzira na vozilo koje izlazi sa stajališta;",
+            "4 vozilo koje izlazi sa stajališta upozoravate zvučnim znakom upozorenja, te nastavljate kretanje vozilom."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Nasloni za glavu na sjedištima u putničkim vozilima služe za:",
+        "options": [
+            "1 zaštitu glave vozača i putnika u slučaju saobraćajne nezgode;",
+            "2 zaštitu vratnih pršljenova vozača i putnika u slučaju saobraćajne nezgode;",
+            "3 bolju preglednost puta i veću koncentraciju vozača;",
+            "4 udobniji san suvozača pri vožnji na autoputevima."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Na putu van naselja zaustavljeno je vozilo zbog neispravnosti. Na kom odstojanju iza zaustavljenog vozila i u kom položaju na kolovozu morate postaviti bezbjednosni trokut?",
+        "options": [
+            "1 minimalno 150 m iza zaustavljenog vozila, u vertikalnom položaju;",
+            "2 minimalno 50 m iza zaustavljenog vozila, u vertikalnom položaju;",
+            "3 minimalno 100 m iza zaustavljenog vozila, u horizontalnom položaju."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kako ćete postupiti neposredno prije ulaska vozilom u raskrsnicu?",
+        "options": [
+            "1 utvrditi kako je uređen odvijanje saobraćaja na raskrsnici;",
+            "2 utvrditi smjerove nailaska vozila;",
+            "3 povećati brzinu kretanja vozila;",
+            "4 propustiti vozila koja imaju prednost prvenstva prolaza."
+        ],
+        "answer": "1,2,4"
+    },
+    {
+        "question": "Kako postupate prilikom prestrojavanja vozilom iz jedne u drugu saobraćajnu traku?",
+        "options": [
+            "1 uključujete odgovarajući pokazivač pravca;",
+            "2 uvjeravate se u bezbjedno izvođenje radnje prestrojavanja;",
+            "3 pravilno vršite radnju prestrojavanja uz povećavanje ili smanjivanje brzine kretanja vozila;",
+            "4 zaustavljate vozilo i nakon toga se prestrojavate."
+        ],
+        "answer": "1,2,3"
+    },
+    {
+        "question": "Motornim vozilom u saobraćaju na putu može da upravlja lice:",
+        "options": [
+            "1 koje ima dokaz da je vozilo kojim upravljate tehnički ispravno bez obzira na kategoriju kojoj to vozilo pripada;",
+            "2 koje ima važeću vozačku dozvolu, stranu vozačku dozvolu ili međunarodnu vozačku dozvolu odgovarajuće kategorije."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kako su dužni učesnici u saobraćaju da postupe kad naiđu na saobraćajni znak postavljen na putu?",
+        "options": [
+            "1 prema ličnoj procjeni, zavisno od konkretne saobraćajne situacije na putu;",
+            "2 u skladu sa značenjem saobraćajnog znaka."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Šta treba vozač učiniti prije nego što pokrene vozilo?",
+        "options": [
+            "1 upoznati sva lica u vozilu sa osnovnim saobraćajnim pravilima i kaznenim odredbama;",
+            "2 vezati sigurnosni pojas;",
+            "3 prilagoditi sjedište i naslon za glavu."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Vozač koji je zbog neispravnosti na vozilu, saobraćajne nezgode ili drugog opravdanog razloga prinuđen da zaustavi vozilo na kolovozu dužan je:",
+        "options": [
+            "1 otvoriti poklopac motora da se spriječi pregrijavanje;",
+            "2 označiti se svjetloodbojnim prslukom za vrijeme kretanja van vozila;",
+            "3 preduzeti sve mjere da zaustavljeno vozilo ne dovede u opasnost druga vozila;",
+            "4 vozilo što prije ukloniti sa kolovoza."
+        ],
+        "answer": "2,3,4"
+    },
+    {
+        "question": "Koje su najčešće greške vozača zbog kojih se događaju saobraćajne nezgode?",
+        "options": [
+            "1 nepoštovanje prava prvenstva prolaza;",
+            "2 propisno preticanje i obilaženje;",
+            "3 nepropisna vožnja unazad;",
+            "4 propisna i prilagođena brzina."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Vozila u saobraćaju na putu moraju da ispunjavaju propisane uslove u pogledu:",
+        "options": [
+            "1 dimenzija, ukupne mase i osovinskog opterećenja;",
+            "2 zaštite životne sredine te imati ispravne propisane uređaje i opremu;",
+            "3 udobnosti."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Saobraćajna traka za spora vozila je:",
+        "options": [
+            "1 dio kolovoza namijenjen za isključivanje vozila iz saobraćaja na putu;",
+            "2 uzdužni dio kolovoza namijenjen za vozila koja sporom vožnjom smanjuju odvijanje saobraćaja;",
+            "3 obilježeni ili neobilježeni uzdužni dio kolovoza čija je širina dovoljna za nesmetan saobraćaj jednog reda vozila."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "U priključnom vozilu za stanovanje (kamp prikolicu) dozvoljeno je prevoziti lica?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Šta je parkiranje?",
+        "options": [
+            "1 prekid kretanja vozila u trajanju dužem od pet minuta, osim prekida koji se pravi da bi se postupilo po znaku ili pravilu kojim se reguliše saobraćaj;",
+            "2 prekid kretanja vozila u trajanju do pet minuta, osim prekida koji se pravi da bi se postupilo po znaku ili pravilu kojim se reguliše saobraćaj;",
+            "3 prekid kretanja vozila u trajanju dužem od tri minute, uključujući i prekide koji se prave da bi se postupilo po znaku ili pravilu kojim se reguliše saobraćaj."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Kolika mora biti najmanja širina slobodnog prolaza na dijelu puta od zaustavljenog ili parkiranog vozila do neisprekidane uzdužne linije na kolovozu, ili do suprotne ivice kolovoza, ili do neke prepreke na putu?",
+        "options": [
+            "1 2,5 m;",
+            "2 3 m;",
+            "3 2 m."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozilo koje se na kolovozu nalazi u takvom položaju, a njegov vozač daje takav znak da se sa sigurnošću može zaključiti da vozilo skreće ulijevo, mora se preticati:",
+        "options": [
+            "1 sa lijeve strane;",
+            "2 sa desne strane."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Dopunska svijetleća zelena strelica postavljena u visini zelenog svjetla na semaforu usmjerena udesno znači:",
+        "options": [
+            "1 da vozač može izvršiti radnju skretanja vozilom udesno iako svijetli crveno svjetlo, uz uslov da propusti vozila i pješake koji se kreću putem na koji skreće;",
+            "2 zabranu skretanja na raskrsnici udesno;",
+            "3 obvezan smjer skretanja udesno."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Kako postupate pri upravljanju vozilom za vrijeme jakog vjetra?",
+        "options": [
+            "1 smanjujete brzinu kretanja vozila;",
+            "2 pri mimoilaženju sa drugim vozilima držite veće rastojanje;",
+            "3 povećavate brzinu kretanja vozila."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Zbog čega je upravljanje pod dejstvom alkohola vozilom opasno?",
+        "options": [
+            "1 skraćuje se zaustavni put vozila;",
+            "2 daje lažni osjećaj sigurnosti vozaču;",
+            "3 skraćuje vrijeme reagovanja vozača;",
+            "4 teže se procjenjuje odstojanje između vozila;",
+            "5 produžuje vrijeme reagovanja vozača."
+        ],
+        "answer": "2,4,5"
+    },
+    {
+        "question": "Puna uzdužna razdjelna linija na kolovozu, označava zabranu:",
+        "options": [
+            "1 kretanja vozila po toj liniji;",
+            "2 prelaska vozila preko te linije;",
+            "3 kretanja vozila unazad."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Kako očekivanje opasnosti utiče na bezbjednost prilikom upravljanja vozilom?",
+        "options": [
+            "1 povećava pažnju;",
+            "2 smanjuje pažnju;",
+            "3 produžava vrijeme reagovanja vozača;",
+            "4 skraćuje vrijeme reagovanja vozača;",
+            "5 skraćuje dužinu zaustavnog puta vozila."
+        ],
+        "answer": "1,4,5"
+    },
+    {
+        "question": "Koje su najčešće očekivane greške vozača pod dejstvom alkohola?",
+        "options": [
+            "1 nepropisna i neprilagođena brzina kretanja vozila;",
+            "2 pravilno vršenje radnje mimoilaženja;",
+            "3 ne držanje potrebnog odstojanja;",
+            "4 poštovanje saobraćajnih pravila i propisa;",
+            "5 nepravilno vršenje radnje preticanja ili obilaženja."
+        ],
+        "answer": "1,3,5"
+    },
+    {
+        "question": "Gdje je zabranjeno vršiti radnju polukružnog okretanja?",
+        "options": [
+            "1 u naselju;",
+            "2 u tunelu;",
+            "3 na autoputu, putu rezervisanom za saobraćaj motornih vozila i brzom putu."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Kad na raskrsnici vozila dolaze iz suprotnih smjerova i skreću ulijevo vozači se mimoilaze:",
+        "options": [
+            "1 sa svoje lijeve strane;",
+            "2 sa svoje desne strane."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Šta je naselje?",
+        "options": [
+            "1 skup ulica koje se međusobno ukrštaju ili spajaju, između kojih se nalaze redovi ili grupe zgrada čije su granice označene saobraćajnim znakovima;",
+            "2 je izgrađen, nastanjen, prostorno i funkcionalno objedinjen dio naseljenog mjesta u kom su javni putevi izgrađeni s uređenim trotoarom i ivičnjakom pored kojeg je najmanje s jedne strane red kuća ili grupa zgrada i čije su granice obilježene saobraćajnim znakom za obilježavanje naselja."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Mrežu javnih puteva, zavisno od njihovog društvenog i privrednog značaja, čine:",
+        "options": [
+            "1 magistralni putevi, regionalni i lokalni putevi;",
+            "2 šumski i zemljani putevi na neuređenim površinama;",
+            "3 ulice u naseljima i gradovima."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Kad na putu sa saobraćajnom trakom za saobraćaj oba smjera trebate upravljati vozilom što bliže desnoj ivici kolovoza?",
+        "options": [
+            "1 kada nas pretiče drugo vozilo;",
+            "2 kod mimoilaženja sa drugim vozilom;",
+            "3 kad vršite radnju preticanja vozila."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Autobus kojim se vrši organizovani prevoz djece zaustavljen je na kolovozu zbog ulaska djece. Kako postupate?",
+        "options": [
+            "1 nastavljate kretanje sa povećanom opreznošću;",
+            "2 obavezno zaustavljate vozilo;",
+            "3 ne obraćate pažnju na autobus."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Zeleno trepćuće svjetlo služi za?",
+        "options": [
+            "1 upozoravanje učesnika u saobraćaju na skori prestanak zabrane prolaska i na pojavu zelenog svjetla;",
+            "2 upozoravanje učesnika u saobraćaju na skori prestanak slobodnog prolaska i na pojavu žutog, odnosno crvenog svjetla."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Motornim vozilom ne smije da se vuče?",
+        "options": [
+            "1 bicikl;",
+            "2 laki motocikl;",
+            "3 motocikl sa bočnom prikolicom;",
+            "4 motocikl bez bočne prikolice."
+        ],
+        "answer": "1,2,4"
+    },
+    {
+        "question": "Kako se ponašaju djeca u saobraćaju?",
+        "options": [
+            "1 teško procjenjuju brzinu kretanja i udaljenost vozila;",
+            "2 spontano i nepredvidivo;",
+            "3 smišljeno i predvidivo;",
+            "4 panično i u strahu."
+        ],
+        "answer": "1,2,4"
+    },
+    {
+        "question": "Kad se vozaču može izreći zaštitna mjera zabrane upravljanja motornim vozilom u trajanju od jednog do četiri mjeseca?",
+        "options": [
+            "1 ako upravlja vozilom u saobraćaju na putu, a kod kojeg se utvrdi količina alkohola u krvi do 0,5 g/kg;",
+            "2 ako se odbije podvrgnuti ispitivanju pomoću odgovarajućih sredstava ili aparata ili stručnom pregledu radi provjeravanja da li ima alkohola u organizmu ili da li pokazuje znake poremećenosti izazvane dejstvom alkohola;",
+            "3 ako upravlja vozilom u saobraćaju na putu, a kod kojeg se utvrdila količina alkohola u krvi preko 0,8 g/kg do 1,5 g/kg."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Koji organ u BiH izdaje ovlašćenje za izdavanje međunarodne vozačke dozvole?",
+        "options": [
+            "1 auto moto klubovi;",
+            "2 Ministarstvo komunikacija i transporta BiH;",
+            "3 auto moto društva."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Pravo da upravlja motornim vozilom za kategorije A, B i BE stiče lice koje ima:",
+        "options": [
+            "1 16 godina;",
+            "2 17 godina;",
+            "3 18 godina."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Vozača kojem je u roku od jedne godine zbog učinjenih prekršaja iz Zakona o osnovama bezbjednosti saobraćaja na putevima u BiH određeno najmanje sedam kaznenih bodova, nadležni organ će:",
+        "options": [
+            "1 pozvati na predavanja o posljedicama koje proizlaze iz nepoštovanja ili nepoznavanja saobraćajnih propisa;",
+            "2 oduzeti mu vozačku dozvolu u trajanju od 30 dana;",
+            "3 oduzeti mu vozačku dozvolu u trajanju od 60 dana."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Pravo da upravlja motornim vozilom ima lice koje ispunjava sljedeće uslove:",
+        "options": [
+            "1 da je fizički i psihički sposobno da upravlja motornim vozilom;",
+            "2 da nema navršene godine života određene zakonom, zavisno od kategorije odnosno podkategorije vozila;",
+            "3 da je položilo vozački ispit iz upravljanja motornim vozilom određene kategorije ili podkategorije;",
+            "4 da mu je odlukom nadležnog organa zabranjeno upravljanje motornim vozilom."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Motorno vozilo na putu dozvoljeno je vući:",
+        "options": [
+            "1 pomoću užeta, ako su mu neispravni uređaji za zaustavljanje ili upravljanje;",
+            "2 pomoći krute veze (rude);",
+            "3 pomoću automatskih vučnih kuka sa višestepenovanom regulacijom i oslanjanjem;",
+            "4 vješanjem vozila na vučno vozilo."
+        ],
+        "answer": "2,3,4"
+    },
+    {
+        "question": "Međunarodna vozačka dozvola:",
+        "options": [
+            "1 može se zamijeniti za vozačku dozvolu BiH;",
+            "2 ne može se zamijeniti za vozačku dozvolu BiH."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozač koji upravlja skupom vozila čija je najveća dozvoljena masa veća od 3.500 kg ne smije neprekidno upravljati vozilom:",
+        "options": [
+            "1 duže od 4,5 h;",
+            "2 duže od 5 h;",
+            "3 duže od 9 h."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Motorno vozilo koje prevozi opasne materije mora biti obilježeno sa prednje strane:",
+        "options": [
+            "1 sa dva okrugla bijela svjetla, prečnika najmanje 10 cm na gornjim uglovima vozila;",
+            "2 sa dva okrugla narandžasta svjetla, prečnika najmanje 10 cm na gornjim uglovima vozila."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "U gornjem redu identifikacione table za prevoz opasnih materija može se nalaziti znak „X”. To znači:",
+        "options": [
+            "1 da opasna materija burno reaguje ako dođe u dodir sa otvorenim plamenom;",
+            "2 da opasna materija burno reaguje ako dođe u dodir sa vodom."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Motorna vozila kojima se prevoze opasne materije:",
+        "options": [
+            "1 mogu se zaustavljati i parkirati samo na mjestima koja su za tu vrstu vozila određena i obilježena;",
+            "2 mogu se zaustavljati i parkirati na kolovozu."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozač koji upravlja autobusom ili teretnim motornim vozilom ili skupom vozila čija je najveća dozvoljena masa veća od 3.500 kg ne smije neprekidno upravljati vozilom.",
+        "options": [
+            "1 ako ispunjava posebne uslove koji omogućavaju bezbjedan i nesmetan saobraćaj;",
+            "2 vozila koja ne ispunjavaju propisane uslove u pogledu dimenzija, ukupne mase i osovinskog opterećenja mogu da učestvuju u saobraćaju na javnom putu?"
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Pravilnik o tehničkim pregledima podrazumijeva da su laka vozila ona vozila čija najveća dopuštena masa ne prelazi:",
+        "options": [
+            "1 3,5 t;",
+            "2 7,5 t."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "U kojem se periodu obavlja preventivni tehnički pregled vozila auto škole koja su starija od 5 godina?",
+        "options": [
+            "1 svaka 3 mjeseca;",
+            "2 svakih 6 mjeseci;",
+            "3 jednom godišnje."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Ako je vozač prinuđen zaustaviti ili parkirati vozilo na kolovozu sa dvjema saobraćajnim trakama gdje se saobraćaj odvija u oba smjera:",
+        "options": [
+            "1 dužan je da ga obilježi posebnim znakom kojim se označava zaustavljeno vozilo na kolovozu (bezbjednosni trokut);",
+            "2 nije dužan da ga obilježi posebnim znakom kojim se označava zaustavljeno vozilo na kolovozu (bezbjednosni trokut);",
+            "3 mora uključiti uređaj za istovremeno paljenje svih pokazivača smjera, ako je u motornom vozilu ugrađen taj uređaj."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Da li se, po pravilu, od momenta prijema do momenta predaje opasne materije vozač motornog vozila smije udaljiti od vozila?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Klinasti podmetači obavezni su za sva motorna i priključna vozila čija najveća dopuštena masa prelazi:",
+        "options": [
+            "1 5 t;",
+            "2 7,5 t."
+        ],
+        "answer": "DELETE"
+    },
+    {
+        "question": "Motorno vozilo koje vuče vozilo koje prevozi opasne materije, ne smije se kretati brzinom većom od:",
+        "options": [
+            "1 25 km/h;",
+            "2 30 km/h;",
+            "3 40 km/h."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Koja motorna i priključna vozila moraju imati gabaritna svjetla?",
+        "options": [
+            "1 motorna i priključna vozila čija visina prelazi 2,8 m;",
+            "2 motorna i priključna vozila koja su šira od 2,1 m."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Lice koje je položilo vozački ispit i kome je izdata vozačka dozvola za kategoriju vozila A1, A, B ili C1 ne smije dvije godine od dana izdavanja vozačke dozvole upravljati vozilom na autoputu brzinom većom od:",
+        "options": [
+            "1 130 km/h;",
+            "2 70 km/h;",
+            "3 100 km/h;",
+            "4 120 km/h."
+        ],
+        "answer": "4"
+    },
+    {
+        "question": "Vuča natovarenog teretnog vozila sa priključnim vozilom ili bez priključnog vozila, odnosno traktora sa priključnim vozilom dozvoljena je samo:",
+        "options": [
+            "1 do prvog mjesta pogodnog za pretovar tereta;",
+            "2 izuzetno i do prvog mjesta na kojem može da se otkloni kvar na vozilu;",
+            "3 vuča natovarenog teretnog vozila nije dozvoljena;",
+            "4 vuča natovarenog teretnog vozila je dozvoljena bez ikakvih uslova."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Teret na vozilu ne smije da pređe najudaljeniju tačku na prednjoj strani vozila za više od:",
+        "options": [
+            "1 0,25 m;",
+            "2 0,50 m;",
+            "3 1,00 m;",
+            "4 jednu šestinu svoje dužine."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Širina motornih i priključnih vozila, uključujući izmjenjive nadgradnje za prihvat tereta, kao i svih uređaja koji se pri vožnji nalaze na vozilu, izuzimajući uređaje za čišćenje snijega i vozila namijenjenih za zimsko održavanje puteva, može biti maksimalne vrijednosti uopšteno:",
+        "options": [
+            "1 2,00 m;",
+            "2 2,50 m;",
+            "3 2,55 m;",
+            "4 4,50 m."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Teret koji se prevozi na vozilu i priključnom vozilu može da pređe najudaljeniju tačku na zadnjoj strani vozila najviše za:",
+        "options": [
+            "1 jednu desetinu svoje dužine koja je kao kontinuiran teret oslonjena na tovarni prostor;",
+            "2 jednu šestinu svoje dužine koja je kao kontinuiran teret oslonjena na tovarni prostor;",
+            "3 jednu petinu svoje dužine koja je kao kontinuiran teret oslonjena na tovarni prostor;",
+            "4 jednu četvrtinu svoje dužine koja je kao kontinuiran teret oslonjena na tovarni prostor."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozača na vanredni ljekarski pregled rješenjem upućuje:",
+        "options": [
+            "1 radnik policije;",
+            "2 organ kod koga se vozač vodi u evidenciji;",
+            "3 nadležna zdravstvena organizacija."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Visina motornih i priključnih vozila, uključujući izmjenjive nadgradnje za prihvatanje tereta kao i svih uređaja koji se pri vožnji nalaze na vozilu, može imati maksimalnu vrijednost:",
+        "options": [
+            "1 5,00 m;",
+            "2 4,00 m;",
+            "3 3,00 m;",
+            "4 4,50 m."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Ako se na putu kreću dva ili više vozila koja prevoze opasne materije, odstojanje između tih vozila ne smije biti manje od:",
+        "options": [
+            "1 150 m;",
+            "2 200 m;",
+            "3 280 m."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Ako teret na motornom ili priključnom vozilu sa bočne strane prelazi više od 20 cm vanjsku ivicu prednjeg ili zadnjeg svjetla za označavanje vozila, mora se, noću, kao i danju u slučaju smanjene vidljivosti, označiti svjetlom i katadiopterima koji:",
+        "options": [
+            "1 sa prednje strane daju bijelo, a sa zadnje crveno svjetlo;",
+            "2 sa prednje strane daju bijelo, a sa zadnje narandžasto svjetlo;",
+            "3 sa prednje i zadnje strane daju bijelo svjetlo."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "U slučaju neispravnosti vozila koje je natovareno opasnim materijama, takvo vozilo se vuče pomoću:",
+        "options": [
+            "1 užeta;",
+            "2 automatskih vučnih kuka sa višestepenovanom regulacijom;",
+            "3 krute veze (rude);",
+            "4 oslanjanjem ili vješanjem vozila na vučno vozilo."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Vozač ne čini povredu propisa ako teret na vozilu kojim upravlja prelazi najudaljeniju tačku na prednjoj strani vozila:",
+        "options": [
+            "1 više od 1 m ali ne više od 2 m, ako je prednji dio tereta obilježen crvenom tkaninom;",
+            "2 za 80 cm;",
+            "3 za 100 cm;",
+            "4 za dužinu koja nije propisana, ako je prednji dio tereta obilježen odgovarajućom tablom."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Odgovarajućom metodom utvrđeno je da vozač u krvi ima 0,2 g/kg. Smatra se da je taj vozač pod dejstvom alkohola ukoliko upravlja vozilom:",
+        "options": [
+            "1 bilo koje kategorije;",
+            "2 kategorija C ili CE;",
+            "3 kategorija D ili DE;",
+            "4 kategorija A."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Na teretnom vozilu u prostoru za smještaj tereta može se prevoziti:",
+        "options": [
+            "1 najviše 10 lica koja utovaraju ili istovaraju teret ili obavljaju druge radnje;",
+            "2 najviše 5 lica koja utovaraju ili istovaraju teret ili obavljaju druge radnje;",
+            "3 najviše 7 lica koja utovaraju ili istovaraju teret ili obavljaju druge radnje."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li se u zatvorenom prostoru vozila koje se ne može otvoriti iznutra smiju prevoziti lica?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "U zaštitnom pojasu javnog puta van naselja mogu se postavljati natpisi i reklame, i to pored magistralnog i regionalnog puta:",
+        "options": [
+            "1 na razdaljini od najmanje 12 metara, računajući od krajnje tačke poprečnog profila;",
+            "2 na razdaljini od najmanje 10 metara, računajući od krajnje tačke poprečnog profila;",
+            "3 na razdaljini od najmanje 15 metara, računajući od krajnje tačke poprečnog profila."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li se na vozila smiju postavljati gume sa ekserima?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Na istoj osovini vozila, pneumatike moraju biti iste marke (proizvođaču) i tipa?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Saobraćajna nezgoda je:",
+        "options": [
+            "1 događaj na putu ili koji je počeo na putu, u kojem je učestvovalo najmanje dva vozila u pokretu i u kojem je jedno lice poginulo ili povrijeđeno ili je nastala materijalna šteta;",
+            "2 događaj na putu ili koji je počeo na putu, u kojem je učestvovalo najmanje jedno vozilo u pokretu i u kojem je jedno ili više lica poginulo ili povrijeđeno ili je nastala materijalna šteta;",
+            "3 događaj na putu ili koji je počeo na putu, u kojem je učestvovalo najmanje tri vozila u pokretu i u kojem je jedno lice poginulo ili povrijeđeno ili je nastala materijalna šteta."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Odstojanje je:",
+        "options": [
+            "1 najkraća uzdužna udaljenost između najisturenijih tačaka vozila ili lica, odnosno drugih objekata;",
+            "2 najkraća, bočna udaljenost između najisturenijih tačaka vozila ili lica, odnosno drugih objekata;",
+            "3 najkraća uzdužna udaljenost između najisturenijih tačaka vozila."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Put sa makadamskim zastorom je:",
+        "options": [
+            "1 put koji je izgrađen od jednog sloja tucanika u uvaljanom stanju;",
+            "2 put koji je izgrađen od dva sloja tucanika u uvaljanom stanju;",
+            "3 put koji je izgrađen od tri sloja tucanika u uvaljanom stanju."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Saobraćajna signalizacija je?",
+        "options": [
+            "1 znak kojim se upotrebom grafičkih ili svjetlosnih oznaka ili drugih simbola učesnici u saobraćaju upozoravaju na opasnosti na putu;",
+            "2 znak kojim se upotrebom brojčanih ili slovnih oznaka ili drugih simbola učesnici u saobraćaju upozoravaju na opasnosti na putu, odnosno daju obavještenja potrebna za bezbjedno kretanje po putu;",
+            "3 sistem sredstava, uređaja i oznaka za regulisanje i vođenje saobraćaja."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Polukružno okretanje je?",
+        "options": [
+            "1 okretanje vozila pod uglom od 60 stepeni u odnosu na dotadašnji smjer kretanja, radi uključivanja u suprotni saobraćaj;",
+            "2 okretanje vozila za 180 stepeni u odnosu na dotadašnji smjer kretanja, radi uključenja u suprotni saobraćaj;",
+            "3 okretanje vozila za 360 stepeni u odnosu na dotadašnji smjer kretanja, radi uključivanja u suprotni saobraćaj."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Pješačka zona je?",
+        "options": [
+            "1 uređena saobraćajna površina namijenjena za kretanje pješaka, u kojoj je dozvoljeno kretanje motornih vozila s posebnim odobrenjem;",
+            "2 područje u naselju, obilježeno propisanim saobraćajnim znakom, u kojem vozila ne smiju da se kreću brzinom većom od brzine hoda pješaka zbog dozvoljenog kretanja pješaka i dječije igre;",
+            "3 uređena saobraćajna površina namijenjena za kretanje pješaka i biciklista, u kojoj je dozvoljeno kretanje motornih vozila s posebnim odobrenjem."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na motornim vozilima za vrijeme kretanja kroz tunel moraju da budu upaljena?",
+        "options": [
+            "1 duga svjetla;",
+            "2 kratka svjetla za osvjetljavanje puta;",
+            "3 svjetla za maglu."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Pješačko ostrvo je?",
+        "options": [
+            "1 uzdignuta ili na drugi način obilježena površina koja se nalazi na kolovozu namijenjena za kretanje pješaka, u kojoj je dozvoljeno kretanje motornih vozila s posebnim odobrenjem;",
+            "2 uzdignuta ili na drugi način obilježena površina koja se nalazi na kolovozu i koja je data za privremeno zadržavanje pješaka koji prelaze preko kolovoza, ili ulaze u vozilo i izlaze iz vozila javnog saobraćaja;",
+            "3 uređena saobraćajna površina namijenjena za kretanje pješaka, u kojoj je dozvoljeno kretanje motornih vozila s posebnim odobrenjem."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Nadležni organ za izdavanje vozačke dozvole oduzeće i poništiti vozačku dozvolu licu koje u toku dvije godine od dana sticanja prava upravljanja motornim vozilom kategorije B sakupi:",
+        "options": [
+            "1 četiri kaznena boda;",
+            "2 šest kaznenih bodova;",
+            "3 pet kaznenih bodova."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Pod izrazom naseljeno mjesto podrazumijeva se:",
+        "options": [
+            "1 izgrađen, nastanjen, prostorno i funkcionalno objedinjen dio naseljenog mjesta u kom su javni putevi izgrađeni sa uređenim trotoarima i ivičnjacima pored kojeg se nalaze najmanje sa jedne strane red kuća ili grupa zgrada i čije su granice obilježene saobraćajnim znakom za obilježavanje naselja;",
+            "2 prostorna jedinica u Bosni i Hercegovini koja obuhvata jedno ili više naselja s područjem koje pripada tom naseljenom mjestu, čiji se naziv i teritorija uređuju posebnim zakonima i čija teritorija označena saobraćajnim znakom za obilježavanje naseljenih mjesta;",
+            "3 prostor na kojem se redovi ili grupe zgrada nalaze s jedne ili s obje strane puta, dajući mu izgled ulice i čije granice određuje nadležni organ za upravljanje putevima saobraćajnim znakovima za obilježavanje naseljenih mjesta."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Pod izrazom prestrojavanje podrazumijeva se:",
+        "options": [
+            "1 radnja koju je u određenim slučajevima vozač dužan da izvrši zaustavljanjem vozila, smanjenjem brzine kretanja ili prekidanjem radnje koju izvodi vozilom, i to na način koji ne primorava vozača drugog vozila da naglo mijenja pravac ili brzinu kretanja;",
+            "2 zauzimanje takvog položaja vozilom na saobraćajnoj traci i na takvoj udaljenosti od raskrsnice ili drugog mjesta na putu iz kojeg na bezbjedan način može da se izvede sljedeća dopuštena radnja vozilom (skretanjem, okretanjem, zaustavljanjem i sl.)",
+            "3 prolaženje vozilom pored drugog vozila koje se po istom kolovozu kreće iz suprotnog smjera."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Pod izrazom stajalište podrazumijeva se:",
+        "options": [
+            "1 dio površine puta namijenjen za zaustavljanje autobusa, trolejbusa ili tramvaja radi ulaska i izlaska putnika i koje je obilježeno saobraćajnim znakom;",
+            "2 dio površine puta namijenjen za zaustavljanje autobusa, trolejbusa ili tramvaja radi ulaska i izlaska putnika;",
+            "3 dio površine puta namijenjen za zaustavljanje ili parkiranje autobusa, trolejbusa ili tramvaja radi ulaska i izlaska putnika i koje je obilježeno saobraćajnim znakom."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Pod izrazom trolejbus podrazumijeva se:",
+        "options": [
+            "1 vozilo na šinama s električnim pogonom, namijenjeno za javni prevoz putnika i koje je, radi napajanja motora električnom energijom, vezano za električni vod;",
+            "2 vozilo na šinama s električnim pogonom, namijenjeno za javni prevoz putnika koje, osim sjedišta za vozača, ima više od osam sjedišta i koje, radi napajanja motora električnom energijom, ima kontakt s električnim provodnikom;",
+            "3 motorno vozilo namijenjeno za javni prevoz putnika koje, osim sjedišta za vozača, ima više od osam sjedišta i koje, radi napajanja motora električnom energijom, ima kontakt s električnim provodnikom."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Znakovi opasnosti:",
+        "options": [
+            "1 služe da se učesnici u saobraćaju na putu upozore na opasnost koja prijeti na određenom mjestu, odnosno dijelu puta, i da se obavijeste o prirodi te opasnosti;",
+            "2 stavljaju do znanja učesnicima u saobraćaju na putu zabrane, ograničenja i obaveze kojih se moraju da se pridržavaju;",
+            "3 pružaju učesnicima u saobraćaju potrebna obavještenja o putu kojim se kreću i druga obavještenja koja im mogu biti korisna."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Oznake na kolovozu čine:",
+        "options": [
+            "1 linije;",
+            "2 strelice;",
+            "3 table i stubovi;",
+            "4 natpisi i druge oznake."
+        ],
+        "answer": "1,2,4"
+    },
+    {
+        "question": "Vozila starija od četiri godine vlasnici su dužni podvrgnuti redovnom tehničkom pregledu tokom:",
+        "options": [
+            "1 svakog 9 mjeseca, od posljednjeg redovnog tehničkog pregleda;",
+            "2 svakog 12 mjeseca, od posljednjeg redovnog tehničkog pregleda;",
+            "3 svakog 6 mjeseca, od posljednjeg redovnog tehničkog pregleda;",
+            "4 svakog 18 mjeseca, od posljednjeg redovnog tehničkog pregleda."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Javni put čini:",
+        "options": [
+            "1 vazdušni prostor iznad kolovoza u visini od sedam metara, računajući od najviše tačke kolovoza;",
+            "2 vazdušni prostor iznad kolovoza u visini od pet metara, računajući od najviše tačke kolovoza;",
+            "3 vazdušni prostor iznad kolovoza u visini od tri metra, računajući od najviše tačke kolovoza."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Svjetlosni snop dugog svjetla mora osvijetliti:",
+        "options": [
+            "1 najmanje 50 m puta ispred vozila noću, pri normalnoj vidljivosti i to pri podjednakoj opterećenosti motornog vozila na vodoravnoj površini;",
+            "2 najmanje 100 m puta ispred vozila noću, pri normalnoj vidljivosti i to pri podjednakoj opterećenosti motornog vozila na vodoravnoj površini;",
+            "3 najmanje 80 m puta ispred vozila noću, pri normalnoj vidljivosti i to pri podjednakoj opterećenosti motornog vozila na vodoravnoj površini."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Svjetla za maglu na motornom vozilu moraju biti izvedena i podešena tako da osvijetljeni dio ravnog puta nije duži:",
+        "options": [
+            "1 od 35 m;",
+            "2 od 50 m;",
+            "3 od 40 m."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Slobodan hod točka upravljača na vozilu ne smije biti veći?",
+        "options": [
+            "1 od 30°;",
+            "2 od 45°;",
+            "3 od 60°."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Brzina kretanja motornih vozila na putu pod normalnim uslovima saobraćaja ne smije se ograničiti saobraćajnim znakom:",
+        "options": [
+            "1 ispod 40 km na čas;",
+            "2 ispod 30 km na čas;",
+            "3 ispod 50 km na čas."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozilo koje se kreće po šinama postavljenim na sredini kolovoza može da se pretice:",
+        "options": [
+            "1 s desne strane ako između njega i desne ivice kolovoza postoji saobraćajna traka;",
+            "2 ako između njega i lijeve ivice kolovoza postoji saobraćajna traka;",
+            "3 ako između njega i desne ivice kolovoza postoji zaustavna traka."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozač je dužan da tokom upravljanja vozilom:",
+        "options": [
+            "1 obrati pažnju na pješake koji se nalaze na kolovozu ili stupaju na kolovoz;",
+            "2 djelimično obrati pažnju na pješake koji se nalaze na kolovozu ili stupaju na kolovoz."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozač koji pri skretanju vozila presijeca biciklističku stazu ili traku koja se pruža uzduž kolovoza kojim se kreće:",
+        "options": [
+            "1 dužan je da propusti bicikl i moped koji se kreće biciklističkom stazom ili trakom u istom ili suprotnom smjeru;",
+            "2 nije dužan da propusti bicikl i moped koji se kreće biciklističkom stazom ili trakom u istom ili suprotnom smjeru;",
+            "3 dužan je da propusti motocikl koji se kreće biciklističkom stazom ili trakom u istom ili suprotnom smjeru."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Prilikom regulisanja saobraćaja u raskrsnici sa kružnim tokom potrebno je saobraćaj regulisati:",
+        "options": [
+            "1 tako da vozila u kružnom toku imaju prvenstvo prolaza;",
+            "2 tako da vozila u kružnom toku nemaju prvenstvo prolaza."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Za vrijeme kretanja kolovozom pješak:",
+        "options": [
+            "1 ne smije da koristi mobilni telefon niti da ima slušalice u oba uha;",
+            "2 pješak smije da koristi mobilni telefon i može da ima slušalice u oba uha."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na putu koja ima obilježene pješačke prelaze ili posebno izgrađene prelaze, odnosno prolaze za pješake, pri prelaženju puta pješak je dužan da se kreće tim prelazima, odnosno prolazima:",
+        "options": [
+            "1 ako oni nisu od njega udaljeni više od 100 m;",
+            "2 ako oni nisu od njega udaljeni više od 150 m;",
+            "3 ako oni nisu od njega udaljeni više od 200 m."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Autoputem ne smiju da se kreću:",
+        "options": [
+            "1 pješaci;",
+            "2 stoka;",
+            "3 motocikl;",
+            "4 oldtimer;",
+            "5 zaprežno vozilo."
+        ],
+        "answer": "1,2,5"
+    },
+    {
+        "question": "Vozač motornog vozila dužan je da upotrebavlja za osvjetljavanje puta kratka svjetla umjesto dugih svjetala:",
+        "options": [
+            "1 pri mimoiilaženju s drugim vozilom na razdaljini koja se ocijenjuje da svjetlom svog vozila zasljepljuje vozača vozila kojem dolazi u susret, uvijek na razdaljini većoj od 300 m;",
+            "2 pri mimoiilaženju s drugim vozilom na razdaljini koja se ocijenjuje da svjetlom svog vozila zasljepljuje vozača vozila kojem dolazi u susret, a pri mimoilaženju s drugim vozilom kad vozač tog vozila upali kratka svjetla ili kad naizmjeničnim paljenjem i gašenjem svjetala upozorava da mu duga svjetla smetaju, uvijek na razdaljini manjoj od 200 m;",
+            "3 za vrijeme kretanja za drugim vozilom da dugim svjetlima svog vozila ne bi zasljepljivao vozača vozila ispred sebe;",
+            "4 za vrijeme dok vozilom prolazi pored organizovane kolone ili povorke pješaka;",
+            "5 za vrijeme kretanja za drugim vozilom na rastojanju od najmanje 100 m da dugim svjetlima svog vozila ne bi zasljepljivao vozača vozila ispred sebe."
+        ],
+        "answer": "2,4,5"
+    },
+    {
+        "question": "Lica koja prvi put steknu vozačku dozvolu obavezna su da:",
+        "options": [
+            "1 u trajanju od tri godine, obilježe vozilo kojim upravljaju posebnim znakom;",
+            "2 u trajanju od dvije godine, obilježe vozilo kojim upravljaju posebnim znakom;",
+            "3 u trajanju od godinu dana, obilježe vozilo kojim upravljaju posebnim znakom."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Vozač koji se motornim vozilom uključuje u saobraćaj na autoputu dužan je da:",
+        "options": [
+            "1 blagovremeno zauzme položaj vozilom na krajnjoj desnoj saobraćajnoj traci i da što prije pređe na posebnu traku za usporavanje, ako takva traka postoji na ulazu u priključni put;",
+            "2 koristi posebnu traku za ubrzavanje, kad takva traka postoji u produženju priključnog puta, i da se u saobraćaj na autoputu uključuje odgovarajući znak, na način kojim ne ugrožava saobraćaj vozila koja se kreću autoputem;",
+            "3 propusti vozila koja se kreću autoputem, ako na mjestu na kojem se uključuje u saobraćaj na autoputu ne postoji posebna traka za ubrzavanje."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "U zaštitnom pojasu javnog puta van naselja mogu se postavljati natpisi za reklame, i to pored autoputa i puta rezervisanog za saobraćaj motornih vozila:",
+        "options": [
+            "1 na razdaljini od najmanje 10 metara, računajući od krajnje tačke poprečnog profila;",
+            "2 na razdaljini od najmanje 12 metara, računajući od krajnje tačke poprečnog profila;",
+            "3 na razdaljini od najmanje 8 metara, računajući od krajnje tačke poprečnog profila."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Gonič stoke, ukoliko stoku goni javnim putem, može biti lice sa navršenih:",
+        "options": [
+            "1 14 godina života;",
+            "2 15 godina života;",
+            "3 16 godina života."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Stoku koja se kreće javnim putem gonič stoke mora da drži što je moguće bliže:",
+        "options": [
+            "1 desnoj ivici kolovoza;",
+            "2 lijevoj ivici kolovoza;",
+            "3 središnjoj liniji."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Manevarsko svjetlo se automatski isključuje čim brzina kretanja vozila prema naprijed premaši:",
+        "options": [
+            "1 10 km/h;",
+            "2 15 km/h;",
+            "3 20 km/h."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Ugaono svjetlo podrazumijeva:",
+        "options": [
+            "1 svjetlosni uređaj namijenjen da osigura dodatno osvjetljavanje prostora neposredno uz prednji ugao vozila na strani na koju je, ili se namjerava da bude, vozilo upravljeno;",
+            "2 svjetlosni uređaj namijenjen da osigura dodatno osvjetljavanje prostora bočno od vozila tokom manevra pri maloj brzini kretanja vozila;",
+            "3 svjetlosni uređaj namijenjen da osigura dodatno osvjetljavanje prostora kako bi vozaču i putnicima bilo olakšano ulazenje i izlaženje iz vozila, kao i radnje utovara i istovara."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "U slučaju sticanja kaznenih bodova, kazna se izriče:",
+        "options": [
+            "1 za prekršaj koji nosi veći broj kaznenih bodova;",
+            "2 za prekršaj koji nosi manji broj kaznenih bodova;",
+            "3 za prekršaj koji nosi najmanji broj kaznenih bodova."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozački ispit iz upravljanja motornim vozilom za vozača kategorije B polaže se:",
+        "options": [
+            "1 na javnom putu u gradu;",
+            "2 na poligonu i na javnom putu u gradu;",
+            "3 samo na poligonu."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Aparat za gašenje požara postavljen na vidljivom mjestu, tako da se u slučaju opasnosti može upotrijebiti, moraju imati:",
+        "options": [
+            "1 putnička motorna vozila;",
+            "2 vozila za javni prevoz, teretna motorna i priključna vozila;",
+            "3 putnička motorna vozila opremljena za korišćenje alternativnih goriva (LPG, CNG)."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Koja je najveća dozvoljena količina alkohola u krvi za kandidate za vozača za vrijeme osposobljavanja u praktičnom upravljanju vozilom?",
+        "options": [
+            "1 0,0 g/kg;",
+            "2 0,3 g/kg;",
+            "3 0,5 g/kg."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Zaprežna vozila koja se kreću jedno iza drugog moraju držati odstojanje:",
+        "options": [
+            "1 najmanje 50 m;",
+            "2 najmanje 100 m;",
+            "3 najmanje 150 m."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Zaprežnim vozilom na javnom putu može upravljati lice?",
+        "options": [
+            "1 sa navršenih 16 godina života;",
+            "2 sa navršenih 14 godina života;",
+            "3 sa navršenih 15 godina života."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozač u putničkom automobilu smije prevoziti dijete na zadnjem sjedištu:",
+        "options": [
+            "1 koje je starije od tri, a mlađe od 10 godina;",
+            "2 koje je starije od pet, a mlađe od 12 godina;",
+            "3 koje sjedi na posebnom podmetaču prilagođenom njegovoj visini koji omogućava upotrebu sigurnosnog pojasa;",
+            "4 kada je ispravno vezano sigurnosnim pojasem, ili je ispravno vezano u sigurnosnoj sjedalici koja je za sjedište pričvršćena pomoću sigurnosnog pojasa u tri tačke vezivanja ili posebnim kopčama u vozilu."
+        ],
+        "answer": "2,3,4"
+    },
+    {
+        "question": "Zemljani put je:",
+        "options": [
+            "1 je put bez izgrađenog kolovoza i kolovoznog zastora, pa i kad na priključku na javni put ima izgrađen kolovoz;",
+            "2 je put koji je izgrađen od dva sloja tucanika u uvaljanom stanju;",
+            "3 je površina koja se koristi za saobraćaj i koja je dostupna većem broju korisnika (seoski, poljski i šumski putevi)."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "U putničkom automobilu na prednjem sjedištu do vozača ne smije se prevoziti lice:",
+        "options": [
+            "1 koje je očigledno pod uticajem alkohola ili opojnih sredstava;",
+            "2 starije od 18 godina;",
+            "3 mlađe od 12 godina."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Vozač ne smije kretanjem vozilom unazad:",
+        "options": [
+            "1 ulaziti u nepreglednu raskrsnicu;",
+            "2 kretati se putem na prelazu preko željezničke pruge u istom nivou;",
+            "3 na kratkom dijelu puta;",
+            "4 voziti na prevojima i u krivinama u kojima je preglednost nedovoljna."
+        ],
+        "answer": "1,3,4"
+    },
+    {
+        "question": "Zaštitne žičane ograde postavljaju se uz:",
+        "options": [
+            "1 autoputeve;",
+            "2 brze puteve;",
+            "3 puteve u naselju."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Kako su dužni postupati pješaci ako im ususret dolazi vozilo pod pratnjom?",
+        "options": [
+            "1 nesmetano nastaviti kretanje;",
+            "2 dužni su se skloniti s kolovoza dok to vozilo prođe."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kolika je najveća dozvoljena širina putničkog automobila?",
+        "options": [
+            "1 2,30 m;",
+            "2 2,50 m;",
+            "3 2,70 m."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "U vertikalnu saobraćajnu signalizaciju spadaju:",
+        "options": [
+            "1 znakovi opasnosti;",
+            "2 znakovi obavještenja;",
+            "3 dopunske table;",
+            "4 oprema za označavanje ivice kolovoza."
+        ],
+        "answer": "1,2,3"
+    },
+    {
+        "question": "Natpisi na znakovima obavještenja se, u pravilu, ispisuju:",
+        "options": [
+            "1 velikim slovima;",
+            "2 malim slovima."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Boja poleđine podloge znakova vertikalne saobraćajne signalizacije mora biti:",
+        "options": [
+            "1 siva;",
+            "2 bez sjaja, kako bi se spriječilo odvraćanje pažnje i zasljepljivanje vozača;",
+            "3 bijela."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Saobraćajni znakovi u naseljima smješteni uz kolovoz postavljaju se na visini:",
+        "options": [
+            "1 0.40 do 2.20 m;",
+            "2 0.30 do 2.30 m;",
+            "3 0.30 do 2.20 m."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Osnovna boja znakova obavještenja za vođenje saobraćaja na autoputevima je:",
+        "options": [
+            "1 zelena sa simbolima i natpisima bijele boje;",
+            "2 plava sa simbolima i natpisima bijele boje."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Saobraćajna ogledala mogu biti:",
+        "options": [
+            "1 oblika jednakostraničnog trougla;",
+            "2 okruglog oblika;",
+            "3 pravougaonog oblika."
+        ],
+        "answer": "2,3"
+    },
+    {
+        "question": "Oznake na kolovozu ne smiju biti više od:",
+        "options": [
+            "1 0.5 cm;",
+            "2 0.6 cm."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Znakovi izričitih naredbi:",
+        "options": [
+            "1 stavljaju do znanja učesnicima u saobraćaju na putu zabrane, ograničenja i obaveze kojih se moraju pridržavati;",
+            "2 pružaju učesnicima u saobraćaju potrebna obavještenja o putu kojim se kreću i druga obavještenja koja im mogu biti korisna."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Za regulisanje saobraćaja upotrebljavaju se uređaji kojima se daju svjetlosni saobraćajni znakovi:",
+        "options": [
+            "1 crvene boje;",
+            "2 žute i zelene boje;",
+            "3 sve navedeno."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Na uređajima za davanje svjetlosnih saobraćajnih znakova trobojnim svjetlima crveno i zeleno svjetlo ne smiju biti upaljeni istovremeno:",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Ako je uređaj za davanje svjetlosnih saobraćajnih znakova postavljen iznad saobraćajne trake, svjetla mogu biti postavljena po horizontalnoj osi, jedno pored drugog:",
+        "options": [
+            "1 zeleno lijevo, žuto u sredini, a crveno desno;",
+            "2 crveno lijevo, zeleno u sredini, a žuto desno;",
+            "3 crveno lijevo, žuto u sredini, a zeleno desno."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Da li oznake na kolovozu mogu biti postavljene uz druge saobraćajne znakove?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Značenje simbola svjetlosnih saobraćajnih znakova u tehnologiji optičkih vlakana, svjetlosnih polja, svjetlećih dioda (LED) i tekućih kristala (LCD) mora biti u potpunosti čitljivo na udaljenosti:",
+        "options": [
+            "1 većoj od 200 m;",
+            "2 većoj od 180 m;",
+            "3 manjoj od 150 m."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Znak „Andrejin Krst“ mora biti uočljiv sa udaljenosti od najmanje:",
+        "options": [
+            "1 60 m;",
+            "2 50 m;",
+            "3 75 m."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Osnovna boja znakova izričitih naredbi znakova obaveze je:",
+        "options": [
+            "1 bijela;",
+            "2 crvena;",
+            "3 plava."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Svjetlosni znakovi kojima se najavljuje približavanje voza na prelazu puta preko željezničke pruge u istom nivou daju se naizmjeničnim paljenjem:",
+        "options": [
+            "1 dva crvena trepćuća svjetla koja imaju oblik kruga;",
+            "2 dva žuta trepćuća svjetla koja imaju oblik kruga."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na prelazima puta preko željezničke pruge u istom nivou branici ili polubranici moraju biti naizmjenično obojeni:",
+        "options": [
+            "1 crvenom i žutom bojom;",
+            "2 crvenom bojom."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "U slučaju vanrednog ljekarskog pregleda, pregled se obavlja na trošak:",
+        "options": [
+            "1 lica upućenog na vanredni ljekarski pregled;",
+            "2 ustanove koja je primila lice na vanredni ljekarski pregled."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Nadležni organ unutrašnjih poslova dužan je izaći na mjesto saobraćajne nezgode u kojoj je nastala manja materijalna šteta:",
+        "options": [
+            "1 ako to zahtijeva jedan od učesnika saobraćajne nezgode;",
+            "2 uvijek."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Osnovna boja znaka „zabrana parkiranja“ je:",
+        "options": [
+            "1 crvena;",
+            "2 plava."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Znakovi obavještenja imaju oblik (više tačnih odgovora):",
+        "options": [
+            "1 kvadrata;",
+            "2 pravougla ili kruga;",
+            "3 jednakostraničnog trougla."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Vozač koji je u tolikoj mjeri umoran ili bolestan:",
+        "options": [
+            "1 ne smije upravljati vozilom u saobraćaju na putu;",
+            "2 smije upravljati vozilom uz prisustvo drugog lica."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Za vrijeme osposobljavanja kandidata iz upravljanja motornim vozilom instruktor vožnje kod sebe mora imati:",
+        "options": [
+            "1 vozačku dozvolu;",
+            "2 dozvolu instruktora vožnje i dnevnik rada instruktora vožnje;",
+            "3 ljekarsko uvjerenje."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Oznake na kolovozu su:",
+        "options": [
+            "1 žute boje;",
+            "2 bijele boje."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Koja su alternativna goriva koja se koriste za pogon motornih vozila? (više tačnih odgovora)",
+        "options": [
+            "1 tečni naftni gas (propan butan) koji nosi skraćeni naziv LPG;",
+            "2 komprimirani prirodni gas sa uobičajenim skraćenim nazivom CNG;",
+            "3 nafta (benzin i dizel)."
+        ],
+        "answer": "1,2"
+    },
+    {
+        "question": "Na mostovima, u tunelima, galerijama i drugim objektima na javnom putu širina kolovoza ne smije biti manja od:",
+        "options": [
+            "1 širine kolovoza na javnom putu;",
+            "2 6 m;",
+            "3 5 m."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Izlaz (izlazni otvor) ispustne cijevi uređaja za odvod ispuštanje ispušnih gasova ne smije biti usmjeren:",
+        "options": [
+            "1 u desnu stranu motornog vozila;",
+            "2 u lijevu stranu motornog vozila."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na putu s kolovozom za saobraćaj vozila u oba smjera na kojem postoje tri saobraćajne trake:",
+        "options": [
+            "1 vozač ne smije vozilom da se kreće saobraćajnom trakom koja se nalazi uz lijevu ivicu puta u smjeru kretanja vozila;",
+            "2 vozač smije vozilom da se kreće saobraćajnom trakom koja se nalazi uz lijevu ivicu puta u smjeru kretanja vozila;",
+            "3 vozač ne smije vozilom da se kreće saobraćajnom trakom koja se nalazi uz desnu ivicu puta u smjeru kretanja vozila."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Kada kandidat ima pravo prigovora na način ispitivanja i ponašanja ispitivača za vrijeme ispita?",
+        "options": [
+            "1 nema pravo prigovora;",
+            "2 odmah po završetku ispita, što evidentira ispitivač, o čemu odlučuje predsjednik Komisije u roku od tri dana od završetka ispita."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Ispitivač će udaljiti sa ispita kandidata i smatrat će se da kandidat nije položio ispit ukoliko kandidat: (više tačnih odgovora)",
+        "options": [
+            "1 ometa rad ispitivača;",
+            "2 oštećuje imovinu ili materijalna dobra;",
+            "3 koristi nedopuštena sredstva i na drugi način ometa ispit;",
+            "4 koristi dopuštena sredstva."
+        ],
+        "answer": "1,2,3"
+    },
+    {
+        "question": "Pod zimskim uslovima na putu podrazumijeva se situacija kada: (više tačnih odgovora)",
+        "options": [
+            "1 pada snijeg i nalazi se na kolovozu;",
+            "2 na kolovozu nema ugaženog i zaleđenog snijega;",
+            "3 pada kiša i ledi se na kolovozu;",
+            "4 je kolovoz zaleđen;",
+            "5 kolovoz nije zaleđen."
+        ],
+        "answer": "1,3,4"
+    },
+    {
+        "question": "Koliko se kompleta evropskog izvještaja koristi za slučaj saobraćajne nezgode u kojoj su učestvovala dva vozila?",
+        "options": [
+            "1 dva ili više kompleta evropskog izvještaja;",
+            "2 jedan komplet evropskog izvještaja."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Šta služi kao dokaz o utvrđenoj brzini kretanja vozila? (više tačnih odgovora)",
+        "options": [
+            "1 fotografija i videozapis s podacima o utvrđenoj brzini kretanja vozila;",
+            "2 tahografski zapis;",
+            "3 zapisnik o očitanju na radaru;",
+            "4 neposredno praćenje vozila."
+        ],
+        "answer": "1,2,3"
+    },
+    {
+        "question": "Pod kojim uslovima u putničkom vozilu vozač može prevoziti dijete mlađe od dvije godine na prednjem sjedištu vozila? (više tačnih odgovora)",
+        "options": [
+            "1 ako vozilo nema vazdušni jastuk za suvozača ili je vazdušni jastuk za vozača isključen;",
+            "2 ako se dijete prevozi u sigurnosnoj sjedalici postavljenoj suprotno smjeru kretanja vozila;",
+            "3 ako je sigurnosna sjedalica pričvršćena za sjedište pomoću sigurnosnog pojasa u tri tačke vezivanja ili posebnim kopčama u vozilu;",
+            "4 ako vozač ima više od 21 godinu starosti."
+        ],
+        "answer": "1,2,3"
+    },
+    {
+        "question": "Instruktor vožnje za vrijeme osposobljavanja kandidata obavlja obuku:",
+        "options": [
+            "1 sa više kandidata u vozilu;",
+            "2 samo sa jednim kandidatom u vozilu."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li je dozvoljeno da vozilo autoškole bude opremljeno videokamerom?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Za vrijeme osposobljavanja kandidata za vozača iz upravljanja motornim vozilom, kandidat za vozača pored identifikacionih dokumenata kod sebe mora imati i na zahtjev ovlašćenog lica pokazati sljedeću dokumentaciju: (više tačnih odgovora)",
+        "options": [
+            "1 ljekarsko uvjerenje;",
+            "2 potvrdu o završenom osposobljavanju iz upravljanja motornim vozilom;",
+            "3 uvjerenje o položenom ispitu iz pružanja prve pomoći;",
+            "4 potvrdu o završenom osposobljavanju iz poznavanja propisa o bezbjednosti saobraćaja na putevima;",
+            "5 uvjerenje o položenom ispitu iz poznavanja propisa o bezbjednosti saobraćaja na putevima za onu kategoriju za koju se kandidat osposobljava."
+        ],
+        "answer": "1,3,5"
+    },
+    {
+        "question": "Obuka iz teoretskog dijela prve pomoći traje:",
+        "options": [
+            "1 tri školska časa;",
+            "2 šest školskih časova."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Svjetla za maglu koja se nalaze na prednjoj strani vozila moraju biti:",
+        "options": [
+            "1 crvene boje;",
+            "2 bijele ili žute boje."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Koja svjetla moraju biti upaljena za vrijeme vožnje kroz tunel?",
+        "options": [
+            "1 kratka svjetla;",
+            "2 duga svjetla;",
+            "3 svjetla za maglu."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Koja upozorenja vozačima daju zvučne ili vibracijske trake?",
+        "options": [
+            "1 na potrebu povećanja brzine kretanja vozila;",
+            "2 na potrebu smanjenja brzine kretanja vozila."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Kada je organizator dužan prekinuti održavanje sportske ili druge priredbe, odnosno aktivnosti na putu? (više tačnih odgovora)",
+        "options": [
+            "1 kada su ugroženi učesnici ili gledaoci;",
+            "2 kada nije narušen javni red i mir;",
+            "3 kada nastanu okolnosti zbog kojih priredba, odnosno aktivnosti ne bi bile odobrene;",
+            "4 kada organizator ne provodi određene mjere osiguranja;",
+            "5 kada nisu ugroženi učesnici ili gledaoci."
+        ],
+        "answer": "1,3,4"
+    },
+    {
+        "question": "Koliko maksimalno kandidata može biti u jednoj grupi za vrijeme trajanja nastave iz poznavanja propisa o bezbjednosti saobraćaja na putevima?",
+        "options": [
+            "1 najviše 20 kandidata u jednoj grupi;",
+            "2 najviše 30 kandidata u jednoj grupi;",
+            "3 najviše 25 kandidata u jednoj grupi."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Koliko iz opravdanih razloga mogu odsustovati kandidati za vozače motornih vozila koji se osposobljavaju iz poznavanja propisa o bezbjednosti saobraćaja na putevima za kategorije A, B, C i podkategorije C1?",
+        "options": [
+            "1 najviše dva nastavna časa;",
+            "2 najviše osam nastavnih časova;",
+            "3 najviše četiri nastavna časa."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Koje radnje nisu dozvoljene za vrijeme kretanja vozila? (više tačnih odgovora)",
+        "options": [
+            "1 uskakati u vozilo i iskakati iz vozila;",
+            "2 otvarati vrata, naginjati se van vozila;",
+            "3 isturati dijelove tijela iz vozila i voziti se na vanjskim dijelovima vozila ili na traktorskim prikolicama;",
+            "4 slušanjem muzike."
+        ],
+        "answer": "1,2,3"
+    },
+    {
+        "question": "Da li se na točkove u toku zimskih uslova na kolovozu smiju postaviti lanci za snijeg?",
+        "options": [
+            "1 da;",
+            "2 ne;",
+            "3 da ukoliko visina sniježnog prekrivača prelazi 5 cm."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "U kojem godišnjem periodu je obavezno posjedovanje zimske opreme vozila?",
+        "options": [
+            "1 od 1. novembra tekuće do 1. aprila naredne godine;",
+            "2 od 15. novembra tekuće do 15. aprila naredne godine."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Koji postupak je potrebno provesti u slučaju nestanka vozačke dozvole? (više tačnih odgovora)",
+        "options": [
+            "1 nestanak vozačke dozvole prijavljuje se nadležnom organu;",
+            "2 podnijeti zahtjev za zamjenu nestale vozačke dozvole;",
+            "3 nestanak vozačke dozvole objavljuje se u \"Službenom glasniku BiH\" ili službenim glasilima entiteta i Brčko distrikta Bosne i Hercegovine."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Sa koje strane puta i u kojem smjeru se postavljaju saobraćajni znakovi?",
+        "options": [
+            "1 sa desne strane puta uz kolovoz u smjeru kretanja vozila;",
+            "2 sa lijeve strane puta uz kolovoz u smjeru kretanja vozila;",
+            "3 sa desne strane puta uz kolovoz u smjeru suprotnom od smjera kretanja vozila."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Koliko se najviše saobraćajnih znakova može postaviti na isti stub?",
+        "options": [
+            "1 tri saobraćajna znaka;",
+            "2 četiri saobraćajna znaka;",
+            "3 dva saobraćajna znaka."
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Poluprečnik kruga znakova obavještenja u tunelima i galerijama iznosi:",
+        "options": [
+            "1 50 cm;",
+            "2 60 cm;",
+            "3 70 cm."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Oznake i brojevi na registarskim tablicama za motornai priključna vozila i probnim tablicama ispisuju se slovima:",
+        "options": [
+            "1 A, E, J, K, M, T i arapskim brojevima;",
+            "2 A, E, B, C, T, J i arapskim brojevima;",
+            "3 A, E, P, N, S, J i arapskim brojevima."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Na dijelu puta s velikim uzdužnim nagibom na kojem je mimoilaženje vozila nemoguće ili je veoma otežano:",
+        "options": [
+            "1 vozač vozila koji se kreće niz nagib nastavlja kretanje bez zaustavljanja, bez obzira da li drugo vozilo ide u susret uz nagib;",
+            "2 vozač vozila koje se kreće niz nagib dužan je da zaustavi svoje vozilo na pogodnom mjestu, ako primijeti da mu drugo vozilo ide u susret uz nagib;",
+            "3 vozač vozila koje se kreće niz nagib nije dužan da zaustavi svoje vozilo na pogodnom mjestu, ako primijeti da mu drugo vozilo ide u susret uz nagib."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Na dijelu puta s velikim uzdužnim nagibom na kojem je mimoilaženje vozila nemoguće ili je veoma otežano, kad se jedno od vozila koja se mimoilaze mora kretati unazad, kretaće se unazad: (više tačnih odgovora)",
+        "options": [
+            "1 teretno motorno vozilo koje se susrelo s autobusom;",
+            "2 autobus koji se susreo sa teretnim motornim vozilom;",
+            "3 svako vozilo koje se susrelo s vozilom koje vuče priključno vozilo."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Da li je dozvoljeno izvršiti radnju preticanja ili obilaženja saobraćajnom trakom koja je namijenjena za prinudno zaustavljanje vozila?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Pod kojim uslovima vozač bicikla stariji od 18 godina može javnom putu biciklom prevoziti dijete do osam godina starosti? (više tačnih odgovora)",
+        "options": [
+            "1 ako dijete na glavi nosi zakopčanu zaštitnu kacigu;",
+            "2 ako dijete na glavi ne nosi zakopčanu zaštitnu kacigu;",
+            "3 ako je na biciklu ugrađeno posebno sjedište, prilagođeno uzrastu djeteta i čvrsto spojeno sa biciklom."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Da li se zaprežno vozilo smije ostavljati bez nadzora na putu ili uz put?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Lica koja se voze zaprežnim vozilom dok je vozilo u pokretu ne smiju: (više tačnih odgovora)",
+        "options": [
+            "1 da stoje na vozilu;",
+            "2 sjediti na platou vozila sa strane;",
+            "3 da sjede na stranicama vozila;",
+            "4 se voziti zaprežnim vozilom;",
+            "5 da se nalaze na rudi vozila dok je vozilo u pokretu."
+        ],
+        "answer": "1,2,3,5"
+    },
+    {
+        "question": "Da li vozač zaprežnog vozila mora, dok vozi ili vodi zapregu, u periodu od prvog sumraka do potpunog svanuća, kao i danju u slučaju smanjene vidljivosti, nositi i svjetloodbojni prsluk?",
+        "options": [
+            "1 da;",
+            "2 ne."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Da li je vozač koji se kreće mokrim kolovozom u naselju dužan da prilagodi brzinu kretanja vozila tako da izbjegne prskanje pješaka koji se kreću ivicom kolovoza ili trotoara?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li se vozilima službe hitne pomoći i vatrogasna vozila, kada posebnim uređajima daju svjetlosne i zvučne znakove, primjenjuju odredbe o ograničenju brzine?",
+        "options": [
+            "1 ne, pod uslovom da ne ugrožavaju bezbjednost drugih učesnika u saobraćaju;",
+            "2 da;",
+            "3 ne."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Da li se vozilima službe hitne pomoći i vatrogasna vozila, kada posebnim uređajima daju svjetlosne i zvučne znakove, primjenjuju odredbe o zabrani preticanja i obilaženja kolone vozila i zabrani presijecanja kolone pješaka?",
+        "options": [
+            "1 da;",
+            "2 ne, pod uslovom da ne ugrožavaju bezbjednost drugih učesnika u saobraćaju;",
+            "3 ne."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Da li vozila policije i sudske policije, zatvorske policije straže, vojna vozila i vozila Granične policije Bosne i Hercegovine, kada posebnim uređajima daju svjetlosne i zvučne znakove, imaju pravo prvenstva prolaza u odnosu na vozila službe hitne pomoći i vatrogasna vozila?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Vozilo u saobraćaju na putu ne smije da bude opterećeno: (više tačnih odgovora)",
+        "options": [
+            "1 preko svoje nosivosti koja je upisana u potvrdu o registraciji;",
+            "2 preko dozvoljenog osovinskog opterećenja;",
+            "3 ispod najveće dozvoljene mase;",
+            "4 prekomogućnost koja dozvoljava osobine puta utvrđene propisima ili saobraćajnim znakom."
+        ],
+        "answer": "1,2,4"
+    },
+    {
+        "question": "Da li se vozilima organizacija za izvršenje krivičnih i prekršajnih sankcija smiju prevoziti lica?",
+        "options": [
+            "1 da, i to samo za službene potrebe;",
+            "2 ne;",
+            "3 da."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Znakovi koje učesnicima u saobraćaju daje ovlašćeno lice su: (više tačnih odgovora)",
+        "options": [
+            "1 znakovi koji se daju rukama i položajem tijela;",
+            "2 znakovi koji se daju gestikulacijom i mimikom;",
+            "3 zvučni i svjetlosni znakovi."
+        ],
+        "answer": "1,3"
+    },
+    {
+        "question": "Vozač koji je vozilom učestvovao u saobraćajnoj nezgodi u kojoj ima poginulih ili povrijeđenih lica, kao i drugo lice koje je neposredno učestvovalo u nezgodi:",
+        "options": [
+            "1 imaju pravo da traže lične podatke i adresu od lica koja su bila prisutna kad se nezgoda dogodila;",
+            "2 nemaju pravo da traže lične podatke i adresu od lica koja su bila prisutna kad se nezgoda dogodila."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Da li se smatra da je vozač počeo upravljati vozilom ako je pokrenuo vozilo sa mjesta?",
+        "options": [
+            "1 ne;",
+            "2 da."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Osposobljavanje kandidata za vozače motornih vozila je djelatnost od posebnog društvenog značaja, a obavlja se po posebnom programu koji obuhvata:",
+        "options": [
+            "1 teoretski dio, praktični dio i program prve pomoći;",
+            "2 samo teoretski i praktični dio."
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Pod pojmom „ukupna masa“ podrazumijeva se:",
+        "options": [
+            "1 dozvoljena masa do koje vozilo smije da se optereti prema deklaraciji proizvođača vozila;",
+            "2 masa vozila zajedno sa svom masom tereta koji se prevozi u vozilu, uključujući i masu putnika koji se nalaze u vozilu, kao i masu priključnog vozila sa teretom, ako je ono pridodato vozilu;",
+            "3 masa vozila zajedno s njegovom nosivošću."
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Međunarodna vozačka dozvola izdata u BiH:",
+        "options": [
+            "1 može se koristiti za upravljanje motornim vozilima na teritoriji BiH;",
+            "2 ne može sekoristiti za upravljanje motornim vozilima na teritoriji BiH."
+        ],
+        "answer": "2"
+    }
+]

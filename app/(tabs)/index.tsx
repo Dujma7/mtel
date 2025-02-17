@@ -7,6 +7,7 @@ import {styles} from "@/app/styles";
 import QuizScreen from "@/app/(tabs)/quiz";
 import ResourceScreen from "@/app/(tabs)/resources";
 import LeaderBoardScreen from "@/app/(tabs)/leaderboard";
+import QuizSelectScreen from '@/app/(tabs)/QuizSelect';
 import {MD3DarkTheme, MD3LightTheme, Surface} from "react-native-paper";
 import {SafeAreaView } from 'react-native-safe-area-context';
 import { getItem } from 'expo-secure-store';
@@ -34,10 +35,10 @@ export function HomeScreenUI({navigation}: HomeScreenProps) {
         <Surface style={{height: "100%"}}>
             <SafeAreaView>
                 <Text style={[_styles.textUser, ...TextStyles]}>Pozdrav, {getItem("username")}!</Text>
-                <Text style={[_styles.textH2, ...TextStyles, {paddingBottom: 100}]}>Dobrodošao natrag</Text>
+                <Text style={[_styles.textH2, ...TextStyles, {paddingBottom: 100}]}>Dobrodošli natrag</Text>
 
                 <Surface style={styles.HomeSurface}>
-                    <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("QuizScreen")}>
+                    <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("QuizSelectScreen")}>
                         <Text style={styles.ButtonText}>Kviz</Text>
                         <Text style={styles.ButtonSubText}>Izazovi svoje znanje i testiraj se!</Text>
                         <Image style={styles.TestImage} source={require("../../assets/images/test.png")}></Image>
@@ -57,13 +58,6 @@ export function HomeScreenUI({navigation}: HomeScreenProps) {
                         <Text style={styles.ButtonText}>Materijal</Text>
                         <Text style={styles.ButtonSubText}>Svi potrebni materijali za tvoj uspjeh!</Text>
                         <Image style={styles.MatImage} source={require("../../assets/images/gradCap-removebg-preview.png")}></Image>
-                    </TouchableOpacity>
-                </Surface>
-                <Surface style={styles.HomeSurface}>
-                    <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("ResourceScreen")}>
-                        <Text style={styles.ButtonText}>Favoriti</Text>
-                        <Text style={styles.ButtonSubText}>Sve tvoje najdraže na jednome mjestu!</Text>
-                        <Image style={styles.TestImage} source={require("../../assets/images/star.png")}></Image>
                     </TouchableOpacity>
                 </Surface>
             </SafeAreaView>
@@ -104,9 +98,9 @@ export default function HomeScreen() {
     return (
         <Stack.Navigator screenOptions={{headerShown: false, headerStyle: {backgroundColor: bgcolor}}}>
             <Stack.Screen name={"Home"} component={HomeScreenUI}/>
-            <Stack.Screen name={"QuizScreen"} component={QuizScreen} options={{headerShown: false}}/>
             <Stack.Screen name={"LeaderboardScreen"} component={LeaderBoardScreen} options={{headerShown: false}}/>
             <Stack.Screen name={"ResourceScreen"} component={ResourceScreen} options={{headerShown: false}}/>
+            <Stack.Screen name={"QuizSelectScreen"} component={QuizSelectScreen} options={{headerShown: false}}/>
         </Stack.Navigator>
     )
 }

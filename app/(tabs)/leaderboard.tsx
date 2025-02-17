@@ -64,6 +64,11 @@ export default function LeaderBoardScreen() {
         <Surface style={[styles.container]}>
             <SafeAreaView>
                 <Text style={styles.leaderboardH1}>Najbolji Rezultati</Text>
+                <View style={[{flexDirection: "row", justifyContent: "space-between", width: "90%", marginTop: 20, paddingBottom: 5}, styles.leaderboardHeaderSurface]}>
+                    <Text style={styles.leaderboardHeader}>Mjesto</Text>
+                    <Text style={styles.leaderboardHeader}>Ime</Text>
+                    <Text style={styles.leaderboardHeader}>Vrijeme</Text>
+                </View>
                 <FlatList
                     style={styles.leaderboard}
                     data={leaderboardData}

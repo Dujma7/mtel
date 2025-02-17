@@ -6,7 +6,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import { Surface } from "react-native-paper";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { reloadAsync } from "expo-updates";
-import { setItem } from "expo-secure-store";
+import { setItem, getItem } from "expo-secure-store";
 import { reloadAppAsync } from "expo";
 
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
@@ -26,9 +26,9 @@ export default function ProfileScreen() {
     return (
             <Surface style={{height: "100%", paddingTop: 100}}>
                 <SafeAreaView>
-                        <Text style={[styles.profileText]}>Korisničko ime: username</Text>
-                        <Text style={styles.profileText}>E-mail: example@gmail.com</Text>
-                        <Button mode="outlined" onPress={handleLogout} style={TextStyles} >Odjavi se</Button>
+                        <Text style={[styles.profileText]}>Korisničko ime: {getItem("username")}</Text>
+                        <Text style={styles.profileText}>E-mail: {getItem("email")}</Text>
+                        <Button mode="text" onPress={handleLogout} style={[TextStyles, {marginTop: 20}]} >Odjavi se</Button>
                 </SafeAreaView>  
             </Surface>  
     )     
