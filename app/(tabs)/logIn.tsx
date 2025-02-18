@@ -72,7 +72,7 @@ export default function LogInScreen({navigation}: LogInScreenProps) {
             <TextInput autoCapitalize='none' error={emailErrorValue!=""} value={emailTextValue} onChangeText={text => setEmailTextValue(text)} label="E-mail" style={styles.input} underlineColor="white" placeholder='Upišite E-mail'/>
             <TextInput autoCapitalize='none' error={passwordErrorValue!=""} value={passwordTextValue} onChangeText={text => setPasswordTextValue(text)} label="Šifra" style={styles.input} secureTextEntry={true} placeholder='Upišite šifru'/>
             <Button style={styles.btnSubmit} mode="contained" onPress={() => handleLoginClick(emailTextValue, passwordTextValue, navigation, setEmailErrorValue, setPasswordErrorValue)}>Log in</Button>
-            <Text style={[styles.ptext]} onPress={() => {navigation.navigate("SignUpScreen")}}>Nemate račun? Napravite ga ovdje.</Text>
+            <Text style={[styles.ptext, ...TextStyles]} onPress={() => {navigation.navigate("SignUpScreen")}}>Nemate račun? Napravite ga ovdje.</Text>
         </Surface>
     )
 };

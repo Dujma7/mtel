@@ -234,6 +234,7 @@ function Question(props: QuestionProps & { resetTrigger: boolean }) {
                                     style={[
                                         styles.quizButtonText,
                                         isSelected && lockedIn && { color: 'white' },
+                                        ...TextStyles
                                     ]}
                                 >
                                     {answer}

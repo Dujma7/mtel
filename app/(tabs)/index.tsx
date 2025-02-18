@@ -37,7 +37,7 @@ export function HomeScreenUI({navigation}: HomeScreenProps) {
                 <Text style={[_styles.textUser, ...TextStyles]}>Pozdrav, {getItem("username")}!</Text>
                 <Text style={[_styles.textH2, ...TextStyles, {paddingBottom: 100}]}>Dobrodošli natrag</Text>
 
-                <Surface style={styles.HomeSurface}>
+                <Surface style={styles.HomeSurface} elevation={5}>
                     <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("QuizSelectScreen")}>
                         <Text style={styles.ButtonText}>Kviz</Text>
                         <Text style={styles.ButtonSubText}>Izazovi svoje znanje i testiraj se!</Text>
@@ -45,7 +45,7 @@ export function HomeScreenUI({navigation}: HomeScreenProps) {
                     </TouchableOpacity>
                 </Surface>
 
-                <Surface style={styles.HomeSurface}>
+                <Surface style={styles.HomeSurface} elevation={5}>
                     <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("LeaderboardScreen")}>
                         <Text style={styles.ButtonText}>Ljestvica</Text>
                         <Text style={styles.ButtonSubText}>Svaka pobjeda vodi prema vrhu!</Text>
@@ -53,7 +53,7 @@ export function HomeScreenUI({navigation}: HomeScreenProps) {
                     </TouchableOpacity>
                 </Surface>
 
-                <Surface style={styles.HomeSurface}>
+                <Surface style={styles.HomeSurface} elevation={5}>
                     <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("ResourceScreen")}>
                         <Text style={styles.ButtonText}>Materijal</Text>
                         <Text style={styles.ButtonSubText}>Svi potrebni materijali za tvoj uspjeh!</Text>

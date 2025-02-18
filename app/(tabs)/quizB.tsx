@@ -175,24 +175,26 @@ function Question(props: QuestionProps) {
 
     return (
         <Surface style={[styles.QuizSurface, ...TextStyles, { height: "100%" }]}>
-            <Text style={[modalStyles.QuizText, modalStyles.quizQuestionStyle]}>
+            <Text style={[modalStyles.QuizText, modalStyles.quizQuestionStyle, ...TextStyles]}>
                 {props.question}
             </Text>
             {props.options.map((option, index) => (
-                <TouchableOpacity
-                    key={index}
-                    style={[styles.quizButtonStyle, buttonStyles[index]]} // Apply the conditional styles here
-                    onPress={() => handleAnswerSelect(index)}
-                    disabled={lockedIn} // Disable the button after an answer is selected
-                >
-                    <Text
-                        numberOfLines={6} // Truncate after 3 lines
-                        ellipsizeMode="tail" // Use ellipsis to truncate text
-                        style={[TextStyles, { textAlign: 'center' }]} // Center the text
+                <Surface style={[styles.HomeSurface, buttonStyles[index]]} elevation={5}>
+                    <TouchableOpacity
+                        key={index}
+                        style={[styles.quizButtonStyle]} // Apply the conditional styles here
+                        onPress={() => handleAnswerSelect(index)}
+                        disabled={lockedIn} // Disable the button after an answer is selected
                     >
-                        {option}
-                    </Text>
-                </TouchableOpacity>
+                        <Text
+                            numberOfLines={6} // Truncate after 3 lines
+                            ellipsizeMode="tail" // Use ellipsis to truncate text
+                            style={[TextStyles, { textAlign: 'center' }]} // Center the text
+                        >
+                            {option}
+                        </Text>
+                    </TouchableOpacity>
+                </Surface>
             ))}
             <Button
                 onPress={handleNext}
@@ -250,7 +252,6 @@ const modalStyles = StyleSheet.create({
         fontFamily: "Roboto",
     },
     quizQuestionStyle: {
-        backgroundColor: "#3b3845",
         width: "100%",
         marginLeft: "auto",
         marginRight: "auto",

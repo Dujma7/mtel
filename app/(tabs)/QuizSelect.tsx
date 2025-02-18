@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { View, Text, Image, TouchableOpacity, Modal, StyleSheet } from 'react-native';
-import { Button, useTheme, Surface, MD3DarkTheme, MD3LightTheme } from "react-native-paper";
+import { Button, useTheme, Surface, MD3DarkTheme, MD3LightTheme, PaperProvider } from "react-native-paper";
 import { useFonts } from "expo-font";
 // @ts-ignore
 import AppLoading from 'expo-app-loading';
@@ -32,24 +32,24 @@ export function QuizSelectScreen({navigation}: QuizBranchProps) {
         return <AppLoading/>;
     }
     return (
-        <ScrollView>
-            <Surface style={[styles.QuizSurface, {height: "100%"}]}>
-                <SafeAreaView>
-                    <Text style={styles.leaderboardH1}>Izaberi  kviz</Text>
-                    <Text style={styles.QuizSelectTextTop}>Izaberi vrstu kviza koji želiš uraditi!</Text>
-                    <TouchableOpacity activeOpacity={0.3} style={styles.SelectSurface} onPress={() => navigation.navigate("QuizScreen")}> 
-                        <Text style={styles.SelectText}>Znakovi</Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity activeOpacity={0.3} disabled={true} style={styles.SelectSurfaceDisabled} >
-                        <Text style={styles.SelectText}>Klasa A</Text>
-                        <Text style={styles.SelectSubText}>Dolazi uskoro</Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity activeOpacity={0.3} onPress={() => navigation.navigate("QuizScreenB")} style={styles.SelectSurface}>
-                        <Text style={styles.SelectText}>Klasa B</Text>
-                    </TouchableOpacity>
-                </SafeAreaView>
-            </Surface>
-        </ScrollView>
+        <PaperProvider>
+                <Surface style={[styles.QuizScreen, {backgroundColor:Theme.colors.background, height:"100%"}]} elevation={0}>
+                    <SafeAreaView>
+                        <Text style={[styles.leaderboardH1, ...TextStyles]}>Izaberi  kviz</Text>
+                        <Text style={[styles.QuizSelectTextTop, ...TextStyles]}>Izaberi vrstu kviza koji želiš uraditi!</Text>
+                        <Surface style={styles.HomeSurface} elevation={5}>
+                            <TouchableOpacity activeOpacity={0.3} style={styles.ButtonStyle} onPress={() => navigation.navigate("QuizScreen")}> 
+                                <Text style={[styles.SelectText, ...TextStyles]}>Znakovi</Text>
+                            </TouchableOpacity>
+                        </Surface>
+                        <Surface elevation={5} style={styles.HomeSurface}>
+                            <TouchableOpacity activeOpacity={0.3} onPress={() => navigation.navigate("QuizScreenB")} >
+                                <Text style={[styles.SelectText, ...TextStyles]}>Klasa B</Text>
+                            </TouchableOpacity>
+                        </Surface>
+                    </SafeAreaView>
+                </Surface>
+        </PaperProvider>
     )
     
 };
@@ -57,7 +57,7 @@ const Stack = createStackNavigator<QuizBranchParamList>();
 
 export default function HomeScreen() {
     const colorScheme = useColorScheme()
-    const bgcolor = colorScheme === "dark" ? MD3DarkTheme.colors.background : "fff"
+    const bgcolor = colorScheme === "dark" ? MD3DarkTheme.colors.background : MD3LightTheme.colors.background
     return (
         <Stack.Navigator screenOptions={{headerShown: false, headerStyle: {backgroundColor: bgcolor}}}>
             <Stack.Screen name={"QuizHome"} component={QuizSelectScreen}/>

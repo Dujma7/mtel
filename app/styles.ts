@@ -198,7 +198,7 @@ export const styles = StyleSheet.create({
     },
     HomeSurface: {
         height: 100,
-        backgroundColor: "#3b3845",
+        //backgroundColor: "#3b3845",
         borderRadius: "5%",
         width: "90%",
         marginLeft: "auto",
@@ -241,7 +241,6 @@ export const styles = StyleSheet.create({
     quizButtonStyle: {
         minHeight: 65,
         padding:10,
-        backgroundColor: "#3b3845",
         borderRadius: "5%",
         width: "90%",
         marginLeft: "auto",
@@ -260,7 +259,7 @@ export const styles = StyleSheet.create({
     },
     profileText: {
         margin: 0,
-        color: "#c6b2f1",
+        //color: "#c6b2f1",
         fontSize: 25,
         fontWeight: 500,
         fontFamily: "Roboto",
@@ -360,7 +359,6 @@ export const styles = StyleSheet.create({
         marginRight: "auto",
         borderRadius: "5%",
         shadowOpacity: 0,
-        backgroundColor: "#2e2b36",
         margin: 20,
         height: 150,
         width: 300,

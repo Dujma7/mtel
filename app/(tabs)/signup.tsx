@@ -151,7 +151,7 @@ export default function SignUpScreen({ navigation }: LogInScreenProps) {
             </Button>
 
             <Text
-                style={[styles.ptext]}
+                style={[styles.ptext, ...TextStyles]}
                 onPress={() => { navigation.navigate("LogInScreen"); }}
             >
                 Imate račun? Prijavite se ovdje.
