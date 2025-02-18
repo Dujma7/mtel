@@ -4,10 +4,9 @@ import {styles} from "../styles";
 import { RootStackParamList } from "./types";
 import { StackNavigationProp } from '@react-navigation/stack';
 import { Surface } from "react-native-paper";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { reloadAsync } from "expo-updates";
 import { setItem, getItem } from "expo-secure-store";
-import { reloadAppAsync } from "expo";
 
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
 type HomeScreenProps = {
