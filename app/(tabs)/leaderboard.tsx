@@ -1,9 +1,7 @@
 import {FlatList, ScrollView, View, Text} from 'react-native';
 import {useFonts} from "expo-font";
-import AppLoading from "expo-app-loading";
 import {styles} from "../styles";
-import {Card, PaperProvider, Surface} from 'react-native-paper';
-import {Leaderboard} from 'flywheel-leaderboard';
+import {Surface} from 'react-native-paper';
 import {useColorScheme} from 'react-native';
 
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';

@@ -6,8 +6,8 @@ import {TextInput, Button, Surface, MD3DarkTheme, MD3LightTheme, Divider} from '
 import {StackNavigationProp} from "@react-navigation/stack";
 import {RootStackParamList} from "@/app/(tabs)/types";
 import {getUserData, login} from "@/utils/apiIntegration";
-import {useRef, useState} from "react";
-import {getItem, setItem} from "expo-secure-store"
+import {useState} from "react";
+import {setItem} from "expo-secure-store"
 import { reloadAsync } from 'expo-updates';
 
 type LogInScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
@@ -23,7 +23,6 @@ function handleLoginClick(email: string, password: string, navigationProp: Stack
             case"200":{
                 setItem("token", res.token)
                 getUserData(res.token).then((data)=>{
-                    alert("f")
                     switch(data.status){
                         case "200":{
                             setItem("username", data.username)

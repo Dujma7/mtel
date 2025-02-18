@@ -11,6 +11,7 @@ import QuizScreen from './quiz';
 import { QuizBranchParamList } from './types';
 import { createStackNavigator, StackNavigationProp } from '@react-navigation/stack';
 import QuizScreenB from './quizB';
+import { ScrollView } from 'react-native-gesture-handler';
 
 type QuizBranchNavigationProp = StackNavigationProp<QuizBranchParamList, "QuizHome">
 type QuizBranchProps = {
@@ -31,10 +32,11 @@ export function QuizSelectScreen({navigation}: QuizBranchProps) {
         return <AppLoading/>;
     }
     return (
-        <Surface style={[styles.QuizSurface, {height: "100%"}]}>
-            <SafeAreaView>
-                <Text style={styles.leaderboardH1}>Izaberi  kviz</Text>
-                <Text style={styles.QuizSelectTextTop}>Izaberi vrstu kviza koji želiš uraditi!</Text>
+        <ScrollView>
+            <Surface style={[styles.QuizSurface, {height: "100%"}]}>
+                <SafeAreaView>
+                    <Text style={styles.leaderboardH1}>Izaberi  kviz</Text>
+                    <Text style={styles.QuizSelectTextTop}>Izaberi vrstu kviza koji želiš uraditi!</Text>
                     <TouchableOpacity activeOpacity={0.3} style={styles.SelectSurface} onPress={() => navigation.navigate("QuizScreen")}> 
                         <Text style={styles.SelectText}>Znakovi</Text>
                     </TouchableOpacity>
@@ -45,8 +47,9 @@ export function QuizSelectScreen({navigation}: QuizBranchProps) {
                     <TouchableOpacity activeOpacity={0.3} onPress={() => navigation.navigate("QuizScreenB")} style={styles.SelectSurface}>
                         <Text style={styles.SelectText}>Klasa B</Text>
                     </TouchableOpacity>
-            </SafeAreaView>
-        </Surface>
+                </SafeAreaView>
+            </Surface>
+        </ScrollView>
     )
     
 };
