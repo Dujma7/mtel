@@ -1,19 +1,21 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { View, Text, Image, TouchableOpacity, Modal, StyleSheet } from 'react-native';
-import { Button, useTheme, Surface } from "react-native-paper";
-import { useFonts } from "expo-font";
-// @ts-ignore
+import { View, Text, Modal, StyleSheet } from 'react-native';
+import { Button, Surface } from 'react-native-paper';
+import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
 import { styles } from "../styles";
 import { useColorScheme } from "@/hooks/useColorScheme";
-import { SignsMeaningAndImage } from "@/assets/signImages/signsMeaningAndImage2";
-import {submitRun} from "@/utils/apiIntegration";
+import { submitRun } from "@/utils/apiIntegration";
+import { TouchableOpacity } from 'react-native';
+
+// Replace with the actual imported JSON
+import questionsData from '../../assets/questions/pitanja.json';
 
 type QuestionProps = {
     goToNextQuestion: (correct: boolean) => void;
-    answers: Array<string>;
-    correctIndex: number;
-    questionImage: any;
+    options: string[];
+    correctAnswer: string;
+    question: string;
 };
 
 type NavigationProp = {
@@ -21,44 +23,18 @@ type NavigationProp = {
 };
 
 export default function QuizScreenB({ navigation }: { navigation: NavigationProp }) {
-    const getRandomValue = (dict: Record<string, any>) => {
-        const values = Object.values(dict);
-        return values[Math.floor(values.length * Math.random())];
-    };
-
-    let [fontsLoaded] = useFonts({
-        "Roboto-Bold": require("../../assets/fonts/Roboto-Bold.ttf"),
-        "Roboto-Thin": require("../../assets/fonts/Roboto-Thin.ttf"),
-    });
-
-    const colorScheme = useColorScheme();
-    const TextStyles = [colorScheme === "dark" ? styles.lightText : styles.darkText];
-
-    const get4randomKeys = (dict: Object) => {
-        let keys = Object.keys(dict);
-        let out = [];
-        for (let i = 0; i < 4; i++) {
-            let selected = getRandomValue(keys);
-            out.push(selected);
-            keys = keys.filter((key) => key !== selected);
-        }
-        return out;
-    };
-
-    const [answers, setAnswers] = useState<string[]>(get4randomKeys(SignsMeaningAndImage));
-    const [currentKey, setCurrentKey] = useState<string>(getRandomValue(answers));
-    const [quizImage, setQuizImage] = useState(SignsMeaningAndImage[currentKey]);
-    const [unUsedKeys, setUnUsedKeys] = useState(Object.keys(SignsMeaningAndImage));
+    const [questions, setQuestions] = useState(questionsData);
+    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+    const [timeElapsed, setTimeElapsed] = useState(0);
     const [correctCount, setCorrectCount] = useState(0);
     const [questionCount, setQuestionCount] = useState(0);
-    const [timeElapsed, setTimeElapsed] = useState(0);
     const [showWinModal, setShowWinModal] = useState(false);
-
-    // States to reset selection on question change
     const [resetTrigger, setResetTrigger] = useState(false);
 
-    // Ref to store timer ID
     const timerId = useRef<NodeJS.Timeout | null>(null);
+    
+    const colorScheme = useColorScheme();
+    const TextStyles = [colorScheme === 'dark' ? styles.lightText : styles.darkText];
 
     // Timer logic
     useEffect(() => {
@@ -72,27 +48,19 @@ export default function QuizScreenB({ navigation }: { navigation: NavigationProp
         };
     }, []);
 
-    const handleWin = (time: number) => {
+    const handleWin = () => {
         if (timerId.current) {
-            clearInterval(timerId.current); // Stop the timer when the user wins
+            clearInterval(timerId.current);
         }
-        submitRun(timeElapsed).then(r => console.log(r));
-        setShowWinModal(true); // Show the win modal
+        setShowWinModal(true);
     };
 
     const resetGame = () => {
         setCorrectCount(0);
         setQuestionCount(0);
         setTimeElapsed(0);
-        setUnUsedKeys(Object.keys(SignsMeaningAndImage));
-        const _answers = get4randomKeys(SignsMeaningAndImage);
-        const _correctKey = getRandomValue(_answers);
-        setAnswers(_answers);
-        setCurrentKey(_correctKey);
-        setQuizImage(SignsMeaningAndImage[_correctKey]);
-        setShowWinModal(false); // Close the modal
-
-        // Restart the timer
+        setCurrentQuestionIndex(0);
+        setShowWinModal(false);
         if (timerId.current) {
             clearInterval(timerId.current);
         }
@@ -108,31 +76,22 @@ export default function QuizScreenB({ navigation }: { navigation: NavigationProp
             setCorrectCount((prev) => {
                 const newCount = prev + 1;
                 if (newCount === 25) {
-                    handleWin(timeElapsed); // Call handleWin when the user reaches 25 correct answers
+                    handleWin();
                 }
                 return newCount;
             });
-
-            // Remove the current question from the pool only if the answer is correct
-            const _unused = unUsedKeys.filter((key) => key !== currentKey);
-            setUnUsedKeys(_unused);
         }
 
-        // Load new question regardless of correctness
-        const _answers = get4randomKeys(SignsMeaningAndImage);
-        const _correctKey = getRandomValue(_answers);
-        setAnswers(_answers);
-        setCurrentKey(_correctKey);
-        setQuizImage(SignsMeaningAndImage[_correctKey]);
+        const nextIndex = currentQuestionIndex + 1;
+        if (nextIndex < questions.length) {
+            setCurrentQuestionIndex(nextIndex);
+        } else {
+            handleWin();
+        }
 
-        // Trigger a reset of the question state
         setResetTrigger((prev) => !prev);
     };
-
-    if (!fontsLoaded) {
-        return <AppLoading />;
-    }
-
+if (!questions || questions.length === 0) { return <AppLoading />; } const currentQuestion = questions[currentQuestionIndex];
     return (
         <Surface style={styles.QuizScreen}>
             <View style={styles.timerContainer}>
@@ -142,10 +101,10 @@ export default function QuizScreenB({ navigation }: { navigation: NavigationProp
             </View>
             <Question
                 goToNextQuestion={(correct) => handleAnswer(correct)}
-                questionImage={quizImage}
-                answers={answers}
-                correctIndex={answers.indexOf(currentKey)}
-                resetTrigger={resetTrigger} // Pass the reset trigger to reset the question state
+                question={currentQuestion.question}
+                options={currentQuestion.options}
+                correctAnswer={currentQuestion.answer}
+                resetTrigger={resetTrigger}
             />
             <Modal
                 animationType="slide"
@@ -176,53 +135,74 @@ export default function QuizScreenB({ navigation }: { navigation: NavigationProp
     );
 }
 
-function Question(props: QuestionProps & { resetTrigger: boolean }) {
+function Question(props: QuestionProps) {
     const colorScheme = useColorScheme();
     const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
     const [lockedIn, setLockedIn] = useState(false);
+    const [buttonStyles, setButtonStyles] = useState<any[]>([]);
     const TextStyles = [colorScheme === 'dark' ? styles.lightText : styles.darkText];
-    const theme = useTheme();
 
     useEffect(() => {
         setSelectedIndex(null);
         setLockedIn(false);
+        setButtonStyles([]);
     }, [props.resetTrigger]);
 
     const handleAnswerSelect = (index: number) => {
         if (!lockedIn) {
             setSelectedIndex(index);
             setLockedIn(true);
+            // Set button styles when an answer is selected
+            const correctIndex = parseInt(props.correctAnswer, 10) - 1; // Correct index from JSON, adjusted for zero-based index
+            const newButtonStyles = props.options.map((_, idx) => {
+                if (idx === correctIndex) {
+                    return { backgroundColor: 'green' }; // Green for correct answer
+                }
+                if (idx === index) {
+                    return { backgroundColor: 'red' }; // Red for the selected answer
+                }
+                return {}; // Default style for unselected buttons
+            });
+            setButtonStyles(newButtonStyles);
         }
     };
 
     const handleNext = () => {
         if (selectedIndex !== null) {
-            const isCorrect = selectedIndex === props.correctIndex;
+            const isCorrect = selectedIndex === parseInt(props.correctAnswer, 10) - 1;
             props.goToNextQuestion(isCorrect);
         }
     };
 
     return (
-        <Surface style={[styles.QuizSurface, ...TextStyles, {height: "100%"}]}>
-            
-            <Text style={[modalStyles.QuizText, modalStyles.quizQuestionStyle]}>Kako će ovlašćeno lice postupiti prema vozaču koji odbije da se podvrgne
-ispitivanju, odnosno stručnom pregledu na koji je upućen radi provjeravanja da li ima
-alkohola u organizmu ili da li pokazuje znakove poremećenosti izazavane dejstvom
-alkohola, odnosno da li je pod dejstvom opojnih droga ili psihoaktivnih lijekova na
-kojima je označeno da se ne smiju upotrebljavati prije i za vrijeme vožnje?</Text>
-            <Button style={modalStyles.quizButtonStyle}>Odgovor 1</Button>
-            <Button style={styles.quizButtonStyle}>Odgovor 2</Button>
-            <Button style={styles.quizButtonStyle}>Odgovor 3</Button>
-            <Button style={styles.quizButtonStyle}>Odgovor 4</Button>
-            <Button style={styles.quizButtonStyle}>Odgovor 5</Button>
+        <Surface style={[styles.QuizSurface, ...TextStyles, { height: "100%" }]}>
+            <Text style={[modalStyles.QuizText, modalStyles.quizQuestionStyle]}>
+                {props.question}
+            </Text>
+            {props.options.map((option, index) => (
+                <TouchableOpacity
+                    key={index}
+                    style={[styles.quizButtonStyle, buttonStyles[index]]} // Apply the conditional styles here
+                    onPress={() => handleAnswerSelect(index)}
+                    disabled={lockedIn} // Disable the button after an answer is selected
+                >
+                    <Text
+                        numberOfLines={6} // Truncate after 3 lines
+                        ellipsizeMode="tail" // Use ellipsis to truncate text
+                        style={[TextStyles, { textAlign: 'center' }]} // Center the text
+                    >
+                        {option}
+                    </Text>
+                </TouchableOpacity>
+            ))}
             <Button
-                            onPress={handleNext}
-                            style={styles.goBackButton}
-                            disabled={selectedIndex === null}
-                            mode="contained"
-                        >
-                            <Text style={TextStyles}>Next</Text>
-                        </Button>
+                onPress={handleNext}
+                style={styles.goBackButton}
+                disabled={selectedIndex === null}
+                mode="contained"
+            >
+                <Text style={TextStyles}>Next</Text>
+            </Button>
         </Surface>
     );
 }
@@ -236,7 +216,6 @@ const modalStyles = StyleSheet.create({
     },
     modal: {
         padding: 20,
-        borderRadius: 10,
         width: 300,
         alignItems: "center",
     },
@@ -257,7 +236,6 @@ const modalStyles = StyleSheet.create({
     quizButtonStyle: {
         height: 65,
         backgroundColor: "#3b3845",
-        borderRadius: "5%",
         width: "90%",
         marginLeft: "auto",
         marginRight: "auto",
@@ -274,7 +252,6 @@ const modalStyles = StyleSheet.create({
     },
     quizQuestionStyle: {
         backgroundColor: "#3b3845",
-        borderRadius: "5%",
         width: "100%",
         marginLeft: "auto",
         marginRight: "auto",
@@ -282,3 +259,4 @@ const modalStyles = StyleSheet.create({
         padding: 15
     }
 });
+

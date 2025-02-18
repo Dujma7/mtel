@@ -23,7 +23,6 @@ function handleLoginClick(email: string, password: string, navigationProp: Stack
             case"200":{
                 setItem("token", res.token)
                 getUserData(res.token).then((data)=>{
-                    alert("f")
                     switch(data.status){
                         case "200":{
                             setItem("username", data.username)

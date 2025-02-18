@@ -1,6 +1,6 @@
 // const fetch = require("expo-fetch")
 
-import {getItem} from "expo-secure-store";
+import {getItem, setItem} from "expo-secure-store";
 
 export async function getUserData(token: string) {
     let output = {
@@ -54,6 +54,7 @@ export async function signup(email: string, username: string, password: string) 
         username: "",
         email: "",
         error: "",
+        conflict: "",
         token: ""
     }
     let response = await fetch("https://ivoplaninic.net:8881/api/register", {
@@ -65,12 +66,17 @@ export async function signup(email: string, username: string, password: string) 
     })
     let json = await response.json()
     output.status = response.status.toString()
-    output.username = json.user.username
-    output.email = json.user.email
-    output.token = json.token
     if (output.status != "200") {
         output.error = json.error
+        output.conflict = json.conflict
+        return output
     }
+    output.username = json.user.username
+    setItem("username", output.username)  
+    output.email = json.user.email
+    setItem("email", output.email)  
+    output.token = json.token
+    setItem("token", output.token)  
     return output
 }
 
@@ -82,7 +88,6 @@ export async function getLeaderboards(): Promise<{ [key: string]: string }[]> {
         },
         body: JSON.stringify({"token": getItem("token")})
     })
-    alert("ye ig")
     let json = await response.json()
     return json
 }

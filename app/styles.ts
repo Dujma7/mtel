@@ -112,8 +112,8 @@ export const styles = StyleSheet.create({
     },
     QuizImage: {
         textAlign: "center",
-        height: 250,
-        width: 250,
+        height: 160,
+        width: 160,
         justifyContent: "center",
         marginLeft: "auto",
         marginRight: "auto",
@@ -239,7 +239,8 @@ export const styles = StyleSheet.create({
         shadowColor: "transparent",
     },
     quizButtonStyle: {
-        height: 65,
+        minHeight: 65,
+        padding:10,
         backgroundColor: "#3b3845",
         borderRadius: "5%",
         width: "90%",
@@ -258,7 +259,7 @@ export const styles = StyleSheet.create({
         left: 10
     },
     profileText: {
-        margin: 10,
+        margin: 0,
         color: "#c6b2f1",
         fontSize: 25,
         fontWeight: 500,
