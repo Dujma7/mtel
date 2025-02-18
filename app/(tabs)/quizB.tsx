@@ -1,11 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { View, Text, Modal, StyleSheet } from 'react-native';
 import { Button, Surface } from 'react-native-paper';
-import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
 import { styles } from "../styles";
 import { useColorScheme } from "@/hooks/useColorScheme";
-import { submitRun } from "@/utils/apiIntegration";
 import { TouchableOpacity } from 'react-native';
 
 // Replace with the actual imported JSON
@@ -16,6 +14,7 @@ type QuestionProps = {
     options: string[];
     correctAnswer: string;
     question: string;
+    resetTrigger:boolean;
 };
 
 type NavigationProp = {

@@ -97,7 +97,7 @@ export default function SignUpScreen({ navigation }: LogInScreenProps) {
             <Text style={[styles.LogInH1, ...TextStyles]}>Napravite Račun</Text>
 
             {errorMessage ? (
-                <Text style={[styles.errorText, { textAlign: 'center', color: 'red', marginBottom: 20 }]}>
+                <Text style={[{ textAlign: 'center', color: 'red', marginBottom: 20 }]}>
                     {errorMessage}
                 </Text>
             ) : null}

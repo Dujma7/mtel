@@ -28,10 +28,10 @@ export default function ProfileScreen() {
             <SafeAreaView>
                 <Text style={[styles.profileText]}>Korisničko ime:</Text>
                 <Text style={[styles.profileText]}>{getItem("username")}</Text>
-                <Surface style={{height:"40"}}/>
+                <Surface style={{height:"5%"}} children={undefined}/>
                 <Text style={styles.profileText}>E-mail:</Text>
                 <Text style={styles.profileText}>{getItem("email")}</Text>
-                <Surface style={{height:"20"}}/>
+                <Surface style={{height:"10%"}} children={undefined}/>
                 <Button mode="contained" onPress={handleLogout} style={[TextStyles, {marginVertical: 30, marginHorizontal:80}]} >Odjavi se</Button>
             </SafeAreaView>  
         </Surface>  
