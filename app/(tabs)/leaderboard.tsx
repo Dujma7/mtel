@@ -51,21 +51,21 @@ export default function LeaderBoardScreen() {
     type ItemProps = { title: string, score: number, id: string };
 
     const Item = ({title, score, id}: ItemProps) => (
-        <View style={styles.card}>
-            <Text style={styles.cardText}>{id}</Text>
-            <Text style={styles.cardText}>{title}</Text>
-            <Text style={styles.cardText}>{score}</Text>
-        </View>
+        <Surface style={styles.card}>
+            <Text style={[styles.cardText, ...TextStyles]}>{id}</Text>
+            <Text style={[styles.cardText, ...TextStyles]}>{title}</Text>
+            <Text style={[styles.cardText, ...TextStyles]}>{score}</Text>
+        </Surface>
     );
 
     return (
         <Surface style={[styles.container]}>
             <SafeAreaView>
-                <Text style={styles.leaderboardH1}>Najbolji Rezultati</Text>
+                <Text style={[styles.leaderboardH1, ...TextStyles]}>Najbolji Rezultati</Text>
                 <View style={[{flexDirection: "row", justifyContent: "space-between", width: "90%", marginTop: 20, paddingBottom: 5}, styles.leaderboardHeaderSurface]}>
-                    <Text style={styles.leaderboardHeader}>Mjesto</Text>
-                    <Text style={styles.leaderboardHeader}>Ime</Text>
-                    <Text style={styles.leaderboardHeader}>Vrijeme</Text>
+                    <Text style={[styles.leaderboardHeader, ...TextStyles]}>Mjesto</Text>
+                    <Text style={[styles.leaderboardHeader, ...TextStyles]}>Ime</Text>
+                    <Text style={[styles.leaderboardHeader, ...TextStyles]}>Vrijeme</Text>
                 </View>
                 <FlatList
                     style={styles.leaderboard}

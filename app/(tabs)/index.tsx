@@ -39,24 +39,24 @@ export function HomeScreenUI({navigation}: HomeScreenProps) {
 
                 <Surface style={styles.HomeSurface} elevation={5}>
                     <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("QuizSelectScreen")}>
-                        <Text style={styles.ButtonText}>Kviz</Text>
-                        <Text style={styles.ButtonSubText}>Izazovi svoje znanje i testiraj se!</Text>
+                        <Text style={[styles.ButtonText, ...TextStyles]}>Kviz</Text>
+                        <Text style={[styles.ButtonSubText, ...TextStyles]}>Izazovi svoje znanje i testiraj se!</Text>
                         <Image style={styles.TestImage} source={require("../../assets/images/test.png")}></Image>
                     </TouchableOpacity>
                 </Surface>
 
                 <Surface style={styles.HomeSurface} elevation={5}>
                     <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("LeaderboardScreen")}>
-                        <Text style={styles.ButtonText}>Ljestvica</Text>
-                        <Text style={styles.ButtonSubText}>Svaka pobjeda vodi prema vrhu!</Text>
+                        <Text style={[styles.ButtonText, ...TextStyles]}>Ljestvica</Text>
+                        <Text style={[styles.ButtonSubText, ...TextStyles]}>Svaka pobjeda vodi prema vrhu!</Text>
                         <Image style={styles.MatImage} source={require("../../assets/images/leaderboard.png")}></Image>
                     </TouchableOpacity>
                 </Surface>
 
                 <Surface style={styles.HomeSurface} elevation={5}>
                     <TouchableOpacity style={styles.ButtonStyle} activeOpacity={0.5} onPress={() => navigation.navigate("ResourceScreen")}>
-                        <Text style={styles.ButtonText}>Materijal</Text>
-                        <Text style={styles.ButtonSubText}>Svi potrebni materijali za tvoj uspjeh!</Text>
+                        <Text style={[styles.ButtonText, ...TextStyles]}>Materijal</Text>
+                        <Text style={[styles.ButtonSubText, ...TextStyles]}>Svi potrebni materijali za tvoj uspjeh!</Text>
                         <Image style={styles.MatImage} source={require("../../assets/images/gradCap-removebg-preview.png")}></Image>
                     </TouchableOpacity>
                 </Surface>

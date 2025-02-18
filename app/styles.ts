@@ -179,7 +179,6 @@ export const styles = StyleSheet.create({
         height: 30,
         borderRadius: "2%",
         justifyContent: "space-between",
-        backgroundColor: "#3b3845",
         flexDirection: "row",
         alignItems: "center",
         padding: 5
@@ -187,7 +186,6 @@ export const styles = StyleSheet.create({
     },
     cardText: {
         textAlign: "center",
-        color: "white",
     },
     leaderboard: {
         textAlign: "center",
@@ -297,7 +295,6 @@ export const styles = StyleSheet.create({
         marginRight: "auto",
         borderRadius: "5%",
         shadowOpacity: 0,
-        backgroundColor: "#393642",
         margin: 15
       },
       materijalText: {
