@@ -112,8 +112,8 @@ export const styles = StyleSheet.create({
     },
     QuizImage: {
         textAlign: "center",
-        height: 250,
-        width: 250,
+        height: 160,
+        width: 160,
         justifyContent: "center",
         marginLeft: "auto",
         marginRight: "auto",
@@ -179,7 +179,6 @@ export const styles = StyleSheet.create({
         height: 30,
         borderRadius: "2%",
         justifyContent: "space-between",
-        backgroundColor: "#3b3845",
         flexDirection: "row",
         alignItems: "center",
         padding: 5
@@ -187,7 +186,6 @@ export const styles = StyleSheet.create({
     },
     cardText: {
         textAlign: "center",
-        color: "white",
     },
     leaderboard: {
         textAlign: "center",
@@ -198,7 +196,7 @@ export const styles = StyleSheet.create({
     },
     HomeSurface: {
         height: 100,
-        backgroundColor: "#3b3845",
+        //backgroundColor: "#3b3845",
         borderRadius: "5%",
         width: "90%",
         marginLeft: "auto",
@@ -239,8 +237,8 @@ export const styles = StyleSheet.create({
         shadowColor: "transparent",
     },
     quizButtonStyle: {
-        height: 65,
-        backgroundColor: "#3b3845",
+        minHeight: 65,
+        padding:10,
         borderRadius: "5%",
         width: "90%",
         marginLeft: "auto",
@@ -258,8 +256,8 @@ export const styles = StyleSheet.create({
         left: 10
     },
     profileText: {
-        margin: 10,
-        color: "#c6b2f1",
+        margin: 0,
+        //color: "#c6b2f1",
         fontSize: 25,
         fontWeight: 500,
         fontFamily: "Roboto",
@@ -297,7 +295,6 @@ export const styles = StyleSheet.create({
         marginRight: "auto",
         borderRadius: "5%",
         shadowOpacity: 0,
-        backgroundColor: "#393642",
         margin: 15
       },
       materijalText: {
@@ -359,7 +356,6 @@ export const styles = StyleSheet.create({
         marginRight: "auto",
         borderRadius: "5%",
         shadowOpacity: 0,
-        backgroundColor: "#2e2b36",
         margin: 20,
         height: 150,
         width: 300,

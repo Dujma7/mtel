@@ -6,8 +6,8 @@ import {TextInput, Button, Surface, MD3DarkTheme, MD3LightTheme, Divider} from '
 import {StackNavigationProp} from "@react-navigation/stack";
 import {RootStackParamList} from "@/app/(tabs)/types";
 import {getUserData, login} from "@/utils/apiIntegration";
-import {useRef, useState} from "react";
-import {getItem, setItem} from "expo-secure-store"
+import {useState} from "react";
+import {setItem} from "expo-secure-store"
 import { reloadAsync } from 'expo-updates';
 
 type LogInScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
@@ -23,7 +23,6 @@ function handleLoginClick(email: string, password: string, navigationProp: Stack
             case"200":{
                 setItem("token", res.token)
                 getUserData(res.token).then((data)=>{
-                    alert("f")
                     switch(data.status){
                         case "200":{
                             setItem("username", data.username)
@@ -73,7 +72,7 @@ export default function LogInScreen({navigation}: LogInScreenProps) {
             <TextInput autoCapitalize='none' error={emailErrorValue!=""} value={emailTextValue} onChangeText={text => setEmailTextValue(text)} label="E-mail" style={styles.input} underlineColor="white" placeholder='Upišite E-mail'/>
             <TextInput autoCapitalize='none' error={passwordErrorValue!=""} value={passwordTextValue} onChangeText={text => setPasswordTextValue(text)} label="Šifra" style={styles.input} secureTextEntry={true} placeholder='Upišite šifru'/>
             <Button style={styles.btnSubmit} mode="contained" onPress={() => handleLoginClick(emailTextValue, passwordTextValue, navigation, setEmailErrorValue, setPasswordErrorValue)}>Log in</Button>
-            <Text style={[styles.ptext]} onPress={() => {navigation.navigate("SignUpScreen")}}>Nemate račun? Napravite ga ovdje.</Text>
+            <Text style={[styles.ptext, ...TextStyles]} onPress={() => {navigation.navigate("SignUpScreen")}}>Nemate račun? Napravite ga ovdje.</Text>
         </Surface>
     )
 };
